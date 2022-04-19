@@ -3,6 +3,9 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   target: 'static',
+  generate: {
+    fallback: true
+  },
   head: {
     titleTemplate: '%s - -PORTAL',
     title: 'PMI ADMIN',
@@ -108,5 +111,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    standalone: true,
   }
 }

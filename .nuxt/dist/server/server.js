@@ -104,7 +104,7 @@ module.exports =
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/admin/_nuxt/";
+/******/ 	__webpack_require__.p = "/_nuxt/";
 /******/
 /******/ 	// uncaught error handler for webpack runtime
 /******/ 	__webpack_require__.oe = function(err) {
@@ -40566,7 +40566,7 @@ module.exports = defu;
 /* 239 */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"title\":\"pmiadminportal\",\"meta\":[{\"hid\":\"charset\",\"charset\":\"utf-8\"},{\"hid\":\"viewport\",\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"},{\"hid\":\"mobile-web-app-capable\",\"name\":\"mobile-web-app-capable\",\"content\":\"yes\"},{\"hid\":\"apple-mobile-web-app-title\",\"name\":\"apple-mobile-web-app-title\",\"content\":\"pmiadminportal\"},{\"hid\":\"og:type\",\"name\":\"og:type\",\"property\":\"og:type\",\"content\":\"website\"},{\"hid\":\"og:title\",\"name\":\"og:title\",\"property\":\"og:title\",\"content\":\"pmiadminportal\"},{\"hid\":\"og:site_name\",\"name\":\"og:site_name\",\"property\":\"og:site_name\",\"content\":\"pmiadminportal\"}],\"link\":[{\"hid\":\"shortcut-icon\",\"rel\":\"shortcut icon\",\"href\":\"/admin/_nuxt/icons/icon_64x64.b83dd5.png\"},{\"hid\":\"apple-touch-icon\",\"rel\":\"apple-touch-icon\",\"href\":\"/admin/_nuxt/icons/icon_512x512.b83dd5.png\",\"sizes\":\"512x512\"},{\"rel\":\"manifest\",\"href\":\"/admin/_nuxt/manifest.4f3e5515.json\",\"hid\":\"manifest\"}],\"htmlAttrs\":{\"lang\":\"en\"}}");
+module.exports = JSON.parse("{\"title\":\"pmiadminportal\",\"meta\":[{\"hid\":\"charset\",\"charset\":\"utf-8\"},{\"hid\":\"viewport\",\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"},{\"hid\":\"mobile-web-app-capable\",\"name\":\"mobile-web-app-capable\",\"content\":\"yes\"},{\"hid\":\"apple-mobile-web-app-title\",\"name\":\"apple-mobile-web-app-title\",\"content\":\"pmiadminportal\"},{\"hid\":\"og:type\",\"name\":\"og:type\",\"property\":\"og:type\",\"content\":\"website\"},{\"hid\":\"og:title\",\"name\":\"og:title\",\"property\":\"og:title\",\"content\":\"pmiadminportal\"},{\"hid\":\"og:site_name\",\"name\":\"og:site_name\",\"property\":\"og:site_name\",\"content\":\"pmiadminportal\"}],\"link\":[{\"hid\":\"shortcut-icon\",\"rel\":\"shortcut icon\",\"href\":\"/_nuxt/icons/icon_64x64.b83dd5.png\"},{\"hid\":\"apple-touch-icon\",\"rel\":\"apple-touch-icon\",\"href\":\"/_nuxt/icons/icon_512x512.b83dd5.png\",\"sizes\":\"512x512\"},{\"rel\":\"manifest\",\"href\":\"/_nuxt/manifest.e0d87ade.json\",\"hid\":\"manifest\"}],\"htmlAttrs\":{\"lang\":\"en\"}}");
 
 /***/ }),
 /* 240 */
@@ -56879,6 +56879,9 @@ __webpack_require__.d(components_namespaceObject, "SideBar", function() { return
 __webpack_require__.d(components_namespaceObject, "AdministratorAdd", function() { return AdministratorAdd; });
 __webpack_require__.d(components_namespaceObject, "AdministratorEdit", function() { return AdministratorEdit; });
 __webpack_require__.d(components_namespaceObject, "AdministratorReset", function() { return AdministratorReset; });
+__webpack_require__.d(components_namespaceObject, "CustomersAdd", function() { return CustomersAdd; });
+__webpack_require__.d(components_namespaceObject, "CustomersDelete", function() { return CustomersDelete; });
+__webpack_require__.d(components_namespaceObject, "CustomersEdit", function() { return CustomersEdit; });
 __webpack_require__.d(components_namespaceObject, "ConferencesAdd", function() { return ConferencesAdd; });
 __webpack_require__.d(components_namespaceObject, "ConferencesDelete", function() { return ConferencesDelete; });
 __webpack_require__.d(components_namespaceObject, "ConferencesEdit", function() { return ConferencesEdit; });
@@ -56886,19 +56889,16 @@ __webpack_require__.d(components_namespaceObject, "ConferencesView", function() 
 __webpack_require__.d(components_namespaceObject, "CurrencyAdd", function() { return CurrencyAdd; });
 __webpack_require__.d(components_namespaceObject, "CurrencyDelete", function() { return CurrencyDelete; });
 __webpack_require__.d(components_namespaceObject, "CurrencyEdit", function() { return CurrencyEdit; });
-__webpack_require__.d(components_namespaceObject, "CustomersAdd", function() { return CustomersAdd; });
-__webpack_require__.d(components_namespaceObject, "CustomersDelete", function() { return CustomersDelete; });
-__webpack_require__.d(components_namespaceObject, "CustomersEdit", function() { return CustomersEdit; });
 __webpack_require__.d(components_namespaceObject, "GamemanagementAdd", function() { return GamemanagementAdd; });
 __webpack_require__.d(components_namespaceObject, "GamemanagementDelete", function() { return GamemanagementDelete; });
 __webpack_require__.d(components_namespaceObject, "GamemanagementEdit", function() { return GamemanagementEdit; });
+__webpack_require__.d(components_namespaceObject, "GroupsAdd", function() { return GroupsAdd; });
+__webpack_require__.d(components_namespaceObject, "GroupsDelete", function() { return GroupsDelete; });
+__webpack_require__.d(components_namespaceObject, "GroupsEdit", function() { return GroupsEdit; });
 __webpack_require__.d(components_namespaceObject, "HotelreservationAdd", function() { return HotelreservationAdd; });
 __webpack_require__.d(components_namespaceObject, "HotelreservationDelete", function() { return HotelreservationDelete; });
 __webpack_require__.d(components_namespaceObject, "HotelreservationEdit", function() { return HotelreservationEdit; });
 __webpack_require__.d(components_namespaceObject, "HotelreservationView", function() { return HotelreservationView; });
-__webpack_require__.d(components_namespaceObject, "GroupsAdd", function() { return GroupsAdd; });
-__webpack_require__.d(components_namespaceObject, "GroupsDelete", function() { return GroupsDelete; });
-__webpack_require__.d(components_namespaceObject, "GroupsEdit", function() { return GroupsEdit; });
 __webpack_require__.d(components_namespaceObject, "PermissionsAdd", function() { return PermissionsAdd; });
 __webpack_require__.d(components_namespaceObject, "PermissionsDelete", function() { return PermissionsDelete; });
 __webpack_require__.d(components_namespaceObject, "PermissionsEdit", function() { return PermissionsEdit; });
@@ -57780,7 +57780,7 @@ const emptyFn = () => {};
 vue_runtime_common_default.a.use(vue_router_common_default.a);
 const routerOptions = {
   mode: 'history',
-  base: '/admin/',
+  base: '/',
   linkActiveClass: 'nuxt-link-active',
   linkExactActiveClass: 'nuxt-link-exact-active',
   scrollBehavior: router_scrollBehavior,
@@ -60956,6 +60956,9 @@ const SideBar = () => Promise.resolve(/* import() */).then(__webpack_require__.b
 const AdministratorAdd = () => __webpack_require__.e(/* import() | components/administrator-add */ 1).then(__webpack_require__.bind(null, 555)).then(c => wrapFunctional(c.default || c));
 const AdministratorEdit = () => __webpack_require__.e(/* import() | components/administrator-edit */ 2).then(__webpack_require__.bind(null, 556)).then(c => wrapFunctional(c.default || c));
 const AdministratorReset = () => __webpack_require__.e(/* import() | components/administrator-reset */ 3).then(__webpack_require__.bind(null, 557)).then(c => wrapFunctional(c.default || c));
+const CustomersAdd = () => __webpack_require__.e(/* import() | components/customers-add */ 11).then(__webpack_require__.bind(null, 564)).then(c => wrapFunctional(c.default || c));
+const CustomersDelete = () => __webpack_require__.e(/* import() | components/customers-delete */ 12).then(__webpack_require__.bind(null, 566)).then(c => wrapFunctional(c.default || c));
+const CustomersEdit = () => __webpack_require__.e(/* import() | components/customers-edit */ 13).then(__webpack_require__.bind(null, 565)).then(c => wrapFunctional(c.default || c));
 const ConferencesAdd = () => __webpack_require__.e(/* import() | components/conferences-add */ 4).then(__webpack_require__.bind(null, 558)).then(c => wrapFunctional(c.default || c));
 const ConferencesDelete = () => __webpack_require__.e(/* import() | components/conferences-delete */ 5).then(__webpack_require__.bind(null, 560)).then(c => wrapFunctional(c.default || c));
 const ConferencesEdit = () => __webpack_require__.e(/* import() | components/conferences-edit */ 6).then(__webpack_require__.bind(null, 559)).then(c => wrapFunctional(c.default || c));
@@ -60963,19 +60966,16 @@ const ConferencesView = () => __webpack_require__.e(/* import() | components/con
 const CurrencyAdd = () => __webpack_require__.e(/* import() | components/currency-add */ 8).then(__webpack_require__.bind(null, 561)).then(c => wrapFunctional(c.default || c));
 const CurrencyDelete = () => __webpack_require__.e(/* import() | components/currency-delete */ 9).then(__webpack_require__.bind(null, 563)).then(c => wrapFunctional(c.default || c));
 const CurrencyEdit = () => __webpack_require__.e(/* import() | components/currency-edit */ 10).then(__webpack_require__.bind(null, 562)).then(c => wrapFunctional(c.default || c));
-const CustomersAdd = () => __webpack_require__.e(/* import() | components/customers-add */ 11).then(__webpack_require__.bind(null, 564)).then(c => wrapFunctional(c.default || c));
-const CustomersDelete = () => __webpack_require__.e(/* import() | components/customers-delete */ 12).then(__webpack_require__.bind(null, 566)).then(c => wrapFunctional(c.default || c));
-const CustomersEdit = () => __webpack_require__.e(/* import() | components/customers-edit */ 13).then(__webpack_require__.bind(null, 565)).then(c => wrapFunctional(c.default || c));
 const GamemanagementAdd = () => __webpack_require__.e(/* import() | components/gamemanagement-add */ 14).then(__webpack_require__.bind(null, 570)).then(c => wrapFunctional(c.default || c));
 const GamemanagementDelete = () => __webpack_require__.e(/* import() | components/gamemanagement-delete */ 15).then(__webpack_require__.bind(null, 572)).then(c => wrapFunctional(c.default || c));
 const GamemanagementEdit = () => __webpack_require__.e(/* import() | components/gamemanagement-edit */ 16).then(__webpack_require__.bind(null, 571)).then(c => wrapFunctional(c.default || c));
+const GroupsAdd = () => __webpack_require__.e(/* import() | components/groups-add */ 17).then(__webpack_require__.bind(null, 573)).then(c => wrapFunctional(c.default || c));
+const GroupsDelete = () => __webpack_require__.e(/* import() | components/groups-delete */ 18).then(__webpack_require__.bind(null, 575)).then(c => wrapFunctional(c.default || c));
+const GroupsEdit = () => __webpack_require__.e(/* import() | components/groups-edit */ 19).then(__webpack_require__.bind(null, 574)).then(c => wrapFunctional(c.default || c));
 const HotelreservationAdd = () => __webpack_require__.e(/* import() | components/hotelreservation-add */ 20).then(__webpack_require__.bind(null, 576)).then(c => wrapFunctional(c.default || c));
 const HotelreservationDelete = () => __webpack_require__.e(/* import() | components/hotelreservation-delete */ 21).then(__webpack_require__.bind(null, 578)).then(c => wrapFunctional(c.default || c));
 const HotelreservationEdit = () => __webpack_require__.e(/* import() | components/hotelreservation-edit */ 22).then(__webpack_require__.bind(null, 577)).then(c => wrapFunctional(c.default || c));
 const HotelreservationView = () => __webpack_require__.e(/* import() | components/hotelreservation-view */ 23).then(__webpack_require__.bind(null, 599)).then(c => wrapFunctional(c.default || c));
-const GroupsAdd = () => __webpack_require__.e(/* import() | components/groups-add */ 17).then(__webpack_require__.bind(null, 573)).then(c => wrapFunctional(c.default || c));
-const GroupsDelete = () => __webpack_require__.e(/* import() | components/groups-delete */ 18).then(__webpack_require__.bind(null, 575)).then(c => wrapFunctional(c.default || c));
-const GroupsEdit = () => __webpack_require__.e(/* import() | components/groups-edit */ 19).then(__webpack_require__.bind(null, 574)).then(c => wrapFunctional(c.default || c));
 const PermissionsAdd = () => __webpack_require__.e(/* import() | components/permissions-add */ 24).then(__webpack_require__.bind(null, 537)).then(c => wrapFunctional(c.default || c));
 const PermissionsDelete = () => __webpack_require__.e(/* import() | components/permissions-delete */ 25).then(__webpack_require__.bind(null, 539)).then(c => wrapFunctional(c.default || c));
 const PermissionsEdit = () => __webpack_require__.e(/* import() | components/permissions-edit */ 26).then(__webpack_require__.bind(null, 538)).then(c => wrapFunctional(c.default || c));
@@ -61353,23 +61353,23 @@ var meta = __webpack_require__(239);
 // CONCATENATED MODULE: ./.nuxt/pwa/icon.plugin.js
 /* harmony default export */ var icon_plugin = (async function (ctx, inject) {
   const icons = {
-    "64x64": "/admin/_nuxt/icons/icon_64x64.b83dd5.png",
-    "120x120": "/admin/_nuxt/icons/icon_120x120.b83dd5.png",
-    "144x144": "/admin/_nuxt/icons/icon_144x144.b83dd5.png",
-    "152x152": "/admin/_nuxt/icons/icon_152x152.b83dd5.png",
-    "192x192": "/admin/_nuxt/icons/icon_192x192.b83dd5.png",
-    "384x384": "/admin/_nuxt/icons/icon_384x384.b83dd5.png",
-    "512x512": "/admin/_nuxt/icons/icon_512x512.b83dd5.png",
-    "ipad_1536x2048": "/admin/_nuxt/icons/splash_ipad_1536x2048.b83dd5.png",
-    "ipadpro9_1536x2048": "/admin/_nuxt/icons/splash_ipadpro9_1536x2048.b83dd5.png",
-    "ipadpro10_1668x2224": "/admin/_nuxt/icons/splash_ipadpro10_1668x2224.b83dd5.png",
-    "ipadpro12_2048x2732": "/admin/_nuxt/icons/splash_ipadpro12_2048x2732.b83dd5.png",
-    "iphonese_640x1136": "/admin/_nuxt/icons/splash_iphonese_640x1136.b83dd5.png",
-    "iphone6_50x1334": "/admin/_nuxt/icons/splash_iphone6_50x1334.b83dd5.png",
-    "iphoneplus_1080x1920": "/admin/_nuxt/icons/splash_iphoneplus_1080x1920.b83dd5.png",
-    "iphonex_1125x2436": "/admin/_nuxt/icons/splash_iphonex_1125x2436.b83dd5.png",
-    "iphonexr_828x1792": "/admin/_nuxt/icons/splash_iphonexr_828x1792.b83dd5.png",
-    "iphonexsmax_1242x2688": "/admin/_nuxt/icons/splash_iphonexsmax_1242x2688.b83dd5.png"
+    "64x64": "/_nuxt/icons/icon_64x64.b83dd5.png",
+    "120x120": "/_nuxt/icons/icon_120x120.b83dd5.png",
+    "144x144": "/_nuxt/icons/icon_144x144.b83dd5.png",
+    "152x152": "/_nuxt/icons/icon_152x152.b83dd5.png",
+    "192x192": "/_nuxt/icons/icon_192x192.b83dd5.png",
+    "384x384": "/_nuxt/icons/icon_384x384.b83dd5.png",
+    "512x512": "/_nuxt/icons/icon_512x512.b83dd5.png",
+    "ipad_1536x2048": "/_nuxt/icons/splash_ipad_1536x2048.b83dd5.png",
+    "ipadpro9_1536x2048": "/_nuxt/icons/splash_ipadpro9_1536x2048.b83dd5.png",
+    "ipadpro10_1668x2224": "/_nuxt/icons/splash_ipadpro10_1668x2224.b83dd5.png",
+    "ipadpro12_2048x2732": "/_nuxt/icons/splash_ipadpro12_2048x2732.b83dd5.png",
+    "iphonese_640x1136": "/_nuxt/icons/splash_iphonese_640x1136.b83dd5.png",
+    "iphone6_50x1334": "/_nuxt/icons/splash_iphone6_50x1334.b83dd5.png",
+    "iphoneplus_1080x1920": "/_nuxt/icons/splash_iphoneplus_1080x1920.b83dd5.png",
+    "iphonex_1125x2436": "/_nuxt/icons/splash_iphonex_1125x2436.b83dd5.png",
+    "iphonexr_828x1792": "/_nuxt/icons/splash_iphonexr_828x1792.b83dd5.png",
+    "iphonexsmax_1242x2688": "/_nuxt/icons/splash_iphonexsmax_1242x2688.b83dd5.png"
   };
 
   const getIcon = size => icons[size + 'x' + size] || '';
@@ -63799,7 +63799,7 @@ const createNext = ssrContext => opts => {
 
   let fullPath = Object(dist["withQuery"])(opts.path, opts.query);
   const $config = ssrContext.runtimeConfig || {};
-  const routerBase = $config._app && $config._app.basePath || '/admin/';
+  const routerBase = $config._app && $config._app.basePath || '/';
 
   if (!fullPath.startsWith('http') && routerBase !== '/' && !fullPath.startsWith(routerBase)) {
     fullPath = Object(dist["joinURL"])(routerBase, fullPath);

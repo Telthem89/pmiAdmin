@@ -39,7 +39,7 @@ export default {
     '~/plugins/filterdate',
   ],
   router: {
-    base: '/admin/',
+    base: '/',
     middleware: ['auth']
   },
   auth: {

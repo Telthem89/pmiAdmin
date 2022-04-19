@@ -11,6 +11,15 @@
   "AdministratorReset": {
     "description": "Auto imported from components/administrator/reset.vue"
   },
+  "CustomersAdd": {
+    "description": "Auto imported from components/customers/add.vue"
+  },
+  "CustomersDelete": {
+    "description": "Auto imported from components/customers/delete.vue"
+  },
+  "CustomersEdit": {
+    "description": "Auto imported from components/customers/edit.vue"
+  },
   "ConferencesAdd": {
     "description": "Auto imported from components/conferences/add.vue"
   },
@@ -32,15 +41,6 @@
   "CurrencyEdit": {
     "description": "Auto imported from components/currency/edit.vue"
   },
-  "CustomersAdd": {
-    "description": "Auto imported from components/customers/add.vue"
-  },
-  "CustomersDelete": {
-    "description": "Auto imported from components/customers/delete.vue"
-  },
-  "CustomersEdit": {
-    "description": "Auto imported from components/customers/edit.vue"
-  },
   "GamemanagementAdd": {
     "description": "Auto imported from components/gamemanagement/add.vue"
   },
@@ -49,6 +49,15 @@
   },
   "GamemanagementEdit": {
     "description": "Auto imported from components/gamemanagement/edit.vue"
+  },
+  "GroupsAdd": {
+    "description": "Auto imported from components/groups/add.vue"
+  },
+  "GroupsDelete": {
+    "description": "Auto imported from components/groups/delete.vue"
+  },
+  "GroupsEdit": {
+    "description": "Auto imported from components/groups/edit.vue"
   },
   "HotelreservationAdd": {
     "description": "Auto imported from components/hotelreservation/add.vue"
@@ -61,15 +70,6 @@
   },
   "HotelreservationView": {
     "description": "Auto imported from components/hotelreservation/view.vue"
-  },
-  "GroupsAdd": {
-    "description": "Auto imported from components/groups/add.vue"
-  },
-  "GroupsDelete": {
-    "description": "Auto imported from components/groups/delete.vue"
-  },
-  "GroupsEdit": {
-    "description": "Auto imported from components/groups/edit.vue"
   },
   "PermissionsAdd": {
     "description": "Auto imported from components/permissions/add.vue"

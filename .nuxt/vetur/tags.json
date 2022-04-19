@@ -1,0 +1,203 @@
+{
+  "SideBar": {
+    "description": "Auto imported from components/SideBar.vue"
+  },
+  "CurrencyAdd": {
+    "description": "Auto imported from components/currency/add.vue"
+  },
+  "CurrencyDelete": {
+    "description": "Auto imported from components/currency/delete.vue"
+  },
+  "CurrencyEdit": {
+    "description": "Auto imported from components/currency/edit.vue"
+  },
+  "AdministratorAdd": {
+    "description": "Auto imported from components/administrator/add.vue"
+  },
+  "AdministratorEdit": {
+    "description": "Auto imported from components/administrator/edit.vue"
+  },
+  "AdministratorReset": {
+    "description": "Auto imported from components/administrator/reset.vue"
+  },
+  "CustomersAdd": {
+    "description": "Auto imported from components/customers/add.vue"
+  },
+  "CustomersDelete": {
+    "description": "Auto imported from components/customers/delete.vue"
+  },
+  "CustomersEdit": {
+    "description": "Auto imported from components/customers/edit.vue"
+  },
+  "ConferencesAdd": {
+    "description": "Auto imported from components/conferences/add.vue"
+  },
+  "ConferencesDelete": {
+    "description": "Auto imported from components/conferences/delete.vue"
+  },
+  "ConferencesEdit": {
+    "description": "Auto imported from components/conferences/edit.vue"
+  },
+  "ConferencesView": {
+    "description": "Auto imported from components/conferences/view.vue"
+  },
+  "GamemanagementAdd": {
+    "description": "Auto imported from components/gamemanagement/add.vue"
+  },
+  "GamemanagementDelete": {
+    "description": "Auto imported from components/gamemanagement/delete.vue"
+  },
+  "GamemanagementEdit": {
+    "description": "Auto imported from components/gamemanagement/edit.vue"
+  },
+  "GroupsAdd": {
+    "description": "Auto imported from components/groups/add.vue"
+  },
+  "GroupsDelete": {
+    "description": "Auto imported from components/groups/delete.vue"
+  },
+  "GroupsEdit": {
+    "description": "Auto imported from components/groups/edit.vue"
+  },
+  "HotelreservationAdd": {
+    "description": "Auto imported from components/hotelreservation/add.vue"
+  },
+  "HotelreservationDelete": {
+    "description": "Auto imported from components/hotelreservation/delete.vue"
+  },
+  "HotelreservationEdit": {
+    "description": "Auto imported from components/hotelreservation/edit.vue"
+  },
+  "HotelreservationView": {
+    "description": "Auto imported from components/hotelreservation/view.vue"
+  },
+  "PermissionsAdd": {
+    "description": "Auto imported from components/permissions/add.vue"
+  },
+  "PermissionsDelete": {
+    "description": "Auto imported from components/permissions/delete.vue"
+  },
+  "PermissionsEdit": {
+    "description": "Auto imported from components/permissions/edit.vue"
+  },
+  "PermissionsView": {
+    "description": "Auto imported from components/permissions/view.vue"
+  },
+  "ProfileChangepassword": {
+    "description": "Auto imported from components/profile/changepassword.vue"
+  },
+  "ProfileEdit": {
+    "description": "Auto imported from components/profile/edit.vue"
+  },
+  "RateAdd": {
+    "description": "Auto imported from components/rate/add.vue"
+  },
+  "RateDelete": {
+    "description": "Auto imported from components/rate/delete.vue"
+  },
+  "RateEdit": {
+    "description": "Auto imported from components/rate/edit.vue"
+  },
+  "ReservationsAdd": {
+    "description": "Auto imported from components/reservations/add.vue"
+  },
+  "ReservationsDelete": {
+    "description": "Auto imported from components/reservations/delete.vue"
+  },
+  "ReservationsEdit": {
+    "description": "Auto imported from components/reservations/edit.vue"
+  },
+  "ResourcesAdd": {
+    "description": "Auto imported from components/resources/add.vue"
+  },
+  "ResourcesDelete": {
+    "description": "Auto imported from components/resources/delete.vue"
+  },
+  "ResourcesEdit": {
+    "description": "Auto imported from components/resources/edit.vue"
+  },
+  "RoleAdd": {
+    "description": "Auto imported from components/role/add.vue"
+  },
+  "RoleDelete": {
+    "description": "Auto imported from components/role/delete.vue"
+  },
+  "RoleEdit": {
+    "description": "Auto imported from components/role/edit.vue"
+  },
+  "RolemodulesAssign": {
+    "description": "Auto imported from components/rolemodules/assign.vue"
+  },
+  "RolemodulesUnassign": {
+    "description": "Auto imported from components/rolemodules/unassign.vue"
+  },
+  "RolemodulesView": {
+    "description": "Auto imported from components/rolemodules/view.vue"
+  },
+  "RolepermissionsAssign": {
+    "description": "Auto imported from components/rolepermissions/assign.vue"
+  },
+  "RolepermissionsUnassign": {
+    "description": "Auto imported from components/rolepermissions/unassign.vue"
+  },
+  "RolepermissionsView": {
+    "description": "Auto imported from components/rolepermissions/view.vue"
+  },
+  "RolesubmodulesAssign": {
+    "description": "Auto imported from components/rolesubmodules/assign.vue"
+  },
+  "RolesubmodulesUnassign": {
+    "description": "Auto imported from components/rolesubmodules/unassign.vue"
+  },
+  "RolesubmodulesView": {
+    "description": "Auto imported from components/rolesubmodules/view.vue"
+  },
+  "SpeakersAdd": {
+    "description": "Auto imported from components/speakers/add.vue"
+  },
+  "SpeakersDelete": {
+    "description": "Auto imported from components/speakers/delete.vue"
+  },
+  "SpeakersEdit": {
+    "description": "Auto imported from components/speakers/edit.vue"
+  },
+  "SponsorsAdd": {
+    "description": "Auto imported from components/sponsors/add.vue"
+  },
+  "SponsorsDelete": {
+    "description": "Auto imported from components/sponsors/delete.vue"
+  },
+  "SponsorsEdit": {
+    "description": "Auto imported from components/sponsors/edit.vue"
+  },
+  "SubmodulesAdd": {
+    "description": "Auto imported from components/submodules/add.vue"
+  },
+  "SubmodulesDelete": {
+    "description": "Auto imported from components/submodules/delete.vue"
+  },
+  "SubmodulesEdit": {
+    "description": "Auto imported from components/submodules/edit.vue"
+  },
+  "SubmodulesView": {
+    "description": "Auto imported from components/submodules/view.vue"
+  },
+  "SystemmodulesAdd": {
+    "description": "Auto imported from components/systemmodules/add.vue"
+  },
+  "SystemmodulesDelete": {
+    "description": "Auto imported from components/systemmodules/delete.vue"
+  },
+  "SystemmodulesEdit": {
+    "description": "Auto imported from components/systemmodules/edit.vue"
+  },
+  "VideosAdd": {
+    "description": "Auto imported from components/videos/add.vue"
+  },
+  "VideosDelete": {
+    "description": "Auto imported from components/videos/delete.vue"
+  },
+  "VideosEdit": {
+    "description": "Auto imported from components/videos/edit.vue"
+  }
+}

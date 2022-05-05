@@ -16,7 +16,7 @@
         <v-divider></v-divider>
 
         <v-card-text class="white--text">
-          <strong> PMI-ZIMBABWE</strong> |
+          <strong> PMIZIMCHAPTERS</strong> |
           <a
             class="white--text telthemweb"
             href="https://www.sagehilltechnologies.com"

@@ -23,11 +23,18 @@
           <v-card-text>
             <v-row>
               <v-col lg="8" md="8">
-                <downloadexcel :data="customerToexported"
+                <v-row>
+                  <v-col md="8">
+                    <downloadexcel :data="customerToexported"
                   ><v-btn depressed class="error"
                     >Export Excel file</v-btn
                   ></downloadexcel
-                >
+                ></v-col>
+                <v-col md="4">
+                  <v-btn depressed class="primary"
+                    >Import</v-btn>
+                </v-col>
+                </v-row>
               </v-col>
               <v-col lg="4" md="4"
                 ><v-text-field

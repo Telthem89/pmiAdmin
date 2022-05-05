@@ -74,10 +74,16 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    '@nuxtjs/date-fns',
+    '@nuxtjs/moment'
   ],
+  moment: {
+    timezone: true
+  },
   axios: {
     baseURL: 'https://pmizimbabwe.herokuapp.com'
+    // baseURL: 'http://localhost:5000'
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules

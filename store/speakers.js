@@ -13,9 +13,10 @@ export const mutations={
 }
 
 export const actions={
-    async getSpeakers({commit},payload){
+    async getAllSpeakers({commit},payload){
         await this.$axios.get('api/admin/speakers').then((res)=>{
             commit('setSpeakers',res.data)
+            
         })
     },
     async getSpeakers({commit},payload){

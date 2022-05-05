@@ -120,7 +120,7 @@ export default {
       offset:true,
       fixed:true,
       items: [],
-      title: 'PMI ADMIN',
+      title: 'PMIZIMCHAPTERS ADMINISTRATION',
       overlay:false
     }
   },created(){

@@ -17,12 +17,12 @@
                 <v-card-title>
                    Speakers
                     <v-spacer/>
-                    <!-- <ResourcesAdd /> -->
+                    <SpeakersAdd />
                  </v-card-title>
                 <v-card-text>
                    <v-row class="mt-4">
                      <v-col>
-                        <v-text-field outlined  v-model="search" width="100" label="Presentation Name..."/>         
+                        <v-text-field outlined  v-model="search" width="100" label="Speaker Name..."/>         
                      </v-col>
                    </v-row>
                  <v-simple-table dense>
@@ -31,6 +31,10 @@
                         <tr>
                         <th class="text-left">
                         #
+                        </th>
+
+                        <th class="text-left">
+                        Member Token
                         </th>
 
                         <th class="text-left">
@@ -68,17 +72,19 @@
                         :key="i"
                         >
                         <td>{{ i+1 }}</td>
+                        <td>{{ per.membershipNumber }}</td>
                         <td>{{ per.name }}</td>
                         <td> {{ per.surname }}</td>
                         <td>{{ per.phone==null?"Not set":per.phone  }}</td>
                         <td>{{ per.address}}</td>
                         <td>{{ per.gender}}</td>
                         <td>{{ per.created_at | formatDate}}</td>
+
                         </tr>
                         </template>
                         <template v-else>
                             <tr>
-                                <td colspan="5" class="text-center red--text">No Members  yet</td>
+                                <td colspan="8" class="text-center red--text">No Members  yet</td>
                             </tr>
                         </template>
                     </tbody>
@@ -115,7 +121,7 @@ data(){
 
 async fetch(){
     this.overlay=true
-     this.$store.dispatch('speakers/getSpeakers')  
+    await this.$store.dispatch('speakers/getAllSpeakers')  
    this.overlay = false
 },computed:{
    speakers(){

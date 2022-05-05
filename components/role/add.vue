@@ -58,7 +58,7 @@ export default {
          },
          nameRule:[v=>!!v || 'Role name is required'],
          levelRule:[v=>!!v || 'level is required'],
-         levellist:['ADMIN','ENTITY','BIDDER'],
+         levellist:['ADMIN','SPEAKER','ACCOUNTS'],
          snackbar:false,
          color:'',
          text:'',

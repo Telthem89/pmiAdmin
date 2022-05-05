@@ -18,6 +18,8 @@ import nuxt_plugin_plugin_01d3d005 from 'nuxt_plugin_plugin_01d3d005' // Source:
 import nuxt_plugin_vue2editor_165016ba from 'nuxt_plugin_vue2editor_165016ba' // Source: .\\vue2-editor.js (mode: 'client')
 import nuxt_plugin_vuesweetalert2_09817409 from 'nuxt_plugin_vuesweetalert2_09817409' // Source: .\\vue-sweetalert2.js (mode: 'client')
 import nuxt_plugin_axios_f4634e1c from 'nuxt_plugin_axios_f4634e1c' // Source: .\\axios.js (mode: 'all')
+import nuxt_plugin_moment_42a856e6 from 'nuxt_plugin_moment_42a856e6' // Source: .\\moment.js (mode: 'all')
+import nuxt_plugin_datefns_2ceee39a from 'nuxt_plugin_datefns_2ceee39a' // Source: .\\date-fns.js (mode: 'all')
 import nuxt_plugin_workbox_65274ce4 from 'nuxt_plugin_workbox_65274ce4' // Source: .\\workbox.js (mode: 'client')
 import nuxt_plugin_metaplugin_36e3e00e from 'nuxt_plugin_metaplugin_36e3e00e' // Source: .\\pwa\\meta.plugin.js (mode: 'all')
 import nuxt_plugin_iconplugin_3b8b8582 from 'nuxt_plugin_iconplugin_3b8b8582' // Source: .\\pwa\\icon.plugin.js (mode: 'all')
@@ -238,6 +240,14 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_axios_f4634e1c === 'function') {
     await nuxt_plugin_axios_f4634e1c(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_moment_42a856e6 === 'function') {
+    await nuxt_plugin_moment_42a856e6(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_datefns_2ceee39a === 'function') {
+    await nuxt_plugin_datefns_2ceee39a(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_workbox_65274ce4 === 'function') {

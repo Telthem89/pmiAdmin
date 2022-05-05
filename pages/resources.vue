@@ -68,6 +68,10 @@
                         <td>{{ per.speaker ? per.speaker.name:" " }} {{ per.speaker ? per.speaker.surname:" " }}</td>
                         <td>{{ per.docname  }}</td>
                         <td>{{ per.created_at | formatDate}}</td>
+
+                        <td class="d-flex justify-end">
+                            <ResourcesDelete :dpresentation="per"/>
+                        </td>
                         </tr>
                         </template>
                         <template v-else>

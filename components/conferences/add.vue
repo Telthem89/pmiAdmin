@@ -185,7 +185,7 @@
                 />
               </v-col>
               <v-col md="6">
-                
+                <v-text-field v-model="form.eventcolor" outlined  type="color" label="color (click to open color menu)" />
               </v-col>
             </v-row>
 
@@ -217,7 +217,7 @@ export default {
     return {
       addPermModel: false,
       valid: false,
-
+      loading:false,
       form: {
         eventname: "",
         descriptionshort: "",
@@ -237,7 +237,9 @@ export default {
         opentime:"",
         closetime:"",
         speakerId:'',
-        file:null
+        file:null,
+        eventcolor: '#1976D2',
+        // color: '#1976D2',
       },
       snackbar: false,
       color: "",
@@ -247,7 +249,7 @@ export default {
   },
   async fetch() {
     this.overlay = true;
-    this.$store.dispatch("speakers/getSpeakers");
+    await this.$store.dispatch("speakers/getAllSpeakers");
     this.overlay = false;
   },
   computed: {
@@ -282,6 +284,7 @@ export default {
           formdata.append("opentime", this.form.opentime);
           formdata.append("closetime", this.form.closetime);
           formdata.append("speakerId", this.form.speakerId);
+          formdata.append("color", this.form.color);
 
           await this.$axios.post("api/admin/events", formdata).then((res) => {
             this.loading = false;

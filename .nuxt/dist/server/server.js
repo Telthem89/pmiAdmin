@@ -43,7 +43,7 @@ module.exports =
 /******/
 /******/ 		// "0" is the signal for "already loaded"
 /******/ 		if(installedChunks[chunkId] !== 0) {
-/******/ 			var chunk = require("./" + ({"1":"components/administrator-add","2":"components/administrator-edit","3":"components/administrator-reset","4":"components/conferences-add","5":"components/conferences-delete","6":"components/conferences-edit","7":"components/conferences-view","8":"components/currency-add","9":"components/currency-delete","10":"components/currency-edit","11":"components/customers-add","12":"components/customers-delete","13":"components/customers-edit","14":"components/gamemanagement-add","15":"components/gamemanagement-delete","16":"components/gamemanagement-edit","17":"components/groups-add","18":"components/groups-delete","19":"components/groups-edit","20":"components/hotelreservation-add","21":"components/hotelreservation-delete","22":"components/hotelreservation-edit","23":"components/hotelreservation-view","24":"components/permissions-add","25":"components/permissions-delete","26":"components/permissions-edit","27":"components/permissions-view","28":"components/profile-changepassword","29":"components/profile-edit","30":"components/rate-add","31":"components/rate-delete","32":"components/rate-edit","33":"components/reservations-add","34":"components/reservations-delete","35":"components/reservations-edit","36":"components/resources-add","37":"components/resources-delete","38":"components/resources-edit","39":"components/role-add","40":"components/role-delete","41":"components/role-edit","42":"components/rolemodules-assign","43":"components/rolemodules-unassign","44":"components/rolemodules-view","45":"components/rolepermissions-assign","46":"components/rolepermissions-unassign","47":"components/rolepermissions-view","48":"components/rolesubmodules-assign","49":"components/rolesubmodules-unassign","50":"components/rolesubmodules-view","51":"components/speakers-add","52":"components/speakers-delete","53":"components/speakers-edit","54":"components/sponsors-add","55":"components/sponsors-delete","56":"components/sponsors-edit","57":"components/submodules-add","58":"components/submodules-delete","59":"components/submodules-edit","60":"components/submodules-view","61":"components/systemmodules-add","62":"components/systemmodules-delete","63":"components/systemmodules-edit","64":"components/videos-add","65":"components/videos-delete","66":"components/videos-edit","67":"pages/ChangePassword","68":"pages/Profile","69":"pages/Roles","70":"pages/administrators","71":"pages/bookings","72":"pages/companies","73":"pages/conferences","74":"pages/currency","75":"pages/customers","76":"pages/dashboard","77":"pages/exchangerates","78":"pages/gamemanagement","79":"pages/groups","80":"pages/hotelreservation","81":"pages/index","82":"pages/leaderboards","83":"pages/login","84":"pages/payments","85":"pages/reservations","86":"pages/resources","87":"pages/speakers","88":"pages/sponsors","89":"pages/systemmodules","90":"pages/videos"}[chunkId]||chunkId) + ".js");
+/******/ 			var chunk = require("./" + ({"1":"components/administrator-add","2":"components/administrator-edit","3":"components/administrator-reset","4":"components/conferences-add","5":"components/conferences-delete","6":"components/conferences-edit","7":"components/conferences-view","8":"components/currency-add","9":"components/currency-delete","10":"components/currency-edit","11":"components/customers-add","12":"components/customers-delete","13":"components/customers-edit","14":"components/gamemanagement-add","15":"components/gamemanagement-delete","16":"components/gamemanagement-edit","17":"components/groups-add","18":"components/groups-delete","19":"components/groups-edit","20":"components/hotelreservation-add","21":"components/hotelreservation-delete","22":"components/hotelreservation-edit","23":"components/hotelreservation-view","24":"components/imports-add","25":"components/permissions-add","26":"components/permissions-delete","27":"components/permissions-edit","28":"components/permissions-view","29":"components/profile-changepassword","30":"components/profile-edit","31":"components/rate-add","32":"components/rate-delete","33":"components/rate-edit","34":"components/reservations-add","35":"components/reservations-delete","36":"components/reservations-edit","37":"components/resources-add","38":"components/resources-delete","39":"components/resources-edit","40":"components/role-add","41":"components/role-delete","42":"components/role-edit","43":"components/rolemodules-assign","44":"components/rolemodules-unassign","45":"components/rolemodules-view","46":"components/rolepermissions-assign","47":"components/rolepermissions-unassign","48":"components/rolepermissions-view","49":"components/rolesubmodules-assign","50":"components/rolesubmodules-unassign","51":"components/rolesubmodules-view","52":"components/speakers-add","53":"components/speakers-delete","54":"components/speakers-edit","55":"components/sponsors-add","56":"components/sponsors-delete","57":"components/sponsors-edit","58":"components/submodules-add","59":"components/submodules-delete","60":"components/submodules-edit","61":"components/submodules-view","62":"components/systemmodules-add","63":"components/systemmodules-delete","64":"components/systemmodules-edit","65":"components/videos-add","66":"components/videos-delete","67":"components/videos-edit","68":"pages/ChangePassword","69":"pages/Profile","70":"pages/Roles","71":"pages/administrators","72":"pages/bookings","73":"pages/companies","74":"pages/conferences","75":"pages/currency","76":"pages/customers","77":"pages/dashboard","78":"pages/exchangerates","79":"pages/gamemanagement","80":"pages/groups","81":"pages/hotelreservation","82":"pages/index","83":"pages/leaderboards","84":"pages/login","85":"pages/payment_integrations","86":"pages/payments","87":"pages/reservations","88":"pages/resources","89":"pages/speakers","90":"pages/sponsors","91":"pages/systemmodules","92":"pages/videos"}[chunkId]||chunkId) + ".js");
 /******/ 			var moreModules = chunk.modules, chunkIds = chunk.ids;
 /******/ 			for(var moduleId in moreModules) {
 /******/ 				modules[moduleId] = moreModules[moduleId];
@@ -65151,26 +65151,24 @@ __webpack_require__.d(components_namespaceObject, "SideBar", function() { return
 __webpack_require__.d(components_namespaceObject, "CustomersAdd", function() { return CustomersAdd; });
 __webpack_require__.d(components_namespaceObject, "CustomersDelete", function() { return CustomersDelete; });
 __webpack_require__.d(components_namespaceObject, "CustomersEdit", function() { return CustomersEdit; });
-__webpack_require__.d(components_namespaceObject, "CurrencyAdd", function() { return CurrencyAdd; });
-__webpack_require__.d(components_namespaceObject, "CurrencyDelete", function() { return CurrencyDelete; });
-__webpack_require__.d(components_namespaceObject, "CurrencyEdit", function() { return CurrencyEdit; });
 __webpack_require__.d(components_namespaceObject, "ConferencesAdd", function() { return ConferencesAdd; });
 __webpack_require__.d(components_namespaceObject, "ConferencesDelete", function() { return ConferencesDelete; });
 __webpack_require__.d(components_namespaceObject, "ConferencesEdit", function() { return ConferencesEdit; });
 __webpack_require__.d(components_namespaceObject, "ConferencesView", function() { return ConferencesView; });
+__webpack_require__.d(components_namespaceObject, "AdministratorAdd", function() { return AdministratorAdd; });
+__webpack_require__.d(components_namespaceObject, "AdministratorEdit", function() { return AdministratorEdit; });
+__webpack_require__.d(components_namespaceObject, "AdministratorReset", function() { return AdministratorReset; });
 __webpack_require__.d(components_namespaceObject, "GamemanagementAdd", function() { return GamemanagementAdd; });
 __webpack_require__.d(components_namespaceObject, "GamemanagementDelete", function() { return GamemanagementDelete; });
 __webpack_require__.d(components_namespaceObject, "GamemanagementEdit", function() { return GamemanagementEdit; });
 __webpack_require__.d(components_namespaceObject, "GroupsAdd", function() { return GroupsAdd; });
 __webpack_require__.d(components_namespaceObject, "GroupsDelete", function() { return GroupsDelete; });
 __webpack_require__.d(components_namespaceObject, "GroupsEdit", function() { return GroupsEdit; });
-__webpack_require__.d(components_namespaceObject, "AdministratorAdd", function() { return AdministratorAdd; });
-__webpack_require__.d(components_namespaceObject, "AdministratorEdit", function() { return AdministratorEdit; });
-__webpack_require__.d(components_namespaceObject, "AdministratorReset", function() { return AdministratorReset; });
 __webpack_require__.d(components_namespaceObject, "HotelreservationAdd", function() { return HotelreservationAdd; });
 __webpack_require__.d(components_namespaceObject, "HotelreservationDelete", function() { return HotelreservationDelete; });
 __webpack_require__.d(components_namespaceObject, "HotelreservationEdit", function() { return HotelreservationEdit; });
 __webpack_require__.d(components_namespaceObject, "HotelreservationView", function() { return HotelreservationView; });
+__webpack_require__.d(components_namespaceObject, "ImportsAdd", function() { return ImportsAdd; });
 __webpack_require__.d(components_namespaceObject, "PermissionsAdd", function() { return PermissionsAdd; });
 __webpack_require__.d(components_namespaceObject, "PermissionsDelete", function() { return PermissionsDelete; });
 __webpack_require__.d(components_namespaceObject, "PermissionsEdit", function() { return PermissionsEdit; });
@@ -65214,6 +65212,9 @@ __webpack_require__.d(components_namespaceObject, "SystemmodulesEdit", function(
 __webpack_require__.d(components_namespaceObject, "VideosAdd", function() { return VideosAdd; });
 __webpack_require__.d(components_namespaceObject, "VideosDelete", function() { return VideosDelete; });
 __webpack_require__.d(components_namespaceObject, "VideosEdit", function() { return VideosEdit; });
+__webpack_require__.d(components_namespaceObject, "CurrencyAdd", function() { return CurrencyAdd; });
+__webpack_require__.d(components_namespaceObject, "CurrencyDelete", function() { return CurrencyDelete; });
+__webpack_require__.d(components_namespaceObject, "CurrencyEdit", function() { return CurrencyEdit; });
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.runtime.common.js
 var vue_runtime_common = __webpack_require__(3);
@@ -65999,53 +66000,55 @@ function shouldScrollToTop(route) {
 
 
 
-const _f80aa0c0 = () => interopDefault(__webpack_require__.e(/* import() | pages/administrators */ 70).then(__webpack_require__.bind(null, 761)));
+const _f80aa0c0 = () => interopDefault(__webpack_require__.e(/* import() | pages/administrators */ 71).then(__webpack_require__.bind(null, 762)));
 
-const _575b3b14 = () => interopDefault(__webpack_require__.e(/* import() | pages/bookings */ 71).then(__webpack_require__.bind(null, 762)));
+const _575b3b14 = () => interopDefault(__webpack_require__.e(/* import() | pages/bookings */ 72).then(__webpack_require__.bind(null, 763)));
 
-const _faf38736 = () => interopDefault(__webpack_require__.e(/* import() | pages/ChangePassword */ 67).then(__webpack_require__.bind(null, 763)));
+const _faf38736 = () => interopDefault(__webpack_require__.e(/* import() | pages/ChangePassword */ 68).then(__webpack_require__.bind(null, 764)));
 
-const _5cb4761e = () => interopDefault(__webpack_require__.e(/* import() | pages/companies */ 72).then(__webpack_require__.bind(null, 764)));
+const _5cb4761e = () => interopDefault(__webpack_require__.e(/* import() | pages/companies */ 73).then(__webpack_require__.bind(null, 765)));
 
-const _2a98dc6d = () => interopDefault(__webpack_require__.e(/* import() | pages/conferences */ 73).then(__webpack_require__.bind(null, 765)));
+const _2a98dc6d = () => interopDefault(__webpack_require__.e(/* import() | pages/conferences */ 74).then(__webpack_require__.bind(null, 766)));
 
-const _2120e46b = () => interopDefault(__webpack_require__.e(/* import() | pages/currency */ 74).then(__webpack_require__.bind(null, 766)));
+const _2120e46b = () => interopDefault(__webpack_require__.e(/* import() | pages/currency */ 75).then(__webpack_require__.bind(null, 767)));
 
-const _44c4926b = () => interopDefault(__webpack_require__.e(/* import() | pages/customers */ 75).then(__webpack_require__.bind(null, 767)));
+const _44c4926b = () => interopDefault(__webpack_require__.e(/* import() | pages/customers */ 76).then(__webpack_require__.bind(null, 768)));
 
-const _cc5c6dac = () => interopDefault(__webpack_require__.e(/* import() | pages/dashboard */ 76).then(__webpack_require__.bind(null, 760)));
+const _cc5c6dac = () => interopDefault(__webpack_require__.e(/* import() | pages/dashboard */ 77).then(__webpack_require__.bind(null, 761)));
 
-const _8827de34 = () => interopDefault(__webpack_require__.e(/* import() | pages/exchangerates */ 77).then(__webpack_require__.bind(null, 768)));
+const _8827de34 = () => interopDefault(__webpack_require__.e(/* import() | pages/exchangerates */ 78).then(__webpack_require__.bind(null, 769)));
 
-const _1f91468f = () => interopDefault(__webpack_require__.e(/* import() | pages/gamemanagement */ 78).then(__webpack_require__.bind(null, 769)));
+const _1f91468f = () => interopDefault(__webpack_require__.e(/* import() | pages/gamemanagement */ 79).then(__webpack_require__.bind(null, 770)));
 
-const _f44445a4 = () => interopDefault(__webpack_require__.e(/* import() | pages/groups */ 79).then(__webpack_require__.bind(null, 770)));
+const _f44445a4 = () => interopDefault(__webpack_require__.e(/* import() | pages/groups */ 80).then(__webpack_require__.bind(null, 771)));
 
-const _4f2ea072 = () => interopDefault(__webpack_require__.e(/* import() | pages/hotelreservation */ 80).then(__webpack_require__.bind(null, 771)));
+const _4f2ea072 = () => interopDefault(__webpack_require__.e(/* import() | pages/hotelreservation */ 81).then(__webpack_require__.bind(null, 772)));
 
-const _7f9c7d20 = () => interopDefault(__webpack_require__.e(/* import() | pages/leaderboards */ 82).then(__webpack_require__.bind(null, 772)));
+const _7f9c7d20 = () => interopDefault(__webpack_require__.e(/* import() | pages/leaderboards */ 83).then(__webpack_require__.bind(null, 773)));
 
-const _a869eb02 = () => interopDefault(__webpack_require__.e(/* import() | pages/login */ 83).then(__webpack_require__.bind(null, 773)));
+const _a869eb02 = () => interopDefault(__webpack_require__.e(/* import() | pages/login */ 84).then(__webpack_require__.bind(null, 774)));
 
-const _6ebbd4f2 = () => interopDefault(__webpack_require__.e(/* import() | pages/payments */ 84).then(__webpack_require__.bind(null, 774)));
+const _454d26dc = () => interopDefault(__webpack_require__.e(/* import() | pages/payment_integrations */ 85).then(__webpack_require__.bind(null, 775)));
 
-const _43c8e51f = () => interopDefault(__webpack_require__.e(/* import() | pages/Profile */ 68).then(__webpack_require__.bind(null, 775)));
+const _6ebbd4f2 = () => interopDefault(__webpack_require__.e(/* import() | pages/payments */ 86).then(__webpack_require__.bind(null, 776)));
 
-const _33c43e81 = () => interopDefault(__webpack_require__.e(/* import() | pages/reservations */ 85).then(__webpack_require__.bind(null, 776)));
+const _43c8e51f = () => interopDefault(__webpack_require__.e(/* import() | pages/Profile */ 69).then(__webpack_require__.bind(null, 777)));
 
-const _0225278a = () => interopDefault(__webpack_require__.e(/* import() | pages/resources */ 86).then(__webpack_require__.bind(null, 777)));
+const _33c43e81 = () => interopDefault(__webpack_require__.e(/* import() | pages/reservations */ 87).then(__webpack_require__.bind(null, 778)));
 
-const _c26c009a = () => interopDefault(__webpack_require__.e(/* import() | pages/Roles */ 69).then(__webpack_require__.bind(null, 778)));
+const _0225278a = () => interopDefault(__webpack_require__.e(/* import() | pages/resources */ 88).then(__webpack_require__.bind(null, 779)));
 
-const _1ff0bb2e = () => interopDefault(__webpack_require__.e(/* import() | pages/speakers */ 87).then(__webpack_require__.bind(null, 779)));
+const _c26c009a = () => interopDefault(__webpack_require__.e(/* import() | pages/Roles */ 70).then(__webpack_require__.bind(null, 780)));
 
-const _fb5efe1a = () => interopDefault(__webpack_require__.e(/* import() | pages/sponsors */ 88).then(__webpack_require__.bind(null, 780)));
+const _1ff0bb2e = () => interopDefault(__webpack_require__.e(/* import() | pages/speakers */ 89).then(__webpack_require__.bind(null, 781)));
 
-const _5020d00e = () => interopDefault(__webpack_require__.e(/* import() | pages/systemmodules */ 89).then(__webpack_require__.bind(null, 781)));
+const _fb5efe1a = () => interopDefault(__webpack_require__.e(/* import() | pages/sponsors */ 90).then(__webpack_require__.bind(null, 782)));
 
-const _4e03c69c = () => interopDefault(__webpack_require__.e(/* import() | pages/videos */ 90).then(__webpack_require__.bind(null, 782)));
+const _5020d00e = () => interopDefault(__webpack_require__.e(/* import() | pages/systemmodules */ 91).then(__webpack_require__.bind(null, 783)));
 
-const _3bb93130 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 81).then(__webpack_require__.bind(null, 783)));
+const _4e03c69c = () => interopDefault(__webpack_require__.e(/* import() | pages/videos */ 92).then(__webpack_require__.bind(null, 784)));
+
+const _3bb93130 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 82).then(__webpack_require__.bind(null, 785)));
 
 const emptyFn = () => {};
 
@@ -66112,6 +66115,10 @@ const routerOptions = {
     path: "/login",
     component: _a869eb02,
     name: "login"
+  }, {
+    path: "/payment_integrations",
+    component: _454d26dc,
+    name: "payment_integrations"
   }, {
     path: "/payments",
     component: _6ebbd4f2,
@@ -68726,71 +68733,72 @@ function mergeProperty(storeModule, moduleData, property) {
 // CONCATENATED MODULE: ./.nuxt/components/index.js
 const SideBar = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 517)).then(c => wrapFunctional(c.default || c));
 const CustomersAdd = () => __webpack_require__.e(/* import() | components/customers-add */ 11).then(__webpack_require__.bind(null, 710)).then(c => wrapFunctional(c.default || c));
-const CustomersDelete = () => __webpack_require__.e(/* import() | components/customers-delete */ 12).then(__webpack_require__.bind(null, 712)).then(c => wrapFunctional(c.default || c));
-const CustomersEdit = () => __webpack_require__.e(/* import() | components/customers-edit */ 13).then(__webpack_require__.bind(null, 711)).then(c => wrapFunctional(c.default || c));
-const CurrencyAdd = () => __webpack_require__.e(/* import() | components/currency-add */ 8).then(__webpack_require__.bind(null, 707)).then(c => wrapFunctional(c.default || c));
-const CurrencyDelete = () => __webpack_require__.e(/* import() | components/currency-delete */ 9).then(__webpack_require__.bind(null, 709)).then(c => wrapFunctional(c.default || c));
-const CurrencyEdit = () => __webpack_require__.e(/* import() | components/currency-edit */ 10).then(__webpack_require__.bind(null, 708)).then(c => wrapFunctional(c.default || c));
+const CustomersDelete = () => __webpack_require__.e(/* import() | components/customers-delete */ 12).then(__webpack_require__.bind(null, 713)).then(c => wrapFunctional(c.default || c));
+const CustomersEdit = () => __webpack_require__.e(/* import() | components/customers-edit */ 13).then(__webpack_require__.bind(null, 712)).then(c => wrapFunctional(c.default || c));
 const ConferencesAdd = () => __webpack_require__.e(/* import() | components/conferences-add */ 4).then(__webpack_require__.bind(null, 689)).then(c => wrapFunctional(c.default || c));
 const ConferencesDelete = () => __webpack_require__.e(/* import() | components/conferences-delete */ 5).then(__webpack_require__.bind(null, 706)).then(c => wrapFunctional(c.default || c));
 const ConferencesEdit = () => __webpack_require__.e(/* import() | components/conferences-edit */ 6).then(__webpack_require__.bind(null, 705)).then(c => wrapFunctional(c.default || c));
-const ConferencesView = () => __webpack_require__.e(/* import() | components/conferences-view */ 7).then(__webpack_require__.bind(null, 755)).then(c => wrapFunctional(c.default || c));
-const GamemanagementAdd = () => __webpack_require__.e(/* import() | components/gamemanagement-add */ 14).then(__webpack_require__.bind(null, 716)).then(c => wrapFunctional(c.default || c));
-const GamemanagementDelete = () => __webpack_require__.e(/* import() | components/gamemanagement-delete */ 15).then(__webpack_require__.bind(null, 718)).then(c => wrapFunctional(c.default || c));
-const GamemanagementEdit = () => __webpack_require__.e(/* import() | components/gamemanagement-edit */ 16).then(__webpack_require__.bind(null, 717)).then(c => wrapFunctional(c.default || c));
-const GroupsAdd = () => __webpack_require__.e(/* import() | components/groups-add */ 17).then(__webpack_require__.bind(null, 719)).then(c => wrapFunctional(c.default || c));
-const GroupsDelete = () => __webpack_require__.e(/* import() | components/groups-delete */ 18).then(__webpack_require__.bind(null, 721)).then(c => wrapFunctional(c.default || c));
-const GroupsEdit = () => __webpack_require__.e(/* import() | components/groups-edit */ 19).then(__webpack_require__.bind(null, 720)).then(c => wrapFunctional(c.default || c));
+const ConferencesView = () => __webpack_require__.e(/* import() | components/conferences-view */ 7).then(__webpack_require__.bind(null, 756)).then(c => wrapFunctional(c.default || c));
 const AdministratorAdd = () => __webpack_require__.e(/* import() | components/administrator-add */ 1).then(__webpack_require__.bind(null, 702)).then(c => wrapFunctional(c.default || c));
 const AdministratorEdit = () => __webpack_require__.e(/* import() | components/administrator-edit */ 2).then(__webpack_require__.bind(null, 703)).then(c => wrapFunctional(c.default || c));
 const AdministratorReset = () => __webpack_require__.e(/* import() | components/administrator-reset */ 3).then(__webpack_require__.bind(null, 704)).then(c => wrapFunctional(c.default || c));
-const HotelreservationAdd = () => __webpack_require__.e(/* import() | components/hotelreservation-add */ 20).then(__webpack_require__.bind(null, 722)).then(c => wrapFunctional(c.default || c));
-const HotelreservationDelete = () => __webpack_require__.e(/* import() | components/hotelreservation-delete */ 21).then(__webpack_require__.bind(null, 724)).then(c => wrapFunctional(c.default || c));
-const HotelreservationEdit = () => __webpack_require__.e(/* import() | components/hotelreservation-edit */ 22).then(__webpack_require__.bind(null, 723)).then(c => wrapFunctional(c.default || c));
-const HotelreservationView = () => __webpack_require__.e(/* import() | components/hotelreservation-view */ 23).then(__webpack_require__.bind(null, 756)).then(c => wrapFunctional(c.default || c));
-const PermissionsAdd = () => __webpack_require__.e(/* import() | components/permissions-add */ 24).then(__webpack_require__.bind(null, 682)).then(c => wrapFunctional(c.default || c));
-const PermissionsDelete = () => __webpack_require__.e(/* import() | components/permissions-delete */ 25).then(__webpack_require__.bind(null, 684)).then(c => wrapFunctional(c.default || c));
-const PermissionsEdit = () => __webpack_require__.e(/* import() | components/permissions-edit */ 26).then(__webpack_require__.bind(null, 683)).then(c => wrapFunctional(c.default || c));
-const PermissionsView = () => __webpack_require__.e(/* import() | components/permissions-view */ 27).then(__webpack_require__.bind(null, 696)).then(c => wrapFunctional(c.default || c));
-const ProfileChangepassword = () => __webpack_require__.e(/* import() | components/profile-changepassword */ 28).then(__webpack_require__.bind(null, 726)).then(c => wrapFunctional(c.default || c));
-const ProfileEdit = () => __webpack_require__.e(/* import() | components/profile-edit */ 29).then(__webpack_require__.bind(null, 725)).then(c => wrapFunctional(c.default || c));
-const RateAdd = () => __webpack_require__.e(/* import() | components/rate-add */ 30).then(__webpack_require__.bind(null, 713)).then(c => wrapFunctional(c.default || c));
-const RateDelete = () => __webpack_require__.e(/* import() | components/rate-delete */ 31).then(__webpack_require__.bind(null, 715)).then(c => wrapFunctional(c.default || c));
-const RateEdit = () => __webpack_require__.e(/* import() | components/rate-edit */ 32).then(__webpack_require__.bind(null, 714)).then(c => wrapFunctional(c.default || c));
-const ReservationsAdd = () => __webpack_require__.e(/* import() | components/reservations-add */ 33).then(__webpack_require__.bind(null, 727)).then(c => wrapFunctional(c.default || c));
-const ReservationsDelete = () => __webpack_require__.e(/* import() | components/reservations-delete */ 34).then(__webpack_require__.bind(null, 729)).then(c => wrapFunctional(c.default || c));
-const ReservationsEdit = () => __webpack_require__.e(/* import() | components/reservations-edit */ 35).then(__webpack_require__.bind(null, 728)).then(c => wrapFunctional(c.default || c));
-const ResourcesAdd = () => __webpack_require__.e(/* import() | components/resources-add */ 36).then(__webpack_require__.bind(null, 688)).then(c => wrapFunctional(c.default || c));
-const ResourcesDelete = () => __webpack_require__.e(/* import() | components/resources-delete */ 37).then(__webpack_require__.bind(null, 730)).then(c => wrapFunctional(c.default || c));
-const ResourcesEdit = () => __webpack_require__.e(/* import() | components/resources-edit */ 38).then(__webpack_require__.bind(null, 757)).then(c => wrapFunctional(c.default || c));
-const RoleAdd = () => __webpack_require__.e(/* import() | components/role-add */ 39).then(__webpack_require__.bind(null, 731)).then(c => wrapFunctional(c.default || c));
-const RoleDelete = () => __webpack_require__.e(/* import() | components/role-delete */ 40).then(__webpack_require__.bind(null, 733)).then(c => wrapFunctional(c.default || c));
-const RoleEdit = () => __webpack_require__.e(/* import() | components/role-edit */ 41).then(__webpack_require__.bind(null, 732)).then(c => wrapFunctional(c.default || c));
-const RolemodulesAssign = () => __webpack_require__.e(/* import() | components/rolemodules-assign */ 42).then(__webpack_require__.bind(null, 690)).then(c => wrapFunctional(c.default || c));
-const RolemodulesUnassign = () => __webpack_require__.e(/* import() | components/rolemodules-unassign */ 43).then(__webpack_require__.bind(null, 691)).then(c => wrapFunctional(c.default || c));
-const RolemodulesView = () => __webpack_require__.e(/* import() | components/rolemodules-view */ 44).then(__webpack_require__.bind(null, 734)).then(c => wrapFunctional(c.default || c));
-const RolepermissionsAssign = () => __webpack_require__.e(/* import() | components/rolepermissions-assign */ 45).then(__webpack_require__.bind(null, 677)).then(c => wrapFunctional(c.default || c));
-const RolepermissionsUnassign = () => __webpack_require__.e(/* import() | components/rolepermissions-unassign */ 46).then(__webpack_require__.bind(null, 678)).then(c => wrapFunctional(c.default || c));
-const RolepermissionsView = () => __webpack_require__.e(/* import() | components/rolepermissions-view */ 47).then(__webpack_require__.bind(null, 681)).then(c => wrapFunctional(c.default || c));
-const RolesubmodulesAssign = () => __webpack_require__.e(/* import() | components/rolesubmodules-assign */ 48).then(__webpack_require__.bind(null, 679)).then(c => wrapFunctional(c.default || c));
-const RolesubmodulesUnassign = () => __webpack_require__.e(/* import() | components/rolesubmodules-unassign */ 49).then(__webpack_require__.bind(null, 680)).then(c => wrapFunctional(c.default || c));
-const RolesubmodulesView = () => __webpack_require__.e(/* import() | components/rolesubmodules-view */ 50).then(__webpack_require__.bind(null, 692)).then(c => wrapFunctional(c.default || c));
-const SpeakersAdd = () => __webpack_require__.e(/* import() | components/speakers-add */ 51).then(__webpack_require__.bind(null, 735)).then(c => wrapFunctional(c.default || c));
-const SpeakersDelete = () => __webpack_require__.e(/* import() | components/speakers-delete */ 52).then(__webpack_require__.bind(null, 758)).then(c => wrapFunctional(c.default || c));
-const SpeakersEdit = () => __webpack_require__.e(/* import() | components/speakers-edit */ 53).then(__webpack_require__.bind(null, 759)).then(c => wrapFunctional(c.default || c));
-const SponsorsAdd = () => __webpack_require__.e(/* import() | components/sponsors-add */ 54).then(__webpack_require__.bind(null, 736)).then(c => wrapFunctional(c.default || c));
-const SponsorsDelete = () => __webpack_require__.e(/* import() | components/sponsors-delete */ 55).then(__webpack_require__.bind(null, 738)).then(c => wrapFunctional(c.default || c));
-const SponsorsEdit = () => __webpack_require__.e(/* import() | components/sponsors-edit */ 56).then(__webpack_require__.bind(null, 737)).then(c => wrapFunctional(c.default || c));
-const SubmodulesAdd = () => __webpack_require__.e(/* import() | components/submodules-add */ 57).then(__webpack_require__.bind(null, 693)).then(c => wrapFunctional(c.default || c));
-const SubmodulesDelete = () => __webpack_require__.e(/* import() | components/submodules-delete */ 58).then(__webpack_require__.bind(null, 695)).then(c => wrapFunctional(c.default || c));
-const SubmodulesEdit = () => __webpack_require__.e(/* import() | components/submodules-edit */ 59).then(__webpack_require__.bind(null, 694)).then(c => wrapFunctional(c.default || c));
-const SubmodulesView = () => __webpack_require__.e(/* import() | components/submodules-view */ 60).then(__webpack_require__.bind(null, 742)).then(c => wrapFunctional(c.default || c));
-const SystemmodulesAdd = () => __webpack_require__.e(/* import() | components/systemmodules-add */ 61).then(__webpack_require__.bind(null, 739)).then(c => wrapFunctional(c.default || c));
-const SystemmodulesDelete = () => __webpack_require__.e(/* import() | components/systemmodules-delete */ 62).then(__webpack_require__.bind(null, 741)).then(c => wrapFunctional(c.default || c));
-const SystemmodulesEdit = () => __webpack_require__.e(/* import() | components/systemmodules-edit */ 63).then(__webpack_require__.bind(null, 740)).then(c => wrapFunctional(c.default || c));
-const VideosAdd = () => __webpack_require__.e(/* import() | components/videos-add */ 64).then(__webpack_require__.bind(null, 743)).then(c => wrapFunctional(c.default || c));
-const VideosDelete = () => __webpack_require__.e(/* import() | components/videos-delete */ 65).then(__webpack_require__.bind(null, 745)).then(c => wrapFunctional(c.default || c));
-const VideosEdit = () => __webpack_require__.e(/* import() | components/videos-edit */ 66).then(__webpack_require__.bind(null, 744)).then(c => wrapFunctional(c.default || c)); // nuxt/nuxt.js#8607
+const GamemanagementAdd = () => __webpack_require__.e(/* import() | components/gamemanagement-add */ 14).then(__webpack_require__.bind(null, 717)).then(c => wrapFunctional(c.default || c));
+const GamemanagementDelete = () => __webpack_require__.e(/* import() | components/gamemanagement-delete */ 15).then(__webpack_require__.bind(null, 719)).then(c => wrapFunctional(c.default || c));
+const GamemanagementEdit = () => __webpack_require__.e(/* import() | components/gamemanagement-edit */ 16).then(__webpack_require__.bind(null, 718)).then(c => wrapFunctional(c.default || c));
+const GroupsAdd = () => __webpack_require__.e(/* import() | components/groups-add */ 17).then(__webpack_require__.bind(null, 720)).then(c => wrapFunctional(c.default || c));
+const GroupsDelete = () => __webpack_require__.e(/* import() | components/groups-delete */ 18).then(__webpack_require__.bind(null, 722)).then(c => wrapFunctional(c.default || c));
+const GroupsEdit = () => __webpack_require__.e(/* import() | components/groups-edit */ 19).then(__webpack_require__.bind(null, 721)).then(c => wrapFunctional(c.default || c));
+const HotelreservationAdd = () => __webpack_require__.e(/* import() | components/hotelreservation-add */ 20).then(__webpack_require__.bind(null, 723)).then(c => wrapFunctional(c.default || c));
+const HotelreservationDelete = () => __webpack_require__.e(/* import() | components/hotelreservation-delete */ 21).then(__webpack_require__.bind(null, 725)).then(c => wrapFunctional(c.default || c));
+const HotelreservationEdit = () => __webpack_require__.e(/* import() | components/hotelreservation-edit */ 22).then(__webpack_require__.bind(null, 724)).then(c => wrapFunctional(c.default || c));
+const HotelreservationView = () => __webpack_require__.e(/* import() | components/hotelreservation-view */ 23).then(__webpack_require__.bind(null, 757)).then(c => wrapFunctional(c.default || c));
+const ImportsAdd = () => __webpack_require__.e(/* import() | components/imports-add */ 24).then(__webpack_require__.bind(null, 711)).then(c => wrapFunctional(c.default || c));
+const PermissionsAdd = () => __webpack_require__.e(/* import() | components/permissions-add */ 25).then(__webpack_require__.bind(null, 682)).then(c => wrapFunctional(c.default || c));
+const PermissionsDelete = () => __webpack_require__.e(/* import() | components/permissions-delete */ 26).then(__webpack_require__.bind(null, 684)).then(c => wrapFunctional(c.default || c));
+const PermissionsEdit = () => __webpack_require__.e(/* import() | components/permissions-edit */ 27).then(__webpack_require__.bind(null, 683)).then(c => wrapFunctional(c.default || c));
+const PermissionsView = () => __webpack_require__.e(/* import() | components/permissions-view */ 28).then(__webpack_require__.bind(null, 696)).then(c => wrapFunctional(c.default || c));
+const ProfileChangepassword = () => __webpack_require__.e(/* import() | components/profile-changepassword */ 29).then(__webpack_require__.bind(null, 727)).then(c => wrapFunctional(c.default || c));
+const ProfileEdit = () => __webpack_require__.e(/* import() | components/profile-edit */ 30).then(__webpack_require__.bind(null, 726)).then(c => wrapFunctional(c.default || c));
+const RateAdd = () => __webpack_require__.e(/* import() | components/rate-add */ 31).then(__webpack_require__.bind(null, 714)).then(c => wrapFunctional(c.default || c));
+const RateDelete = () => __webpack_require__.e(/* import() | components/rate-delete */ 32).then(__webpack_require__.bind(null, 716)).then(c => wrapFunctional(c.default || c));
+const RateEdit = () => __webpack_require__.e(/* import() | components/rate-edit */ 33).then(__webpack_require__.bind(null, 715)).then(c => wrapFunctional(c.default || c));
+const ReservationsAdd = () => __webpack_require__.e(/* import() | components/reservations-add */ 34).then(__webpack_require__.bind(null, 728)).then(c => wrapFunctional(c.default || c));
+const ReservationsDelete = () => __webpack_require__.e(/* import() | components/reservations-delete */ 35).then(__webpack_require__.bind(null, 730)).then(c => wrapFunctional(c.default || c));
+const ReservationsEdit = () => __webpack_require__.e(/* import() | components/reservations-edit */ 36).then(__webpack_require__.bind(null, 729)).then(c => wrapFunctional(c.default || c));
+const ResourcesAdd = () => __webpack_require__.e(/* import() | components/resources-add */ 37).then(__webpack_require__.bind(null, 688)).then(c => wrapFunctional(c.default || c));
+const ResourcesDelete = () => __webpack_require__.e(/* import() | components/resources-delete */ 38).then(__webpack_require__.bind(null, 731)).then(c => wrapFunctional(c.default || c));
+const ResourcesEdit = () => __webpack_require__.e(/* import() | components/resources-edit */ 39).then(__webpack_require__.bind(null, 758)).then(c => wrapFunctional(c.default || c));
+const RoleAdd = () => __webpack_require__.e(/* import() | components/role-add */ 40).then(__webpack_require__.bind(null, 732)).then(c => wrapFunctional(c.default || c));
+const RoleDelete = () => __webpack_require__.e(/* import() | components/role-delete */ 41).then(__webpack_require__.bind(null, 734)).then(c => wrapFunctional(c.default || c));
+const RoleEdit = () => __webpack_require__.e(/* import() | components/role-edit */ 42).then(__webpack_require__.bind(null, 733)).then(c => wrapFunctional(c.default || c));
+const RolemodulesAssign = () => __webpack_require__.e(/* import() | components/rolemodules-assign */ 43).then(__webpack_require__.bind(null, 690)).then(c => wrapFunctional(c.default || c));
+const RolemodulesUnassign = () => __webpack_require__.e(/* import() | components/rolemodules-unassign */ 44).then(__webpack_require__.bind(null, 691)).then(c => wrapFunctional(c.default || c));
+const RolemodulesView = () => __webpack_require__.e(/* import() | components/rolemodules-view */ 45).then(__webpack_require__.bind(null, 735)).then(c => wrapFunctional(c.default || c));
+const RolepermissionsAssign = () => __webpack_require__.e(/* import() | components/rolepermissions-assign */ 46).then(__webpack_require__.bind(null, 677)).then(c => wrapFunctional(c.default || c));
+const RolepermissionsUnassign = () => __webpack_require__.e(/* import() | components/rolepermissions-unassign */ 47).then(__webpack_require__.bind(null, 678)).then(c => wrapFunctional(c.default || c));
+const RolepermissionsView = () => __webpack_require__.e(/* import() | components/rolepermissions-view */ 48).then(__webpack_require__.bind(null, 681)).then(c => wrapFunctional(c.default || c));
+const RolesubmodulesAssign = () => __webpack_require__.e(/* import() | components/rolesubmodules-assign */ 49).then(__webpack_require__.bind(null, 679)).then(c => wrapFunctional(c.default || c));
+const RolesubmodulesUnassign = () => __webpack_require__.e(/* import() | components/rolesubmodules-unassign */ 50).then(__webpack_require__.bind(null, 680)).then(c => wrapFunctional(c.default || c));
+const RolesubmodulesView = () => __webpack_require__.e(/* import() | components/rolesubmodules-view */ 51).then(__webpack_require__.bind(null, 692)).then(c => wrapFunctional(c.default || c));
+const SpeakersAdd = () => __webpack_require__.e(/* import() | components/speakers-add */ 52).then(__webpack_require__.bind(null, 736)).then(c => wrapFunctional(c.default || c));
+const SpeakersDelete = () => __webpack_require__.e(/* import() | components/speakers-delete */ 53).then(__webpack_require__.bind(null, 759)).then(c => wrapFunctional(c.default || c));
+const SpeakersEdit = () => __webpack_require__.e(/* import() | components/speakers-edit */ 54).then(__webpack_require__.bind(null, 760)).then(c => wrapFunctional(c.default || c));
+const SponsorsAdd = () => __webpack_require__.e(/* import() | components/sponsors-add */ 55).then(__webpack_require__.bind(null, 737)).then(c => wrapFunctional(c.default || c));
+const SponsorsDelete = () => __webpack_require__.e(/* import() | components/sponsors-delete */ 56).then(__webpack_require__.bind(null, 739)).then(c => wrapFunctional(c.default || c));
+const SponsorsEdit = () => __webpack_require__.e(/* import() | components/sponsors-edit */ 57).then(__webpack_require__.bind(null, 738)).then(c => wrapFunctional(c.default || c));
+const SubmodulesAdd = () => __webpack_require__.e(/* import() | components/submodules-add */ 58).then(__webpack_require__.bind(null, 693)).then(c => wrapFunctional(c.default || c));
+const SubmodulesDelete = () => __webpack_require__.e(/* import() | components/submodules-delete */ 59).then(__webpack_require__.bind(null, 695)).then(c => wrapFunctional(c.default || c));
+const SubmodulesEdit = () => __webpack_require__.e(/* import() | components/submodules-edit */ 60).then(__webpack_require__.bind(null, 694)).then(c => wrapFunctional(c.default || c));
+const SubmodulesView = () => __webpack_require__.e(/* import() | components/submodules-view */ 61).then(__webpack_require__.bind(null, 743)).then(c => wrapFunctional(c.default || c));
+const SystemmodulesAdd = () => __webpack_require__.e(/* import() | components/systemmodules-add */ 62).then(__webpack_require__.bind(null, 740)).then(c => wrapFunctional(c.default || c));
+const SystemmodulesDelete = () => __webpack_require__.e(/* import() | components/systemmodules-delete */ 63).then(__webpack_require__.bind(null, 742)).then(c => wrapFunctional(c.default || c));
+const SystemmodulesEdit = () => __webpack_require__.e(/* import() | components/systemmodules-edit */ 64).then(__webpack_require__.bind(null, 741)).then(c => wrapFunctional(c.default || c));
+const VideosAdd = () => __webpack_require__.e(/* import() | components/videos-add */ 65).then(__webpack_require__.bind(null, 744)).then(c => wrapFunctional(c.default || c));
+const VideosDelete = () => __webpack_require__.e(/* import() | components/videos-delete */ 66).then(__webpack_require__.bind(null, 746)).then(c => wrapFunctional(c.default || c));
+const VideosEdit = () => __webpack_require__.e(/* import() | components/videos-edit */ 67).then(__webpack_require__.bind(null, 745)).then(c => wrapFunctional(c.default || c));
+const CurrencyAdd = () => __webpack_require__.e(/* import() | components/currency-add */ 8).then(__webpack_require__.bind(null, 707)).then(c => wrapFunctional(c.default || c));
+const CurrencyDelete = () => __webpack_require__.e(/* import() | components/currency-delete */ 9).then(__webpack_require__.bind(null, 709)).then(c => wrapFunctional(c.default || c));
+const CurrencyEdit = () => __webpack_require__.e(/* import() | components/currency-edit */ 10).then(__webpack_require__.bind(null, 708)).then(c => wrapFunctional(c.default || c)); // nuxt/nuxt.js#8607
 
 function wrapFunctional(options) {
   if (!options || !options.functional) {

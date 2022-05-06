@@ -84,6 +84,12 @@
     "chunkName": "pages/login"
   },
   {
+    "name": "payment_integrations",
+    "path": "/payment_integrations",
+    "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\payment_integrations.vue",
+    "chunkName": "pages/payment_integrations"
+  },
+  {
     "name": "payments",
     "path": "/payments",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\payments.vue",

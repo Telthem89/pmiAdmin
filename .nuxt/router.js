@@ -18,6 +18,7 @@ const _f44445a4 = () => interopDefault(import('..\\pages\\groups.vue' /* webpack
 const _4f2ea072 = () => interopDefault(import('..\\pages\\hotelreservation.vue' /* webpackChunkName: "pages/hotelreservation" */))
 const _7f9c7d20 = () => interopDefault(import('..\\pages\\leaderboards.vue' /* webpackChunkName: "pages/leaderboards" */))
 const _a869eb02 = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
+const _454d26dc = () => interopDefault(import('..\\pages\\payment_integrations.vue' /* webpackChunkName: "pages/payment_integrations" */))
 const _6ebbd4f2 = () => interopDefault(import('..\\pages\\payments.vue' /* webpackChunkName: "pages/payments" */))
 const _43c8e51f = () => interopDefault(import('..\\pages\\Profile.vue' /* webpackChunkName: "pages/Profile" */))
 const _33c43e81 = () => interopDefault(import('..\\pages\\reservations.vue' /* webpackChunkName: "pages/reservations" */))
@@ -96,6 +97,10 @@ export const routerOptions = {
     path: "/login",
     component: _a869eb02,
     name: "login"
+  }, {
+    path: "/payment_integrations",
+    component: _454d26dc,
+    name: "payment_integrations"
   }, {
     path: "/payments",
     component: _6ebbd4f2,

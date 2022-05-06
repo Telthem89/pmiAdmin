@@ -31,8 +31,7 @@
                   ></downloadexcel
                 ></v-col>
                 <v-col md="4">
-                  <v-btn depressed class="primary"
-                    >Import</v-btn>
+                  <ImportsAdd/>
                 </v-col>
                 </v-row>
               </v-col>
@@ -48,35 +47,33 @@
               <template v-slot:default>
                 <thead>
                   <tr>
-                    <th class="text-left">#</th>
-
-                    <th class="text-left">Client Name</th>
-                    <th class="text-left">Client Surname</th>
-                    <th class="text-left">Phone Number</th>
-
+                    <th class="text-left">Number</th>
+                    <th class="text-left">Name</th>
+                    <th class="text-left">Surname</th>
+                    <th class="text-left">Phone</th>
+                    <th class="text-left">Gender</th>
+                    <th class="text-left">Job Title</th>
+                    <th class="text-left">Sector</th>
                     <th class="text-left">Company</th>
-
-                    <th class="text-left">City</th>
                     <th class="text-left">Province</th>
-                    <th class="text-left">District</th>
-                    <th class="text-right"></th>
                   </tr>
                 </thead>
                 <tbody>
                   <template v-if="customers.length > 0">
                     <tr v-for="(per, i) in customers" :key="i">
-                      <td>{{ i + 1 }}</td>
+                      <td>{{ per.pmi_number == null ? "NON-MEMBER" : per.pmi_number }}</td>
                       <td>{{ per.name }}</td>
                       <td>{{ per.surname }}</td>
-                      <td>{{ per.phone == null ? "N/A" : per.phone }}</td>
+                      <td>{{ per.phone == null ? "UNKNOWN" : per.phone }}</td>
+                      <td>{{ per.gender }}</td>
+                      <td>{{ per.job_title == null ? "UNKNOWN" : per.job_title }}</td>
+                      <td>{{ per.industrial_sector == null ? "NOT SPECIFIED" : per.industrial_sector }}</td>
                       <td>
                         {{
-                          per.company_name == null ? "N/A" : per.company_name
+                          per.company_name == null ? "UNKNOWN" : per.company_name
                         }}
                       </td>
-                      <td>{{ per.city == null ? "N/A" : per.city }}</td>
                       <td>{{ per.province }}</td>
-                      <td>{{ per.district }}</td>
                       <td class="d-flex justify-end pt-2 pb-2">
                         <CustomersEdit :cust="per" />
                         <CustomersDelete :cust="per" />
@@ -85,7 +82,7 @@
                   </template>
                   <template v-else>
                     <tr>
-                      <td colspan="4" class="text-center red--text">
+                      <td colspan="9" class="text-center red--text">
                         No Customers yet
                       </td>
                     </tr>
@@ -139,7 +136,9 @@ export default {
        const data = this.$store.state.customers.customers;
 
         data.forEach(element => {
-            const el = {id:element.id,name:element.name,surname:element.surname,phone:element.phone,email:element.email,address:element.address,company:element.company_name,provice:element.province,district:element.district,city:element.city,gender:element.gender} 
+            const el = {id:element.id,pminumber:element.pmi_number,name:element.name,surname:element.surname,phone:element.phone,email:element.email,address:element.address,jobtitle:element.job_title,industrialsector:element.industrial_sector,company:element.company_name,provice:element.province,district:element.district,city:element.city,gender:element.gender} 
+
+           
            array.push(el)
        });
 

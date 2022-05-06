@@ -1,11 +1,13 @@
 <template>
    <v-container>
-       <v-row class="mt-5">
-           <v-col md="4" offset-md="4">
+       <v-row class="mt-5 justify-center">
+           <v-col md="6">
                <div class="d-flex justify-center">
               <img src="/logo.png" width="140"/>
                </div>
-               <v-card class="mt-4">
+               <v-card class="mt-4"
+               style="border: 2px solid purple;padding:10px!important; border-top-right-radius:30px!important;
+                border-bottom-left-radius:30px!important">
                    <v-card-text>
                        <v-form v-model="valid" ref="form" lazy-validation>
                       <v-text-field

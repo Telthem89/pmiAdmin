@@ -11,15 +11,6 @@
   "CustomersEdit": {
     "description": "Auto imported from components/customers/edit.vue"
   },
-  "CurrencyAdd": {
-    "description": "Auto imported from components/currency/add.vue"
-  },
-  "CurrencyDelete": {
-    "description": "Auto imported from components/currency/delete.vue"
-  },
-  "CurrencyEdit": {
-    "description": "Auto imported from components/currency/edit.vue"
-  },
   "ConferencesAdd": {
     "description": "Auto imported from components/conferences/add.vue"
   },
@@ -31,6 +22,15 @@
   },
   "ConferencesView": {
     "description": "Auto imported from components/conferences/view.vue"
+  },
+  "AdministratorAdd": {
+    "description": "Auto imported from components/administrator/add.vue"
+  },
+  "AdministratorEdit": {
+    "description": "Auto imported from components/administrator/edit.vue"
+  },
+  "AdministratorReset": {
+    "description": "Auto imported from components/administrator/reset.vue"
   },
   "GamemanagementAdd": {
     "description": "Auto imported from components/gamemanagement/add.vue"
@@ -50,15 +50,6 @@
   "GroupsEdit": {
     "description": "Auto imported from components/groups/edit.vue"
   },
-  "AdministratorAdd": {
-    "description": "Auto imported from components/administrator/add.vue"
-  },
-  "AdministratorEdit": {
-    "description": "Auto imported from components/administrator/edit.vue"
-  },
-  "AdministratorReset": {
-    "description": "Auto imported from components/administrator/reset.vue"
-  },
   "HotelreservationAdd": {
     "description": "Auto imported from components/hotelreservation/add.vue"
   },
@@ -70,6 +61,9 @@
   },
   "HotelreservationView": {
     "description": "Auto imported from components/hotelreservation/view.vue"
+  },
+  "ImportsAdd": {
+    "description": "Auto imported from components/imports/add.vue"
   },
   "PermissionsAdd": {
     "description": "Auto imported from components/permissions/add.vue"
@@ -199,5 +193,14 @@
   },
   "VideosEdit": {
     "description": "Auto imported from components/videos/edit.vue"
+  },
+  "CurrencyAdd": {
+    "description": "Auto imported from components/currency/add.vue"
+  },
+  "CurrencyDelete": {
+    "description": "Auto imported from components/currency/delete.vue"
+  },
+  "CurrencyEdit": {
+    "description": "Auto imported from components/currency/edit.vue"
   }
 }

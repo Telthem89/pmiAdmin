@@ -1,4 +1,4 @@
-exports.ids = [27,24,25,26];
+exports.ids = [28,25,26,27];
 exports.modules = {
 
 /***/ 548:
@@ -1625,7 +1625,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 615:
+/***/ 642:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2323,7 +2323,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 672:
+/***/ 673:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2501,7 +2501,7 @@ var components_VCard = __webpack_require__(39);
 var VDialog = __webpack_require__(644);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VForm/VForm.js
-var VForm = __webpack_require__(615);
+var VForm = __webpack_require__(642);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VIcon/VIcon.js
 var VIcon = __webpack_require__(118);
@@ -2678,7 +2678,7 @@ var components_VCard = __webpack_require__(39);
 var VDialog = __webpack_require__(644);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VForm/VForm.js
-var VForm = __webpack_require__(615);
+var VForm = __webpack_require__(642);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VIcon/VIcon.js
 var VIcon = __webpack_require__(118);
@@ -2845,7 +2845,7 @@ var components_VCard = __webpack_require__(39);
 var VDialog = __webpack_require__(644);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VForm/VForm.js
-var VForm = __webpack_require__(615);
+var VForm = __webpack_require__(642);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VIcon/VIcon.js
 var VIcon = __webpack_require__(118);
@@ -3006,7 +3006,7 @@ var VDialog = __webpack_require__(644);
 var VIcon = __webpack_require__(118);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VDataTable/VSimpleTable.js
-var VSimpleTable = __webpack_require__(672);
+var VSimpleTable = __webpack_require__(673);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VGrid/VSpacer.js
 var VSpacer = __webpack_require__(527);

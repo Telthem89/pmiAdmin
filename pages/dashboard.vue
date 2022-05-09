@@ -2,7 +2,8 @@
   <v-container>
     <v-row>
       <v-col lg="4" md="4">
-        <v-card class="p-6" color="purple">
+        <v-card class="p-6" color="purple" router
+          to="customers">
           <v-card-text
             ><v-btn rounded fasb class="p-5"
               ><v-icon size="34">mdi-account-cog</v-icon></v-btn
@@ -13,17 +14,19 @@
         </v-card>
       </v-col>
       <v-col lg="4" md="4">
-        <v-card class="p-6" color="purple">
+        <v-card class="p-6" color="purple" router
+          to="bookings">
           <v-card-text
             ><v-btn rounded fasb class="p-5"
-              ><v-icon size="34">mdi-wallet</v-icon></v-btn
+              ><v-icon size="34">mdi-home</v-icon></v-btn
             >
-            <b class="ml-5 white--text">ZWL$0</b>
+            <b class="ml-5 white--text">0 Event Bookings</b>
           </v-card-text>
         </v-card>
       </v-col>
       <v-col lg="4" md="4">
-        <v-card class="p-6" color="purple">
+        <v-card class="p-6" color="purple" router
+          to="speakers">
           <v-card-text
             ><v-btn rounded fasb class="p-5"
               ><v-icon size="34">mdi-account-tie-voice</v-icon></v-btn
@@ -38,7 +41,8 @@
 
     <v-row>
       <v-col lg="4" md="4">
-        <v-card class="p-6" color="purple">
+        <v-card class="p-6" color="error" router
+          to="videos">
           <v-card-text
             ><v-btn rounded fasb class="p-5"
               ><v-icon size="34">mdi-youtube</v-icon></v-btn
@@ -49,7 +53,8 @@
         </v-card>
       </v-col>
       <v-col lg="4" md="4">
-        <v-card class="p-6" color="purple">
+        <v-card class="p-6" color="purple" router
+          to="chapters">
           <v-card-text
             ><v-btn rounded fasb class="p-5"
               ><v-icon size="34">mdi-animation-outline</v-icon></v-btn
@@ -61,7 +66,8 @@
         </v-card>
       </v-col>
       <v-col lg="4" md="4">
-        <v-card class="p-6" color="purple">
+        <v-card class="p-6" color="purple" router
+          to="conferences">
           <v-card-text
             ><v-btn rounded fasb class="p-5"
               ><v-icon size="34">mdi-calendar</v-icon></v-btn
@@ -76,7 +82,8 @@
 
     <v-row>
       <v-col lg="4" md="4">
-        <v-card class="p-6" color="purple">
+        <v-card class="p-6" color="purple" router
+          to="groups">
           <v-card-text
             ><v-btn rounded fasb class="p-5"
               ><v-icon size="34">mdi-home-group</v-icon></v-btn
@@ -87,7 +94,8 @@
         </v-card>
       </v-col>
       <v-col lg="4" md="4">
-        <v-card class="p-6" color="purple">
+        <v-card class="p-6" color="purple" router
+          to="hotelreservation">
           <v-card-text
             ><v-btn rounded fasb class="p-5"
               ><v-icon size="34">mdi-bank-outline</v-icon></v-btn
@@ -99,7 +107,8 @@
         </v-card>
       </v-col>
       <v-col lg="4" md="4">
-        <v-card class="p-6" color="purple">
+        <v-card class="p-6" color="purple" router
+          to="reservations">
           <v-card-text
             ><v-btn rounded fasb class="p-5"
               ><v-icon size="34">mdi-bank-outline</v-icon></v-btn

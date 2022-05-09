@@ -7,8 +7,8 @@ export default {
     fallback: true
   },
   head: {
-    titleTemplate: '%s - -PORTAL',
-    title: 'PMI ADMIN',
+    titleTemplate: '%s - ',
+    title: 'PMI Zimbabwe Chapter',
     htmlAttrs: {
       lang: 'en'
     },

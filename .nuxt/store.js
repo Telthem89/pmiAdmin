@@ -19,6 +19,7 @@ let store = {};
   resolveStoreModules(require('..\\store\\bookings.js'), 'bookings.js')
   resolveStoreModules(require('..\\store\\chapters.js'), 'chapters.js')
   resolveStoreModules(require('..\\store\\conferences.js'), 'conferences.js')
+  resolveStoreModules(require('..\\store\\csvdata.js'), 'csvdata.js')
   resolveStoreModules(require('..\\store\\currency.js'), 'currency.js')
   resolveStoreModules(require('..\\store\\customers.js'), 'customers.js')
   resolveStoreModules(require('..\\store\\games.js'), 'games.js')

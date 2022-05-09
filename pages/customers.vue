@@ -17,8 +17,6 @@
           <v-card-title>
             Customers
             <v-spacer />
-
-            <CustomersAdd />
           </v-card-title>
           <v-card-text>
             <v-row>
@@ -31,7 +29,8 @@
                   ></downloadexcel
                 ></v-col>
                 <v-col md="4">
-                  <ImportsAdd/>
+                  <v-btn  depressed color="green"  class=" mr-12"><a style="color:white;text-decoration:none" class="white--text" href="/customers.xlsx">Download Excel<v-icon>mdi-microsoft-excel</v-icon></a></v-btn>
+                  
                 </v-col>
                 </v-row>
               </v-col>
@@ -39,7 +38,7 @@
                 ><v-text-field
                   outlined
                   v-model="search"
-                  width="100"
+                  width="80"
                   label="Search Customer..."
               /></v-col>
             </v-row>

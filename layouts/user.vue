@@ -120,7 +120,7 @@ export default {
       offset:true,
       fixed:true,
       items: [],
-      title: 'PMIZIMCHAPTERS ADMINISTRATION',
+      title: 'PMI Zimbabwe Chapter',
       overlay:false
     }
   },created(){

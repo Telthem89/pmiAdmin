@@ -2,14 +2,14 @@
   "SideBar": {
     "description": "Auto imported from components/SideBar.vue"
   },
-  "CustomersAdd": {
-    "description": "Auto imported from components/customers/add.vue"
+  "AdministratorAdd": {
+    "description": "Auto imported from components/administrator/add.vue"
   },
-  "CustomersDelete": {
-    "description": "Auto imported from components/customers/delete.vue"
+  "AdministratorEdit": {
+    "description": "Auto imported from components/administrator/edit.vue"
   },
-  "CustomersEdit": {
-    "description": "Auto imported from components/customers/edit.vue"
+  "AdministratorReset": {
+    "description": "Auto imported from components/administrator/reset.vue"
   },
   "ConferencesAdd": {
     "description": "Auto imported from components/conferences/add.vue"
@@ -23,23 +23,23 @@
   "ConferencesView": {
     "description": "Auto imported from components/conferences/view.vue"
   },
-  "AdministratorAdd": {
-    "description": "Auto imported from components/administrator/add.vue"
+  "CurrencyAdd": {
+    "description": "Auto imported from components/currency/add.vue"
   },
-  "AdministratorEdit": {
-    "description": "Auto imported from components/administrator/edit.vue"
+  "CurrencyDelete": {
+    "description": "Auto imported from components/currency/delete.vue"
   },
-  "AdministratorReset": {
-    "description": "Auto imported from components/administrator/reset.vue"
+  "CurrencyEdit": {
+    "description": "Auto imported from components/currency/edit.vue"
   },
-  "GamemanagementAdd": {
-    "description": "Auto imported from components/gamemanagement/add.vue"
+  "CustomersAdd": {
+    "description": "Auto imported from components/customers/add.vue"
   },
-  "GamemanagementDelete": {
-    "description": "Auto imported from components/gamemanagement/delete.vue"
+  "CustomersDelete": {
+    "description": "Auto imported from components/customers/delete.vue"
   },
-  "GamemanagementEdit": {
-    "description": "Auto imported from components/gamemanagement/edit.vue"
+  "CustomersEdit": {
+    "description": "Auto imported from components/customers/edit.vue"
   },
   "GroupsAdd": {
     "description": "Auto imported from components/groups/add.vue"
@@ -49,6 +49,15 @@
   },
   "GroupsEdit": {
     "description": "Auto imported from components/groups/edit.vue"
+  },
+  "GamemanagementAdd": {
+    "description": "Auto imported from components/gamemanagement/add.vue"
+  },
+  "GamemanagementDelete": {
+    "description": "Auto imported from components/gamemanagement/delete.vue"
+  },
+  "GamemanagementEdit": {
+    "description": "Auto imported from components/gamemanagement/edit.vue"
   },
   "HotelreservationAdd": {
     "description": "Auto imported from components/hotelreservation/add.vue"
@@ -62,8 +71,14 @@
   "HotelreservationView": {
     "description": "Auto imported from components/hotelreservation/view.vue"
   },
-  "ImportsAdd": {
-    "description": "Auto imported from components/imports/add.vue"
+  "ImportsDelete": {
+    "description": "Auto imported from components/imports/delete.vue"
+  },
+  "ImportsInadd": {
+    "description": "Auto imported from components/imports/inadd.vue"
+  },
+  "ImportsView": {
+    "description": "Auto imported from components/imports/view.vue"
   },
   "PermissionsAdd": {
     "description": "Auto imported from components/permissions/add.vue"
@@ -193,14 +208,5 @@
   },
   "VideosEdit": {
     "description": "Auto imported from components/videos/edit.vue"
-  },
-  "CurrencyAdd": {
-    "description": "Auto imported from components/currency/add.vue"
-  },
-  "CurrencyDelete": {
-    "description": "Auto imported from components/currency/delete.vue"
-  },
-  "CurrencyEdit": {
-    "description": "Auto imported from components/currency/edit.vue"
   }
 }

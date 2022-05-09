@@ -72,6 +72,12 @@
     "chunkName": "pages/hotelreservation"
   },
   {
+    "name": "importcustomers",
+    "path": "/importcustomers",
+    "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\importcustomers.vue",
+    "chunkName": "pages/importcustomers"
+  },
+  {
     "name": "leaderboards",
     "path": "/leaderboards",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\leaderboards.vue",

@@ -16,6 +16,7 @@ const _8827de34 = () => interopDefault(import('..\\pages\\exchangerates.vue' /* 
 const _1f91468f = () => interopDefault(import('..\\pages\\gamemanagement.vue' /* webpackChunkName: "pages/gamemanagement" */))
 const _f44445a4 = () => interopDefault(import('..\\pages\\groups.vue' /* webpackChunkName: "pages/groups" */))
 const _4f2ea072 = () => interopDefault(import('..\\pages\\hotelreservation.vue' /* webpackChunkName: "pages/hotelreservation" */))
+const _1c33fc66 = () => interopDefault(import('..\\pages\\importcustomers.vue' /* webpackChunkName: "pages/importcustomers" */))
 const _7f9c7d20 = () => interopDefault(import('..\\pages\\leaderboards.vue' /* webpackChunkName: "pages/leaderboards" */))
 const _a869eb02 = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
 const _454d26dc = () => interopDefault(import('..\\pages\\payment_integrations.vue' /* webpackChunkName: "pages/payment_integrations" */))
@@ -89,6 +90,10 @@ export const routerOptions = {
     path: "/hotelreservation",
     component: _4f2ea072,
     name: "hotelreservation"
+  }, {
+    path: "/importcustomers",
+    component: _1c33fc66,
+    name: "importcustomers"
   }, {
     path: "/leaderboards",
     component: _7f9c7d20,

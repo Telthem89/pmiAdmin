@@ -55,6 +55,8 @@
                     <th class="text-left">Sector</th>
                     <th class="text-left">Company</th>
                     <th class="text-left">Province</th>
+                    <th class="text-left">Edit</th>
+                    <th class="text-left">Remove</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -73,9 +75,9 @@
                         }}
                       </td>
                       <td>{{ per.province }}</td>
-                      <td class="d-flex justify-end pt-2 pb-2">
-                        <CustomersEdit :cust="per" />
-                        <CustomersDelete :cust="per" />
+                      <td>
+                        <CustomersEdit :cust="per" /> </td>
+                        <td><CustomersDelete :cust="per" />
                       </td>
                     </tr>
                   </template>

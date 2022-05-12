@@ -68,7 +68,7 @@
                         <td>{{ per.cnmy_address  }}</td>
                         <td>{{ per.cnmy_website}}</td>
 
-                        <td class="d-flex justify-end pt-2 pb-2">
+                        <td class="d-flex justify-end">
                             <SponsorsEdit :sponsor="per"/>
                             <SponsorsDelete :sponsor="per"/>
                         </td>

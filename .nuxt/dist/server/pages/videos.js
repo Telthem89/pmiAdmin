@@ -1822,7 +1822,7 @@ module.exports = [
 
 /***/ }),
 
-/***/ 585:
+/***/ 584:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5510,7 +5510,7 @@ const cache = new Map();
 
 /***/ }),
 
-/***/ 779:
+/***/ 781:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5657,7 +5657,7 @@ var VSnackbar = __webpack_require__(645);
 var VSpacer = __webpack_require__(530);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VTextField/VTextField.js + 3 modules
-var VTextField = __webpack_require__(585);
+var VTextField = __webpack_require__(584);
 
 // CONCATENATED MODULE: ./components/videos/add.vue
 
@@ -5701,7 +5701,7 @@ installComponents_default()(component, {VBtn: VBtn["a" /* default */],VCard: VCa
 
 /***/ }),
 
-/***/ 780:
+/***/ 782:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5848,7 +5848,7 @@ var VSnackbar = __webpack_require__(645);
 var VSpacer = __webpack_require__(530);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VTextField/VTextField.js + 3 modules
-var VTextField = __webpack_require__(585);
+var VTextField = __webpack_require__(584);
 
 // CONCATENATED MODULE: ./components/videos/edit.vue
 
@@ -5892,7 +5892,7 @@ installComponents_default()(component, {VBtn: VBtn["a" /* default */],VCard: VCa
 
 /***/ }),
 
-/***/ 781:
+/***/ 783:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6056,7 +6056,7 @@ installComponents_default()(component, {VBtn: VBtn["a" /* default */],VCard: VCa
 
 /***/ }),
 
-/***/ 789:
+/***/ 791:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports =
@@ -8536,7 +8536,7 @@ var vue_json_excel_umd = __webpack_require__(676);
 var vue_json_excel_umd_default = /*#__PURE__*/__webpack_require__.n(vue_json_excel_umd);
 
 // EXTERNAL MODULE: ./node_modules/nuxt-video-player/dist/vue-video-player.common.js
-var vue_video_player_common = __webpack_require__(789);
+var vue_video_player_common = __webpack_require__(791);
 var vue_video_player_common_default = /*#__PURE__*/__webpack_require__.n(vue_video_player_common);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/videos.vue?vue&type=script&lang=js&
@@ -8705,7 +8705,7 @@ var VSimpleTable = __webpack_require__(675);
 var VSpacer = __webpack_require__(530);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VTextField/VTextField.js + 3 modules
-var VTextField = __webpack_require__(585);
+var VTextField = __webpack_require__(584);
 
 // CONCATENATED MODULE: ./pages/videos.vue
 
@@ -8732,7 +8732,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var videos = __webpack_exports__["default"] = (component.exports);
 
 /* nuxt-component-imports */
-installComponents_default()(component, {VideosAdd: __webpack_require__(779).default,VideosEdit: __webpack_require__(780).default,VideosDelete: __webpack_require__(781).default})
+installComponents_default()(component, {VideosAdd: __webpack_require__(781).default,VideosEdit: __webpack_require__(782).default,VideosDelete: __webpack_require__(783).default})
 
 
 /* vuetify-loader */

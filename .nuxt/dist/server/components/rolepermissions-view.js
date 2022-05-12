@@ -811,7 +811,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 683:
+/***/ 685:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -982,7 +982,7 @@ installComponents_default()(component, {VBtn: VBtn["a" /* default */],VCard: VCa
 
 /***/ }),
 
-/***/ 684:
+/***/ 686:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1154,7 +1154,7 @@ installComponents_default()(component, {VBtn: VBtn["a" /* default */],VCard: VCa
 
 /***/ }),
 
-/***/ 690:
+/***/ 693:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1312,7 +1312,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var view = __webpack_exports__["default"] = (component.exports);
 
 /* nuxt-component-imports */
-installComponents_default()(component, {RolepermissionsAssign: __webpack_require__(683).default,RolepermissionsUnassign: __webpack_require__(684).default})
+installComponents_default()(component, {RolepermissionsAssign: __webpack_require__(685).default,RolepermissionsUnassign: __webpack_require__(686).default})
 
 
 /* vuetify-loader */

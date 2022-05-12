@@ -31,16 +31,26 @@
                 />
               </v-col>
             </v-row>
-
             <v-row>
               <v-col md="6">
                 <v-text-field
-                  label="Username"
+                  label="Pmi Number"
                   outlined
-                  v-model="form.username"
+                  v-model="form.membershipNumber"
                 />
               </v-col>
               <v-col md="6">
+                <v-file-input
+                  accept=".png,.jpeg,.jpg"
+                  label="Upload Speaker profile picture"
+                  v-model="file"
+                ></v-file-input>
+              </v-col>
+            </v-row>
+
+            <v-row>
+              
+              <v-col lg="12" md="6">
                 <v-text-field
                   label="Email"
                   type="email"
@@ -60,14 +70,15 @@
                   item-text="name"
                   item-value="id"
                 />
-              </v-col>
+              </v-col> 
               <v-col md="6">
-                <v-text-field
-                  label="Physical Addree"
+                <v-textarea
+                  label="Speaker Description"
                   outlined
-                  v-model="form.address"
+                  rows="4"
+                  v-model="form.bio_info"
                 />
-              </v-col>
+              </v-col> 
             </v-row>
 
           
@@ -133,12 +144,16 @@ export default {
       valid: false,
       show1: false,
       show2: false,
+      file:null,
       form: {
         name: "",
         surname: "",
         email: "",
         gender: "",
-        address: "",
+        bio_info: "",
+        membershipNumber: "",
+        password_confirmation: "",
+        password: "",
 
       },
       passwordrules: {
@@ -162,8 +177,19 @@ export default {
         this.overlay = true;
         this.loading=true
         try {
+
+          const formdata = new FormData();
+          formdata.append("name", this.form.name);
+          formdata.append("surname", this.form.surname);
+          formdata.append("email", this.form.email);
+          formdata.append("gender", this.form.gender);
+          formdata.append("bio_info", this.form.bio_info);
+          formdata.append("membershipNumber", this.form.membershipNumber);
+          formdata.append("file", this.file);
+          formdata.append("password", this.form.password);
+
           this.$axios
-            .post("/api/admin/speakers", this.form)
+            .post("/api/admin/speakers", formdata)
             .then((res) => {
                 this.loading = false
               this.$swal("success", res.data.message, "success");

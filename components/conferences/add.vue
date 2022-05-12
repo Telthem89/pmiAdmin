@@ -154,7 +154,7 @@
               </v-col>
             </v-row>
 
-<!-- /./time -->
+
          <v-row>
               <v-col md="6">
                 <v-text-field

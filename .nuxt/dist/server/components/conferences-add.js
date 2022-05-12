@@ -1844,18 +1844,18 @@ module.exports = [
 
 /***/ }),
 
-/***/ 584:
+/***/ 583:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _VTextField__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(585);
+/* harmony import */ var _VTextField__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(584);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (_VTextField__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"]);
 
 /***/ }),
 
-/***/ 585:
+/***/ 584:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3044,7 +3044,7 @@ module.exports = function (key) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _src_components_VChip_VChip_sass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(647);
+/* harmony import */ var _src_components_VChip_VChip_sass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(648);
 /* harmony import */ var _src_components_VChip_VChip_sass__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_src_components_VChip_VChip_sass__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
 /* harmony import */ var _transitions__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(51);
@@ -4594,12 +4594,23 @@ const baseMixins = Object(_util_mixins__WEBPACK_IMPORTED_MODULE_9__[/* default *
 /***/ }),
 
 /***/ 647:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _VChip__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(616);
+
+
+/* harmony default export */ __webpack_exports__["a"] = (_VChip__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"]);
+
+/***/ }),
+
+/***/ 648:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(648);
+var content = __webpack_require__(649);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -4607,7 +4618,7 @@ __webpack_require__(8).default("197fcea4", content, true)
 
 /***/ }),
 
-/***/ 648:
+/***/ 649:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -4618,17 +4629,6 @@ ___CSS_LOADER_EXPORT___.push([module.i, ".v-chip:not(.v-chip--outlined).accent,.
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
-
-/***/ }),
-
-/***/ 649:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _VChip__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(616);
-
-
-/* harmony default export */ __webpack_exports__["a"] = (_VChip__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"]);
 
 /***/ }),
 
@@ -4919,13 +4919,13 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 666:
+/***/ 664:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(667);
+var content = __webpack_require__(665);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -4933,7 +4933,7 @@ __webpack_require__(8).default("83ff91dc", content, true)
 
 /***/ }),
 
-/***/ 667:
+/***/ 665:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -5338,7 +5338,7 @@ const cache = new Map();
 
 /***/ }),
 
-/***/ 673:
+/***/ 674:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5394,7 +5394,7 @@ var VTextField = __webpack_require__(579);
 var VSelect = __webpack_require__(656);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VChip/index.js
-var VChip = __webpack_require__(649);
+var VChip = __webpack_require__(647);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VMenu/index.js
 var VMenu = __webpack_require__(214);
@@ -5816,7 +5816,7 @@ var VList_VList = __webpack_require__(119);
 var VInput = __webpack_require__(580);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VTextField/VTextField.js + 3 modules
-var VTextField_VTextField = __webpack_require__(585);
+var VTextField_VTextField = __webpack_require__(584);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/mixins/comparable/index.js
 var comparable = __webpack_require__(135);
@@ -6678,9 +6678,9 @@ const baseMixins = Object(mixins["a" /* default */])(VTextField_VTextField["a" /
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _src_components_VFileInput_VFileInput_sass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(666);
+/* harmony import */ var _src_components_VFileInput_VFileInput_sass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(664);
 /* harmony import */ var _src_components_VFileInput_VFileInput_sass__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_src_components_VFileInput_VFileInput_sass__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _VTextField__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(584);
+/* harmony import */ var _VTextField__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(583);
 /* harmony import */ var _VChip__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(616);
 /* harmony import */ var _util_helpers__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1);
 /* harmony import */ var _util_console__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(6);
@@ -6957,19 +6957,19 @@ const baseMixins = Object(mixins["a" /* default */])(VTextField_VTextField["a" /
 
 /***/ }),
 
-/***/ 700:
+/***/ 702:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/conferences/add.vue?vue&type=template&id=0c7da3b5&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('v-btn',{attrs:{"depressed":"","color":"primary"},on:{"click":function($event){_vm.addPermModel = true}}},[_vm._v("Add Event"),_c('v-icon',[_vm._v("mdi-calendar")])],1),_vm._ssrNode(" "),_c('v-dialog',{attrs:{"width":"1200"},model:{value:(_vm.addPermModel),callback:function ($$v) {_vm.addPermModel=$$v},expression:"addPermModel"}},[_c('v-form',{ref:"form",attrs:{"lazy-validation":""},model:{value:(_vm.valid),callback:function ($$v) {_vm.valid=$$v},expression:"valid"}},[_c('v-card',[_c('v-card-title',[_vm._v("\n            Add Event\n            "),_c('v-spacer'),_vm._v(" "),_c('v-btn',{attrs:{"icon":""},on:{"click":function($event){_vm.addPermModel = false}}},[_c('v-icon',[_vm._v("mdi-close")])],1)],1),_vm._v(" "),_c('v-card-text',[_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Event Name","outlined":""},model:{value:(_vm.form.eventname),callback:function ($$v) {_vm.$set(_vm.form, "eventname", $$v)},expression:"form.eventname"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Short Description","outlined":""},model:{value:(_vm.form.descriptionshort),callback:function ($$v) {_vm.$set(_vm.form, "descriptionshort", $$v)},expression:"form.descriptionshort"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Learning Outcome","outlined":""},model:{value:(_vm.form.learningoutcome),callback:function ($$v) {_vm.$set(_vm.form, "learningoutcome", $$v)},expression:"form.learningoutcome"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Opening Date","outlined":"","type":"date"},model:{value:(_vm.form.opendate),callback:function ($$v) {_vm.$set(_vm.form, "opendate", $$v)},expression:"form.opendate"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Closing Date","outlined":"","type":"date"},model:{value:(_vm.form.closedate),callback:function ($$v) {_vm.$set(_vm.form, "closedate", $$v)},expression:"form.closedate"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Fee","outlined":""},model:{value:(_vm.form.individual_Price),callback:function ($$v) {_vm.$set(_vm.form, "individual_Price", $$v)},expression:"form.individual_Price"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"objective One","outlined":""},model:{value:(_vm.form.objectiveOne),callback:function ($$v) {_vm.$set(_vm.form, "objectiveOne", $$v)},expression:"form.objectiveOne"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"objective Two [Optional]","outlined":""},model:{value:(_vm.form.objectiveTwo),callback:function ($$v) {_vm.$set(_vm.form, "objectiveTwo", $$v)},expression:"form.objectiveTwo"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"objective Three [Optional]","outlined":""},model:{value:(_vm.form.objectiveThree),callback:function ($$v) {_vm.$set(_vm.form, "objectiveThree", $$v)},expression:"form.objectiveThree"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"objective Four [Optional]","outlined":""},model:{value:(_vm.form.objectiveFour),callback:function ($$v) {_vm.$set(_vm.form, "objectiveFour", $$v)},expression:"form.objectiveFour"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"objective Five [Optional]","outlined":""},model:{value:(_vm.form.objectiveSix),callback:function ($$v) {_vm.$set(_vm.form, "objectiveSix", $$v)},expression:"form.objectiveSix"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"objective Six [Optional]","outlined":""},model:{value:(_vm.form.objectiveSeven),callback:function ($$v) {_vm.$set(_vm.form, "objectiveSeven", $$v)},expression:"form.objectiveSeven"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Location","outlined":""},model:{value:(_vm.form.location),callback:function ($$v) {_vm.$set(_vm.form, "location", $$v)},expression:"form.location"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"webinarid","outlined":""},model:{value:(_vm.form.webinarid),callback:function ($$v) {_vm.$set(_vm.form, "webinarid", $$v)},expression:"form.webinarid"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"webinarurl","outlined":""},model:{value:(_vm.form.webinarurl),callback:function ($$v) {_vm.$set(_vm.form, "webinarurl", $$v)},expression:"form.webinarurl"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-file-input',{attrs:{"accept":".png,.jpeg,.jpg","label":"Upload Feature Image"},model:{value:(_vm.form.file),callback:function ($$v) {_vm.$set(_vm.form, "file", $$v)},expression:"form.file"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Conference Start Time","outlined":"","type":"time"},model:{value:(_vm.form.opentime),callback:function ($$v) {_vm.$set(_vm.form, "opentime", $$v)},expression:"form.opentime"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Conference closing Time","outlined":"","type":"time"},model:{value:(_vm.form.closetime),callback:function ($$v) {_vm.$set(_vm.form, "closetime", $$v)},expression:"form.closetime"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-select',{attrs:{"items":_vm.speakers,"label":"Select Speaker","outlined":"","item-value":"id","item-text":"name"},model:{value:(_vm.form.speakerId),callback:function ($$v) {_vm.$set(_vm.form, "speakerId", $$v)},expression:"form.speakerId"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"outlined":"","type":"color","label":"color (click to open color menu)"},model:{value:(_vm.form.eventcolor),callback:function ($$v) {_vm.$set(_vm.form, "eventcolor", $$v)},expression:"form.eventcolor"}})],1)],1)],1),_vm._v(" "),_c('v-card-actions',[_c('v-btn',{staticClass:"error",on:{"click":function($event){_vm.addPermModel = false}}},[_vm._v("Cancel")]),_vm._v(" "),_c('v-spacer'),_vm._v(" "),_c('v-btn',{staticClass:"success",attrs:{"loading":_vm.loading,"disabled":_vm.loading},on:{"click":_vm.submit}},[_vm._v("Submit")])],1)],1)],1)],1),_vm._ssrNode(" "),_c('v-snackbar',{attrs:{"color":_vm.color,"right":"","top":""},model:{value:(_vm.snackbar),callback:function ($$v) {_vm.snackbar=$$v},expression:"snackbar"}},[_vm._v(_vm._s(_vm.text))])],2)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/conferences/add.vue?vue&type=template&id=2e118a95&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('v-btn',{attrs:{"depressed":"","color":"primary"},on:{"click":function($event){_vm.addPermModel = true}}},[_vm._v("Add Event"),_c('v-icon',[_vm._v("mdi-calendar")])],1),_vm._ssrNode(" "),_c('v-dialog',{attrs:{"width":"1200"},model:{value:(_vm.addPermModel),callback:function ($$v) {_vm.addPermModel=$$v},expression:"addPermModel"}},[_c('v-form',{ref:"form",attrs:{"lazy-validation":""},model:{value:(_vm.valid),callback:function ($$v) {_vm.valid=$$v},expression:"valid"}},[_c('v-card',[_c('v-card-title',[_vm._v("\n          Add Event\n          "),_c('v-spacer'),_vm._v(" "),_c('v-btn',{attrs:{"icon":""},on:{"click":function($event){_vm.addPermModel = false}}},[_c('v-icon',[_vm._v("mdi-close")])],1)],1),_vm._v(" "),_c('v-card-text',[_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Event Name","outlined":""},model:{value:(_vm.form.eventname),callback:function ($$v) {_vm.$set(_vm.form, "eventname", $$v)},expression:"form.eventname"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Short Description","outlined":""},model:{value:(_vm.form.descriptionshort),callback:function ($$v) {_vm.$set(_vm.form, "descriptionshort", $$v)},expression:"form.descriptionshort"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Learning Outcome","outlined":""},model:{value:(_vm.form.learningoutcome),callback:function ($$v) {_vm.$set(_vm.form, "learningoutcome", $$v)},expression:"form.learningoutcome"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Opening Date","outlined":"","type":"date"},model:{value:(_vm.form.opendate),callback:function ($$v) {_vm.$set(_vm.form, "opendate", $$v)},expression:"form.opendate"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Closing Date","outlined":"","type":"date"},model:{value:(_vm.form.closedate),callback:function ($$v) {_vm.$set(_vm.form, "closedate", $$v)},expression:"form.closedate"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Fee","outlined":""},model:{value:(_vm.form.individual_Price),callback:function ($$v) {_vm.$set(_vm.form, "individual_Price", $$v)},expression:"form.individual_Price"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"objective One","outlined":""},model:{value:(_vm.form.objectiveOne),callback:function ($$v) {_vm.$set(_vm.form, "objectiveOne", $$v)},expression:"form.objectiveOne"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"objective Two [Optional]","outlined":""},model:{value:(_vm.form.objectiveTwo),callback:function ($$v) {_vm.$set(_vm.form, "objectiveTwo", $$v)},expression:"form.objectiveTwo"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"objective Three [Optional]","outlined":""},model:{value:(_vm.form.objectiveThree),callback:function ($$v) {_vm.$set(_vm.form, "objectiveThree", $$v)},expression:"form.objectiveThree"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"objective Four [Optional]","outlined":""},model:{value:(_vm.form.objectiveFour),callback:function ($$v) {_vm.$set(_vm.form, "objectiveFour", $$v)},expression:"form.objectiveFour"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"objective Five [Optional]","outlined":""},model:{value:(_vm.form.objectiveSix),callback:function ($$v) {_vm.$set(_vm.form, "objectiveSix", $$v)},expression:"form.objectiveSix"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"objective Six [Optional]","outlined":""},model:{value:(_vm.form.objectiveSeven),callback:function ($$v) {_vm.$set(_vm.form, "objectiveSeven", $$v)},expression:"form.objectiveSeven"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Location","outlined":""},model:{value:(_vm.form.location),callback:function ($$v) {_vm.$set(_vm.form, "location", $$v)},expression:"form.location"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"webinarid","outlined":""},model:{value:(_vm.form.webinarid),callback:function ($$v) {_vm.$set(_vm.form, "webinarid", $$v)},expression:"form.webinarid"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"webinarurl","outlined":""},model:{value:(_vm.form.webinarurl),callback:function ($$v) {_vm.$set(_vm.form, "webinarurl", $$v)},expression:"form.webinarurl"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-file-input',{attrs:{"accept":".png,.jpeg,.jpg","label":"Upload Feature Image"},model:{value:(_vm.form.file),callback:function ($$v) {_vm.$set(_vm.form, "file", $$v)},expression:"form.file"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Conference Start Time","outlined":"","type":"time"},model:{value:(_vm.form.opentime),callback:function ($$v) {_vm.$set(_vm.form, "opentime", $$v)},expression:"form.opentime"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Conference closing Time","outlined":"","type":"time"},model:{value:(_vm.form.closetime),callback:function ($$v) {_vm.$set(_vm.form, "closetime", $$v)},expression:"form.closetime"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-select',{attrs:{"items":_vm.speakers,"label":"Select Speaker","outlined":"","item-value":"id","item-text":"name"},model:{value:(_vm.form.speakerId),callback:function ($$v) {_vm.$set(_vm.form, "speakerId", $$v)},expression:"form.speakerId"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"outlined":"","type":"color","label":"color (click to open color menu)"},model:{value:(_vm.form.eventcolor),callback:function ($$v) {_vm.$set(_vm.form, "eventcolor", $$v)},expression:"form.eventcolor"}})],1)],1)],1),_vm._v(" "),_c('v-card-actions',[_c('v-btn',{staticClass:"error",on:{"click":function($event){_vm.addPermModel = false}}},[_vm._v("Cancel")]),_vm._v(" "),_c('v-spacer'),_vm._v(" "),_c('v-btn',{staticClass:"success",attrs:{"loading":_vm.loading,"disabled":_vm.loading},on:{"click":_vm.submit}},[_vm._v("Submit")])],1)],1)],1)],1),_vm._ssrNode(" "),_c('v-snackbar',{attrs:{"color":_vm.color,"right":"","top":""},model:{value:(_vm.snackbar),callback:function ($$v) {_vm.snackbar=$$v},expression:"snackbar"}},[_vm._v(_vm._s(_vm.text))])],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/conferences/add.vue?vue&type=template&id=0c7da3b5&
+// CONCATENATED MODULE: ./components/conferences/add.vue?vue&type=template&id=2e118a95&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/conferences/add.vue?vue&type=script&lang=js&
 //
@@ -7318,7 +7318,7 @@ var VIcon = __webpack_require__(118);
 var VRow = __webpack_require__(669);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VSelect/VSelect.js + 5 modules
-var VSelect = __webpack_require__(673);
+var VSelect = __webpack_require__(674);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VSnackbar/VSnackbar.js
 var VSnackbar = __webpack_require__(645);
@@ -7327,7 +7327,7 @@ var VSnackbar = __webpack_require__(645);
 var VSpacer = __webpack_require__(530);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VTextField/VTextField.js + 3 modules
-var VTextField = __webpack_require__(585);
+var VTextField = __webpack_require__(584);
 
 // CONCATENATED MODULE: ./components/conferences/add.vue
 

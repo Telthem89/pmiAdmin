@@ -80,10 +80,11 @@ export default {
                
                  
             } catch (err) {
+                
+                this.text=err.response.data.message
                  this.loading = false
                  this.color="error"
                 this.snackbar=true
-                this.text=err.response.data.message
             }
          }
      }

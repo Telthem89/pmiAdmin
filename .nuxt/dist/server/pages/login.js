@@ -1794,7 +1794,7 @@ module.exports = [
 
 /***/ }),
 
-/***/ 585:
+/***/ 584:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4416,12 +4416,12 @@ const cache = new Map();
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/login.vue?vue&type=template&id=0eb75db0&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/login.vue?vue&type=template&id=1affa152&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-container',[_c('v-row',{staticClass:"mt-5 justify-center"},[_c('v-col',{attrs:{"md":"6"}},[_c('div',{staticClass:"d-flex justify-center"},[_c('img',{attrs:{"src":"/logo.png","width":"140"}})]),_vm._v(" "),_c('v-card',{staticClass:"mt-4",staticStyle:{"border":"2px solid purple","padding":"10px!important","border-top-right-radius":"30px!important","border-bottom-left-radius":"30px!important"}},[_c('v-card-text',[_c('v-form',{ref:"form",attrs:{"lazy-validation":""},model:{value:(_vm.valid),callback:function ($$v) {_vm.valid=$$v},expression:"valid"}},[_c('v-text-field',{attrs:{"label":"Username","outlined":"","rules":_vm.usernameRule},model:{value:(_vm.form.username),callback:function ($$v) {_vm.$set(_vm.form, "username", $$v)},expression:"form.username"}}),_vm._v(" "),_c('v-text-field',{attrs:{"append-icon":_vm.show1 ? 'mdi-eye' : 'mdi-eye-off',"rules":[_vm.passwordrules.required, _vm.passwordrules.min],"type":_vm.show1 ? 'text' : 'password',"name":"input-10-1","label":"Password","hint":"At least 8 characters","counter":"","outlined":""},on:{"click:append":function($event){_vm.show1 = !_vm.show1}},model:{value:(_vm.form.password),callback:function ($$v) {_vm.$set(_vm.form, "password", $$v)},expression:"form.password"}}),_vm._v(" "),_c('v-btn',{staticClass:"indigo darken-4 white--text",attrs:{"large":"","depressed":"","block":"","loading":_vm.loading,"disabled":_vm.loading},on:{"click":_vm.submit}},[_vm._v("Sign In")])],1)],1)],1)],1)],1),_vm._v(" "),_c('v-snackbar',{attrs:{"absolute":"","color":_vm.color,"right":"","top":""},model:{value:(_vm.snackbar),callback:function ($$v) {_vm.snackbar=$$v},expression:"snackbar"}},[_vm._v(_vm._s(_vm.text))])],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/login.vue?vue&type=template&id=0eb75db0&
+// CONCATENATED MODULE: ./pages/login.vue?vue&type=template&id=1affa152&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/login.vue?vue&type=script&lang=js&
 //
@@ -4509,10 +4509,10 @@ var staticRenderFns = []
           this.text = "Successfully Logged In.Welcome :" + this.form.username;
           this.$router.push('dashboard');
         } catch (err) {
+          this.text = err.response.data.message;
           this.loading = false;
           this.color = "error";
           this.snackbar = true;
-          this.text = err.response.data.message;
         }
       }
     }
@@ -4553,7 +4553,7 @@ var VRow = __webpack_require__(669);
 var VSnackbar = __webpack_require__(645);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VTextField/VTextField.js + 3 modules
-var VTextField = __webpack_require__(585);
+var VTextField = __webpack_require__(584);
 
 // CONCATENATED MODULE: ./pages/login.vue
 

@@ -33,8 +33,12 @@
                         #
                         </th>
 
+                         <th class="text-left">
+                            Picture
+                         </th>
+
                         <th class="text-left">
-                        Member Token
+                        Member ID
                         </th>
 
                         <th class="text-left">
@@ -45,13 +49,7 @@
                         Surname
                         </th>
 
-                        <th class="text-left">
-                        Phone Number
-                        </th>
-
-                         <th class="text-left">
-                        Address
-                        </th>
+                        
 
                          <th class="text-left">
                         Gender
@@ -72,13 +70,23 @@
                         :key="i"
                         >
                         <td>{{ i+1 }}</td>
+                        <template v-if="per.profile_pic==null">
+                            <td><img src="/avatar.jpg" class="mt-3" width="40px"/> </td>
+                        </template>
+                        <template v-else>
+                            <td><img :src="baseurl+per.profile_pic" class="mt-3" width="40px"/> </td>
+                        </template>   
                         <td>{{ per.membershipNumber }}</td>
                         <td>{{ per.name }}</td>
                         <td> {{ per.surname }}</td>
-                        <td>{{ per.phone==null?"Not set":per.phone  }}</td>
-                        <td>{{ per.address}}</td>
                         <td>{{ per.gender}}</td>
                         <td>{{ per.created_at | formatDate}}</td>
+
+                        <td >
+                         <SpeakersEdit :speaker="per"/></td>
+                         <td >
+                         <SpeakersDelete :speaker="per"/>
+                        </td>
 
                         </tr>
                         </template>
@@ -130,7 +138,13 @@ async fetch(){
             return data.filter(dt=>(!dt.name.toUpperCase().indexOf(this.search.toUpperCase())))
         }
       return data
-     }
+     },
+
+     baseurl(){
+     return this.$axios.defaults.baseURL+"/"
+  },
+
+
 },methods:{
 
 }

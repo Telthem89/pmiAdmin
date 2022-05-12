@@ -1855,7 +1855,7 @@ module.exports = [
 
 /***/ }),
 
-/***/ 585:
+/***/ 584:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3044,7 +3044,7 @@ module.exports = function (key) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _src_components_VChip_VChip_sass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(647);
+/* harmony import */ var _src_components_VChip_VChip_sass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(648);
 /* harmony import */ var _src_components_VChip_VChip_sass__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_src_components_VChip_VChip_sass__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
 /* harmony import */ var _transitions__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(51);
@@ -4594,12 +4594,23 @@ const baseMixins = Object(_util_mixins__WEBPACK_IMPORTED_MODULE_9__[/* default *
 /***/ }),
 
 /***/ 647:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _VChip__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(616);
+
+
+/* harmony default export */ __webpack_exports__["a"] = (_VChip__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"]);
+
+/***/ }),
+
+/***/ 648:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(648);
+var content = __webpack_require__(649);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -4607,7 +4618,7 @@ __webpack_require__(8).default("197fcea4", content, true)
 
 /***/ }),
 
-/***/ 648:
+/***/ 649:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -4618,17 +4629,6 @@ ___CSS_LOADER_EXPORT___.push([module.i, ".v-chip:not(.v-chip--outlined).accent,.
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
-
-/***/ }),
-
-/***/ 649:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _VChip__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(616);
-
-
-/* harmony default export */ __webpack_exports__["a"] = (_VChip__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"]);
 
 /***/ }),
 
@@ -4947,13 +4947,13 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 664:
+/***/ 666:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(665);
+var content = __webpack_require__(667);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -4961,7 +4961,7 @@ __webpack_require__(8).default("5db1c400", content, true)
 
 /***/ }),
 
-/***/ 665:
+/***/ 667:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -5366,7 +5366,7 @@ const cache = new Map();
 
 /***/ }),
 
-/***/ 673:
+/***/ 674:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5422,7 +5422,7 @@ var VTextField = __webpack_require__(579);
 var VSelect = __webpack_require__(656);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VChip/index.js
-var VChip = __webpack_require__(649);
+var VChip = __webpack_require__(647);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VMenu/index.js
 var VMenu = __webpack_require__(214);
@@ -5844,7 +5844,7 @@ var VList_VList = __webpack_require__(119);
 var VInput = __webpack_require__(580);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VTextField/VTextField.js + 3 modules
-var VTextField_VTextField = __webpack_require__(585);
+var VTextField_VTextField = __webpack_require__(584);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/mixins/comparable/index.js
 var comparable = __webpack_require__(135);
@@ -7430,7 +7430,7 @@ const baseMixins = Object(mixins["a" /* default */])(VTextField_VTextField["a" /
 "use strict";
 
 // EXTERNAL MODULE: ./node_modules/vuetify/src/components/VAlert/VAlert.sass
-var VAlert = __webpack_require__(664);
+var VAlert = __webpack_require__(666);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VSheet/index.js
 var VSheet = __webpack_require__(44);
@@ -7962,7 +7962,7 @@ var VIcon = __webpack_require__(118);
 var VRow = __webpack_require__(669);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VSelect/VSelect.js + 5 modules
-var VSelect = __webpack_require__(673);
+var VSelect = __webpack_require__(674);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VSnackbar/VSnackbar.js
 var VSnackbar = __webpack_require__(645);
@@ -7971,7 +7971,7 @@ var VSnackbar = __webpack_require__(645);
 var VSpacer = __webpack_require__(530);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VTextField/VTextField.js + 3 modules
-var VTextField = __webpack_require__(585);
+var VTextField = __webpack_require__(584);
 
 // CONCATENATED MODULE: ./components/customers/edit.vue
 
@@ -8201,18 +8201,20 @@ installComponents_default()(component, {VAlert: VAlert["a" /* default */],VBtn: 
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/customers.vue?vue&type=template&id=25604220&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-container',[_c('v-row',[_c('v-col',[_c('v-card',[_c('v-card-text',{staticClass:"d-flex"},[_c('v-btn',{attrs:{"text":"","to":"dashboard"}},[_vm._v("Dashboard")]),_vm._v(" "),_c('v-btn',{attrs:{"text":"","disabled":""}},[_vm._v("Customers")])],1)],1)],1)],1),_vm._v(" "),_c('v-row',{staticClass:"mt-5"},[_c('v-col',[_c('v-card',[_c('v-card-title',[_vm._v("\n          Customers\n          "),_c('v-spacer')],1),_vm._v(" "),_c('v-card-text',[_c('v-row',[_c('v-col',{attrs:{"lg":"8","md":"8"}},[_c('v-row',[_c('v-col',{attrs:{"md":"8"}},[_c('downloadexcel',{attrs:{"data":_vm.customerToexported}},[_c('v-btn',{staticClass:"error",attrs:{"depressed":""}},[_vm._v("Export Excel file")])],1)],1),_vm._v(" "),_c('v-col',{attrs:{"md":"4"}},[_c('v-btn',{staticClass:" mr-12",attrs:{"depressed":"","color":"green"}},[_c('a',{staticClass:"white--text",staticStyle:{"color":"white","text-decoration":"none"},attrs:{"href":"/customers.xlsx"}},[_vm._v("Download Excel"),_c('v-icon',[_vm._v("mdi-microsoft-excel")])],1)])],1)],1)],1),_vm._v(" "),_c('v-col',{attrs:{"lg":"4","md":"4"}},[_c('v-text-field',{attrs:{"outlined":"","width":"80","label":"Search Customer..."},model:{value:(_vm.search),callback:function ($$v) {_vm.search=$$v},expression:"search"}})],1)],1),_vm._v(" "),_c('v-simple-table',{attrs:{"dense":""},scopedSlots:_vm._u([{key:"default",fn:function(){return [_c('thead',[_c('tr',[_c('th',{staticClass:"text-left"},[_vm._v("Number")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("Name")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("Surname")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("Phone")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("Gender")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("Job Title")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("Sector")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("Company")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("Province")])])]),_vm._v(" "),_c('tbody',[(_vm.customers.length > 0)?_vm._l((_vm.customers),function(per,i){return _c('tr',{key:i},[_c('td',[_vm._v(_vm._s(per.pmi_number == null ? "NON-MEMBER" : per.pmi_number))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(per.name))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(per.surname))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(per.phone == null ? "UNKNOWN" : per.phone))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(per.gender))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(per.job_title == null ? "UNKNOWN" : per.job_title))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(per.industrial_sector == null ? "NOT SPECIFIED" : per.industrial_sector))]),_vm._v(" "),_c('td',[_vm._v("\n                      "+_vm._s(per.company_name == null ? "UNKNOWN" : per.company_name)+"\n                    ")]),_vm._v(" "),_c('td',[_vm._v(_vm._s(per.province))]),_vm._v(" "),_c('td',{staticClass:"d-flex justify-end pt-2 pb-2"},[_c('CustomersEdit',{attrs:{"cust":per}}),_vm._v(" "),_c('CustomersDelete',{attrs:{"cust":per}})],1)])}):[_c('tr',[_c('td',{staticClass:"text-center red--text",attrs:{"colspan":"9"}},[_vm._v("\n                      No Customers yet\n                    ")])])]],2)]},proxy:true}])})],1)],1)],1)],1),_vm._v(" "),_c('v-overlay',{attrs:{"value":_vm.overlay}},[_c('v-progress-circular',{attrs:{"indeterminate":"","size":"64"}})],1)],1)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/customers.vue?vue&type=template&id=0433120a&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-container',[_c('v-row',[_c('v-col',[_c('v-card',[_c('v-card-text',{staticClass:"d-flex"},[_c('v-btn',{attrs:{"text":"","to":"dashboard"}},[_vm._v("Dashboard")]),_vm._v(" "),_c('v-btn',{attrs:{"text":"","disabled":""}},[_vm._v("Customers")])],1)],1)],1)],1),_vm._v(" "),_c('v-row',{staticClass:"mt-5"},[_c('v-col',[_c('v-card',[_c('v-card-title',[_vm._v("\n          Customers\n          "),_c('v-spacer')],1),_vm._v(" "),_c('v-card-text',[_c('v-row',[_c('v-col',{attrs:{"lg":"8","md":"8"}},[_c('v-row',[_c('v-col',{attrs:{"md":"8"}},[_c('downloadexcel',{attrs:{"data":_vm.customerToexported}},[_c('v-btn',{staticClass:"error",attrs:{"depressed":""}},[_vm._v("Export Excel file")])],1)],1),_vm._v(" "),_c('v-col',{attrs:{"md":"4"}},[_c('v-btn',{staticClass:" mr-12",attrs:{"depressed":"","color":"green"}},[_c('a',{staticClass:"white--text",staticStyle:{"color":"white","text-decoration":"none"},attrs:{"href":"/customers.xlsx"}},[_vm._v("Download Excel"),_c('v-icon',[_vm._v("mdi-microsoft-excel")])],1)])],1)],1)],1),_vm._v(" "),_c('v-col',{attrs:{"lg":"4","md":"4"}},[_c('v-text-field',{attrs:{"outlined":"","width":"80","label":"Search Customer..."},model:{value:(_vm.search),callback:function ($$v) {_vm.search=$$v},expression:"search"}})],1)],1),_vm._v(" "),_c('v-simple-table',{attrs:{"dense":""},scopedSlots:_vm._u([{key:"default",fn:function(){return [_c('thead',[_c('tr',[_c('th',{staticClass:"text-left"},[_vm._v("Number")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("Name")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("Surname")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("Phone")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("Gender")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("Job Title")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("Sector")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("Company")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("Province")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("Edit")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("Remove")])])]),_vm._v(" "),_c('tbody',[(_vm.customers.length > 0)?_vm._l((_vm.customers),function(per,i){return _c('tr',{key:i},[_c('td',[_vm._v(_vm._s(per.pmi_number == null ? "NON-MEMBER" : per.pmi_number))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(per.name))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(per.surname))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(per.phone == null ? "UNKNOWN" : per.phone))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(per.gender))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(per.job_title == null ? "UNKNOWN" : per.job_title))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(per.industrial_sector == null ? "NOT SPECIFIED" : per.industrial_sector))]),_vm._v(" "),_c('td',[_vm._v("\n                      "+_vm._s(per.company_name == null ? "UNKNOWN" : per.company_name)+"\n                    ")]),_vm._v(" "),_c('td',[_vm._v(_vm._s(per.province))]),_vm._v(" "),_c('td',[_c('CustomersEdit',{attrs:{"cust":per}})],1),_vm._v(" "),_c('td',[_c('CustomersDelete',{attrs:{"cust":per}})],1)])}):[_c('tr',[_c('td',{staticClass:"text-center red--text",attrs:{"colspan":"9"}},[_vm._v("\n                      No Customers yet\n                    ")])])]],2)]},proxy:true}])})],1)],1)],1)],1),_vm._v(" "),_c('v-overlay',{attrs:{"value":_vm.overlay}},[_c('v-progress-circular',{attrs:{"indeterminate":"","size":"64"}})],1)],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/customers.vue?vue&type=template&id=25604220&
+// CONCATENATED MODULE: ./pages/customers.vue?vue&type=template&id=0433120a&
 
 // EXTERNAL MODULE: ./node_modules/vue-json-excel/dist/vue-json-excel.umd.js
 var vue_json_excel_umd = __webpack_require__(676);
 var vue_json_excel_umd_default = /*#__PURE__*/__webpack_require__.n(vue_json_excel_umd);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/customers.vue?vue&type=script&lang=js&
+//
+//
 //
 //
 //
@@ -8418,7 +8420,7 @@ var VSimpleTable = __webpack_require__(675);
 var VSpacer = __webpack_require__(530);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VTextField/VTextField.js + 3 modules
-var VTextField = __webpack_require__(585);
+var VTextField = __webpack_require__(584);
 
 // CONCATENATED MODULE: ./pages/customers.vue
 

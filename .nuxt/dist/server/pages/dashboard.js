@@ -1855,18 +1855,18 @@ module.exports = [
 
 /***/ }),
 
-/***/ 584:
+/***/ 583:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _VTextField__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(585);
+/* harmony import */ var _VTextField__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(584);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (_VTextField__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"]);
 
 /***/ }),
 
-/***/ 585:
+/***/ 584:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3055,7 +3055,7 @@ module.exports = function (key) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _src_components_VChip_VChip_sass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(647);
+/* harmony import */ var _src_components_VChip_VChip_sass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(648);
 /* harmony import */ var _src_components_VChip_VChip_sass__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_src_components_VChip_VChip_sass__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
 /* harmony import */ var _transitions__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(51);
@@ -4605,12 +4605,23 @@ const baseMixins = Object(_util_mixins__WEBPACK_IMPORTED_MODULE_9__[/* default *
 /***/ }),
 
 /***/ 647:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _VChip__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(616);
+
+
+/* harmony default export */ __webpack_exports__["a"] = (_VChip__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"]);
+
+/***/ }),
+
+/***/ 648:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(648);
+var content = __webpack_require__(649);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -4618,7 +4629,7 @@ __webpack_require__(8).default("197fcea4", content, true)
 
 /***/ }),
 
-/***/ 648:
+/***/ 649:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -4629,17 +4640,6 @@ ___CSS_LOADER_EXPORT___.push([module.i, ".v-chip:not(.v-chip--outlined).accent,.
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
-
-/***/ }),
-
-/***/ 649:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _VChip__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(616);
-
-
-/* harmony default export */ __webpack_exports__["a"] = (_VChip__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"]);
 
 /***/ }),
 
@@ -4930,13 +4930,13 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 666:
+/***/ 664:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(667);
+var content = __webpack_require__(665);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -4944,7 +4944,7 @@ __webpack_require__(8).default("83ff91dc", content, true)
 
 /***/ }),
 
-/***/ 667:
+/***/ 665:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -5349,7 +5349,7 @@ const cache = new Map();
 
 /***/ }),
 
-/***/ 673:
+/***/ 674:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5405,7 +5405,7 @@ var VTextField = __webpack_require__(579);
 var VSelect = __webpack_require__(656);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VChip/index.js
-var VChip = __webpack_require__(649);
+var VChip = __webpack_require__(647);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VMenu/index.js
 var VMenu = __webpack_require__(214);
@@ -5827,7 +5827,7 @@ var VList_VList = __webpack_require__(119);
 var VInput = __webpack_require__(580);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VTextField/VTextField.js + 3 modules
-var VTextField_VTextField = __webpack_require__(585);
+var VTextField_VTextField = __webpack_require__(584);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/mixins/comparable/index.js
 var comparable = __webpack_require__(135);
@@ -6689,9 +6689,9 @@ const baseMixins = Object(mixins["a" /* default */])(VTextField_VTextField["a" /
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _src_components_VFileInput_VFileInput_sass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(666);
+/* harmony import */ var _src_components_VFileInput_VFileInput_sass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(664);
 /* harmony import */ var _src_components_VFileInput_VFileInput_sass__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_src_components_VFileInput_VFileInput_sass__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _VTextField__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(584);
+/* harmony import */ var _VTextField__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(583);
 /* harmony import */ var _VChip__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(616);
 /* harmony import */ var _util_helpers__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1);
 /* harmony import */ var _util_console__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(6);
@@ -6968,19 +6968,19 @@ const baseMixins = Object(mixins["a" /* default */])(VTextField_VTextField["a" /
 
 /***/ }),
 
-/***/ 700:
+/***/ 702:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/conferences/add.vue?vue&type=template&id=0c7da3b5&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('v-btn',{attrs:{"depressed":"","color":"primary"},on:{"click":function($event){_vm.addPermModel = true}}},[_vm._v("Add Event"),_c('v-icon',[_vm._v("mdi-calendar")])],1),_vm._ssrNode(" "),_c('v-dialog',{attrs:{"width":"1200"},model:{value:(_vm.addPermModel),callback:function ($$v) {_vm.addPermModel=$$v},expression:"addPermModel"}},[_c('v-form',{ref:"form",attrs:{"lazy-validation":""},model:{value:(_vm.valid),callback:function ($$v) {_vm.valid=$$v},expression:"valid"}},[_c('v-card',[_c('v-card-title',[_vm._v("\n            Add Event\n            "),_c('v-spacer'),_vm._v(" "),_c('v-btn',{attrs:{"icon":""},on:{"click":function($event){_vm.addPermModel = false}}},[_c('v-icon',[_vm._v("mdi-close")])],1)],1),_vm._v(" "),_c('v-card-text',[_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Event Name","outlined":""},model:{value:(_vm.form.eventname),callback:function ($$v) {_vm.$set(_vm.form, "eventname", $$v)},expression:"form.eventname"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Short Description","outlined":""},model:{value:(_vm.form.descriptionshort),callback:function ($$v) {_vm.$set(_vm.form, "descriptionshort", $$v)},expression:"form.descriptionshort"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Learning Outcome","outlined":""},model:{value:(_vm.form.learningoutcome),callback:function ($$v) {_vm.$set(_vm.form, "learningoutcome", $$v)},expression:"form.learningoutcome"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Opening Date","outlined":"","type":"date"},model:{value:(_vm.form.opendate),callback:function ($$v) {_vm.$set(_vm.form, "opendate", $$v)},expression:"form.opendate"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Closing Date","outlined":"","type":"date"},model:{value:(_vm.form.closedate),callback:function ($$v) {_vm.$set(_vm.form, "closedate", $$v)},expression:"form.closedate"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Fee","outlined":""},model:{value:(_vm.form.individual_Price),callback:function ($$v) {_vm.$set(_vm.form, "individual_Price", $$v)},expression:"form.individual_Price"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"objective One","outlined":""},model:{value:(_vm.form.objectiveOne),callback:function ($$v) {_vm.$set(_vm.form, "objectiveOne", $$v)},expression:"form.objectiveOne"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"objective Two [Optional]","outlined":""},model:{value:(_vm.form.objectiveTwo),callback:function ($$v) {_vm.$set(_vm.form, "objectiveTwo", $$v)},expression:"form.objectiveTwo"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"objective Three [Optional]","outlined":""},model:{value:(_vm.form.objectiveThree),callback:function ($$v) {_vm.$set(_vm.form, "objectiveThree", $$v)},expression:"form.objectiveThree"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"objective Four [Optional]","outlined":""},model:{value:(_vm.form.objectiveFour),callback:function ($$v) {_vm.$set(_vm.form, "objectiveFour", $$v)},expression:"form.objectiveFour"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"objective Five [Optional]","outlined":""},model:{value:(_vm.form.objectiveSix),callback:function ($$v) {_vm.$set(_vm.form, "objectiveSix", $$v)},expression:"form.objectiveSix"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"objective Six [Optional]","outlined":""},model:{value:(_vm.form.objectiveSeven),callback:function ($$v) {_vm.$set(_vm.form, "objectiveSeven", $$v)},expression:"form.objectiveSeven"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Location","outlined":""},model:{value:(_vm.form.location),callback:function ($$v) {_vm.$set(_vm.form, "location", $$v)},expression:"form.location"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"webinarid","outlined":""},model:{value:(_vm.form.webinarid),callback:function ($$v) {_vm.$set(_vm.form, "webinarid", $$v)},expression:"form.webinarid"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"webinarurl","outlined":""},model:{value:(_vm.form.webinarurl),callback:function ($$v) {_vm.$set(_vm.form, "webinarurl", $$v)},expression:"form.webinarurl"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-file-input',{attrs:{"accept":".png,.jpeg,.jpg","label":"Upload Feature Image"},model:{value:(_vm.form.file),callback:function ($$v) {_vm.$set(_vm.form, "file", $$v)},expression:"form.file"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Conference Start Time","outlined":"","type":"time"},model:{value:(_vm.form.opentime),callback:function ($$v) {_vm.$set(_vm.form, "opentime", $$v)},expression:"form.opentime"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Conference closing Time","outlined":"","type":"time"},model:{value:(_vm.form.closetime),callback:function ($$v) {_vm.$set(_vm.form, "closetime", $$v)},expression:"form.closetime"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-select',{attrs:{"items":_vm.speakers,"label":"Select Speaker","outlined":"","item-value":"id","item-text":"name"},model:{value:(_vm.form.speakerId),callback:function ($$v) {_vm.$set(_vm.form, "speakerId", $$v)},expression:"form.speakerId"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"outlined":"","type":"color","label":"color (click to open color menu)"},model:{value:(_vm.form.eventcolor),callback:function ($$v) {_vm.$set(_vm.form, "eventcolor", $$v)},expression:"form.eventcolor"}})],1)],1)],1),_vm._v(" "),_c('v-card-actions',[_c('v-btn',{staticClass:"error",on:{"click":function($event){_vm.addPermModel = false}}},[_vm._v("Cancel")]),_vm._v(" "),_c('v-spacer'),_vm._v(" "),_c('v-btn',{staticClass:"success",attrs:{"loading":_vm.loading,"disabled":_vm.loading},on:{"click":_vm.submit}},[_vm._v("Submit")])],1)],1)],1)],1),_vm._ssrNode(" "),_c('v-snackbar',{attrs:{"color":_vm.color,"right":"","top":""},model:{value:(_vm.snackbar),callback:function ($$v) {_vm.snackbar=$$v},expression:"snackbar"}},[_vm._v(_vm._s(_vm.text))])],2)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/conferences/add.vue?vue&type=template&id=2e118a95&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('v-btn',{attrs:{"depressed":"","color":"primary"},on:{"click":function($event){_vm.addPermModel = true}}},[_vm._v("Add Event"),_c('v-icon',[_vm._v("mdi-calendar")])],1),_vm._ssrNode(" "),_c('v-dialog',{attrs:{"width":"1200"},model:{value:(_vm.addPermModel),callback:function ($$v) {_vm.addPermModel=$$v},expression:"addPermModel"}},[_c('v-form',{ref:"form",attrs:{"lazy-validation":""},model:{value:(_vm.valid),callback:function ($$v) {_vm.valid=$$v},expression:"valid"}},[_c('v-card',[_c('v-card-title',[_vm._v("\n          Add Event\n          "),_c('v-spacer'),_vm._v(" "),_c('v-btn',{attrs:{"icon":""},on:{"click":function($event){_vm.addPermModel = false}}},[_c('v-icon',[_vm._v("mdi-close")])],1)],1),_vm._v(" "),_c('v-card-text',[_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Event Name","outlined":""},model:{value:(_vm.form.eventname),callback:function ($$v) {_vm.$set(_vm.form, "eventname", $$v)},expression:"form.eventname"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Short Description","outlined":""},model:{value:(_vm.form.descriptionshort),callback:function ($$v) {_vm.$set(_vm.form, "descriptionshort", $$v)},expression:"form.descriptionshort"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Learning Outcome","outlined":""},model:{value:(_vm.form.learningoutcome),callback:function ($$v) {_vm.$set(_vm.form, "learningoutcome", $$v)},expression:"form.learningoutcome"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Opening Date","outlined":"","type":"date"},model:{value:(_vm.form.opendate),callback:function ($$v) {_vm.$set(_vm.form, "opendate", $$v)},expression:"form.opendate"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Closing Date","outlined":"","type":"date"},model:{value:(_vm.form.closedate),callback:function ($$v) {_vm.$set(_vm.form, "closedate", $$v)},expression:"form.closedate"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Fee","outlined":""},model:{value:(_vm.form.individual_Price),callback:function ($$v) {_vm.$set(_vm.form, "individual_Price", $$v)},expression:"form.individual_Price"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"objective One","outlined":""},model:{value:(_vm.form.objectiveOne),callback:function ($$v) {_vm.$set(_vm.form, "objectiveOne", $$v)},expression:"form.objectiveOne"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"objective Two [Optional]","outlined":""},model:{value:(_vm.form.objectiveTwo),callback:function ($$v) {_vm.$set(_vm.form, "objectiveTwo", $$v)},expression:"form.objectiveTwo"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"objective Three [Optional]","outlined":""},model:{value:(_vm.form.objectiveThree),callback:function ($$v) {_vm.$set(_vm.form, "objectiveThree", $$v)},expression:"form.objectiveThree"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"objective Four [Optional]","outlined":""},model:{value:(_vm.form.objectiveFour),callback:function ($$v) {_vm.$set(_vm.form, "objectiveFour", $$v)},expression:"form.objectiveFour"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"objective Five [Optional]","outlined":""},model:{value:(_vm.form.objectiveSix),callback:function ($$v) {_vm.$set(_vm.form, "objectiveSix", $$v)},expression:"form.objectiveSix"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"objective Six [Optional]","outlined":""},model:{value:(_vm.form.objectiveSeven),callback:function ($$v) {_vm.$set(_vm.form, "objectiveSeven", $$v)},expression:"form.objectiveSeven"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Location","outlined":""},model:{value:(_vm.form.location),callback:function ($$v) {_vm.$set(_vm.form, "location", $$v)},expression:"form.location"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"webinarid","outlined":""},model:{value:(_vm.form.webinarid),callback:function ($$v) {_vm.$set(_vm.form, "webinarid", $$v)},expression:"form.webinarid"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"webinarurl","outlined":""},model:{value:(_vm.form.webinarurl),callback:function ($$v) {_vm.$set(_vm.form, "webinarurl", $$v)},expression:"form.webinarurl"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-file-input',{attrs:{"accept":".png,.jpeg,.jpg","label":"Upload Feature Image"},model:{value:(_vm.form.file),callback:function ($$v) {_vm.$set(_vm.form, "file", $$v)},expression:"form.file"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Conference Start Time","outlined":"","type":"time"},model:{value:(_vm.form.opentime),callback:function ($$v) {_vm.$set(_vm.form, "opentime", $$v)},expression:"form.opentime"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"label":"Conference closing Time","outlined":"","type":"time"},model:{value:(_vm.form.closetime),callback:function ($$v) {_vm.$set(_vm.form, "closetime", $$v)},expression:"form.closetime"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"md":"6"}},[_c('v-select',{attrs:{"items":_vm.speakers,"label":"Select Speaker","outlined":"","item-value":"id","item-text":"name"},model:{value:(_vm.form.speakerId),callback:function ($$v) {_vm.$set(_vm.form, "speakerId", $$v)},expression:"form.speakerId"}})],1),_vm._v(" "),_c('v-col',{attrs:{"md":"6"}},[_c('v-text-field',{attrs:{"outlined":"","type":"color","label":"color (click to open color menu)"},model:{value:(_vm.form.eventcolor),callback:function ($$v) {_vm.$set(_vm.form, "eventcolor", $$v)},expression:"form.eventcolor"}})],1)],1)],1),_vm._v(" "),_c('v-card-actions',[_c('v-btn',{staticClass:"error",on:{"click":function($event){_vm.addPermModel = false}}},[_vm._v("Cancel")]),_vm._v(" "),_c('v-spacer'),_vm._v(" "),_c('v-btn',{staticClass:"success",attrs:{"loading":_vm.loading,"disabled":_vm.loading},on:{"click":_vm.submit}},[_vm._v("Submit")])],1)],1)],1)],1),_vm._ssrNode(" "),_c('v-snackbar',{attrs:{"color":_vm.color,"right":"","top":""},model:{value:(_vm.snackbar),callback:function ($$v) {_vm.snackbar=$$v},expression:"snackbar"}},[_vm._v(_vm._s(_vm.text))])],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/conferences/add.vue?vue&type=template&id=0c7da3b5&
+// CONCATENATED MODULE: ./components/conferences/add.vue?vue&type=template&id=2e118a95&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/conferences/add.vue?vue&type=script&lang=js&
 //
@@ -7329,7 +7329,7 @@ var VIcon = __webpack_require__(118);
 var VRow = __webpack_require__(669);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VSelect/VSelect.js + 5 modules
-var VSelect = __webpack_require__(673);
+var VSelect = __webpack_require__(674);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VSnackbar/VSnackbar.js
 var VSnackbar = __webpack_require__(645);
@@ -7338,7 +7338,7 @@ var VSnackbar = __webpack_require__(645);
 var VSpacer = __webpack_require__(530);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VTextField/VTextField.js + 3 modules
-var VTextField = __webpack_require__(585);
+var VTextField = __webpack_require__(584);
 
 // CONCATENATED MODULE: ./components/conferences/add.vue
 
@@ -7386,13 +7386,13 @@ installComponents_default()(component, {VBtn: VBtn["a" /* default */],VCard: VCa
 
 /***/ }),
 
-/***/ 734:
+/***/ 735:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(784);
+var content = __webpack_require__(786);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -7400,13 +7400,13 @@ __webpack_require__(8).default("37cc6ed2", content, true)
 
 /***/ }),
 
-/***/ 782:
+/***/ 784:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(783);
+var content = __webpack_require__(785);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -7414,7 +7414,7 @@ __webpack_require__(8).default("0769cd4a", content, true)
 
 /***/ }),
 
-/***/ 783:
+/***/ 785:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -7428,34 +7428,6 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 784:
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(7);
-var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-___CSS_LOADER_EXPORT___.push([module.i, ".theme--light.v-calendar-weekly{background-color:#fff;border-top:1px solid #e0e0e0;border-left:1px solid #e0e0e0}.theme--light.v-calendar-weekly .v-calendar-weekly__head-weekday{border-right:1px solid #e0e0e0;color:#000}.theme--light.v-calendar-weekly .v-calendar-weekly__head-weekday.v-past{color:rgba(0,0,0,.38)}.theme--light.v-calendar-weekly .v-calendar-weekly__head-weekday.v-outside{background-color:#f7f7f7}.theme--light.v-calendar-weekly .v-calendar-weekly__head-weeknumber{background-color:#f1f3f4;border-right:1px solid #e0e0e0}.theme--light.v-calendar-weekly .v-calendar-weekly__day{border-right:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;color:#000}.theme--light.v-calendar-weekly .v-calendar-weekly__day.v-outside{background-color:#f7f7f7}.theme--light.v-calendar-weekly .v-calendar-weekly__weeknumber{background-color:#f1f3f4;border-right:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;color:#000}.theme--dark.v-calendar-weekly{background-color:#303030;border-top:1px solid #9e9e9e;border-left:1px solid #9e9e9e}.theme--dark.v-calendar-weekly .v-calendar-weekly__head-weekday{border-right:1px solid #9e9e9e;color:#fff}.theme--dark.v-calendar-weekly .v-calendar-weekly__head-weekday.v-past{color:hsla(0,0%,100%,.5)}.theme--dark.v-calendar-weekly .v-calendar-weekly__head-weekday.v-outside{background-color:#202020}.theme--dark.v-calendar-weekly .v-calendar-weekly__head-weeknumber{background-color:#202020;border-right:1px solid #9e9e9e}.theme--dark.v-calendar-weekly .v-calendar-weekly__day{border-right:1px solid #9e9e9e;border-bottom:1px solid #9e9e9e;color:#fff}.theme--dark.v-calendar-weekly .v-calendar-weekly__day.v-outside{background-color:#202020}.theme--dark.v-calendar-weekly .v-calendar-weekly__weeknumber{background-color:#202020;border-right:1px solid #9e9e9e;border-bottom:1px solid #9e9e9e;color:#fff}.v-calendar-weekly{width:100%;height:100%;display:flex;flex-direction:column;min-height:0}.v-calendar-weekly__head{display:flex}.v-calendar-weekly__head,.v-calendar-weekly__head-weekday{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.v-calendar-weekly__head-weekday{flex:1 0 20px;padding:0 4px;font-size:11px;overflow:hidden;text-align:center;text-overflow:ellipsis;text-transform:uppercase;white-space:nowrap}.v-calendar-weekly__head-weeknumber{position:relative;flex:0 0 24px}.v-calendar-weekly__week{display:flex;flex:1;height:unset;min-height:0}.v-calendar-weekly__weeknumber{display:flex;flex:0 0 24px;height:unset;min-height:0;padding-top:14.5px;text-align:center}.v-calendar-weekly__weeknumber>small{width:100%!important}.v-calendar-weekly__day{flex:1;width:0;overflow:hidden;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;position:relative;padding:0;min-width:0}.v-calendar-weekly__day.v-present .v-calendar-weekly__day-month{color:currentColor}.v-calendar-weekly__day-label{text-decoration:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:pointer;box-shadow:none;text-align:center;margin:4px 0 0}.v-calendar-weekly__day-label .v-btn{font-size:12px;text-transform:none}.v-calendar-weekly__day-month{position:absolute;text-decoration:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;box-shadow:none;top:0;left:36px;height:32px;line-height:32px}", ""]);
-// Exports
-module.exports = ___CSS_LOADER_EXPORT___;
-
-
-/***/ }),
-
-/***/ 785:
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(786);
-if(content.__esModule) content = content.default;
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-__webpack_require__(8).default("1ffbeeca", content, true)
-
-/***/ }),
-
 /***/ 786:
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7463,7 +7435,7 @@ __webpack_require__(8).default("1ffbeeca", content, true)
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(7);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".theme--light.v-calendar-daily{background-color:#fff;border-left:1px solid #e0e0e0;border-top:1px solid #e0e0e0}.theme--light.v-calendar-daily .v-calendar-daily__intervals-head{border-right:1px solid #e0e0e0}.theme--light.v-calendar-daily .v-calendar-daily__intervals-head:after{background:#e0e0e0;background:linear-gradient(90deg,transparent,#e0e0e0)}.theme--light.v-calendar-daily .v-calendar-daily_head-day{border-right:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;color:#000}.theme--light.v-calendar-daily .v-calendar-daily_head-day.v-past .v-calendar-daily_head-day-label,.theme--light.v-calendar-daily .v-calendar-daily_head-day.v-past .v-calendar-daily_head-weekday{color:rgba(0,0,0,.38)}.theme--light.v-calendar-daily .v-calendar-daily__intervals-body{border-right:1px solid #e0e0e0}.theme--light.v-calendar-daily .v-calendar-daily__intervals-body .v-calendar-daily__interval-text{color:#424242}.theme--light.v-calendar-daily .v-calendar-daily__day{border-right:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0}.theme--light.v-calendar-daily .v-calendar-daily__day-interval{border-top:1px solid #e0e0e0}.theme--light.v-calendar-daily .v-calendar-daily__day-interval:first-child{border-top:none!important}.theme--light.v-calendar-daily .v-calendar-daily__interval:after{border-top:1px solid #e0e0e0}.theme--dark.v-calendar-daily{background-color:#303030;border-left:1px solid #9e9e9e;border-top:1px solid #9e9e9e}.theme--dark.v-calendar-daily .v-calendar-daily__intervals-head{border-right:1px solid #9e9e9e}.theme--dark.v-calendar-daily .v-calendar-daily__intervals-head:after{background:#9e9e9e;background:linear-gradient(90deg,transparent,#9e9e9e)}.theme--dark.v-calendar-daily .v-calendar-daily_head-day{border-right:1px solid #9e9e9e;border-bottom:1px solid #9e9e9e;color:#fff}.theme--dark.v-calendar-daily .v-calendar-daily_head-day.v-past .v-calendar-daily_head-day-label,.theme--dark.v-calendar-daily .v-calendar-daily_head-day.v-past .v-calendar-daily_head-weekday{color:hsla(0,0%,100%,.5)}.theme--dark.v-calendar-daily .v-calendar-daily__intervals-body{border-right:1px solid #9e9e9e}.theme--dark.v-calendar-daily .v-calendar-daily__intervals-body .v-calendar-daily__interval-text{color:#eee}.theme--dark.v-calendar-daily .v-calendar-daily__day{border-right:1px solid #9e9e9e;border-bottom:1px solid #9e9e9e}.theme--dark.v-calendar-daily .v-calendar-daily__day-interval{border-top:1px solid #9e9e9e}.theme--dark.v-calendar-daily .v-calendar-daily__day-interval:first-child{border-top:none!important}.theme--dark.v-calendar-daily .v-calendar-daily__interval:after{border-top:1px solid #9e9e9e}.v-calendar-daily{display:flex;flex-direction:column;overflow:hidden;height:100%}.v-calendar-daily__head{flex:none;display:flex}.v-calendar-daily__intervals-head{flex:none;position:relative}.v-calendar-daily__intervals-head:after{position:absolute;bottom:0;height:1px;left:0;right:0;content:\"\"}.v-calendar-daily_head-day{flex:1 1 auto;width:0;position:relative}.v-calendar-daily_head-weekday{padding:3px 0 0;font-size:11px;text-transform:uppercase}.v-calendar-daily_head-day-label,.v-calendar-daily_head-weekday{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;text-align:center}.v-calendar-daily_head-day-label{padding:0 0 3px;cursor:pointer}.v-calendar-daily__body{flex:1 1 60%;overflow:hidden;display:flex;position:relative;flex-direction:column}.v-calendar-daily__scroll-area{overflow-y:scroll;flex:1 1 auto;display:flex;align-items:flex-start}.v-calendar-daily__pane{width:100%;overflow-y:hidden;flex:none;display:flex;align-items:flex-start}.v-calendar-daily__day-container{display:flex;flex:1;width:100%;height:100%}.v-calendar-daily__intervals-body{flex:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.v-calendar-daily__interval{text-align:right;padding-right:8px;border-bottom:none;position:relative}.v-calendar-daily__interval:after{width:8px;position:absolute;height:1px;display:block;content:\"\";right:0;bottom:-1px}.v-calendar-daily__interval-text{display:block;position:relative;top:-6px;font-size:10px;padding-right:4px}.v-calendar-daily__day{flex:1;width:0;position:relative}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".theme--light.v-calendar-weekly{background-color:#fff;border-top:1px solid #e0e0e0;border-left:1px solid #e0e0e0}.theme--light.v-calendar-weekly .v-calendar-weekly__head-weekday{border-right:1px solid #e0e0e0;color:#000}.theme--light.v-calendar-weekly .v-calendar-weekly__head-weekday.v-past{color:rgba(0,0,0,.38)}.theme--light.v-calendar-weekly .v-calendar-weekly__head-weekday.v-outside{background-color:#f7f7f7}.theme--light.v-calendar-weekly .v-calendar-weekly__head-weeknumber{background-color:#f1f3f4;border-right:1px solid #e0e0e0}.theme--light.v-calendar-weekly .v-calendar-weekly__day{border-right:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;color:#000}.theme--light.v-calendar-weekly .v-calendar-weekly__day.v-outside{background-color:#f7f7f7}.theme--light.v-calendar-weekly .v-calendar-weekly__weeknumber{background-color:#f1f3f4;border-right:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;color:#000}.theme--dark.v-calendar-weekly{background-color:#303030;border-top:1px solid #9e9e9e;border-left:1px solid #9e9e9e}.theme--dark.v-calendar-weekly .v-calendar-weekly__head-weekday{border-right:1px solid #9e9e9e;color:#fff}.theme--dark.v-calendar-weekly .v-calendar-weekly__head-weekday.v-past{color:hsla(0,0%,100%,.5)}.theme--dark.v-calendar-weekly .v-calendar-weekly__head-weekday.v-outside{background-color:#202020}.theme--dark.v-calendar-weekly .v-calendar-weekly__head-weeknumber{background-color:#202020;border-right:1px solid #9e9e9e}.theme--dark.v-calendar-weekly .v-calendar-weekly__day{border-right:1px solid #9e9e9e;border-bottom:1px solid #9e9e9e;color:#fff}.theme--dark.v-calendar-weekly .v-calendar-weekly__day.v-outside{background-color:#202020}.theme--dark.v-calendar-weekly .v-calendar-weekly__weeknumber{background-color:#202020;border-right:1px solid #9e9e9e;border-bottom:1px solid #9e9e9e;color:#fff}.v-calendar-weekly{width:100%;height:100%;display:flex;flex-direction:column;min-height:0}.v-calendar-weekly__head{display:flex}.v-calendar-weekly__head,.v-calendar-weekly__head-weekday{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.v-calendar-weekly__head-weekday{flex:1 0 20px;padding:0 4px;font-size:11px;overflow:hidden;text-align:center;text-overflow:ellipsis;text-transform:uppercase;white-space:nowrap}.v-calendar-weekly__head-weeknumber{position:relative;flex:0 0 24px}.v-calendar-weekly__week{display:flex;flex:1;height:unset;min-height:0}.v-calendar-weekly__weeknumber{display:flex;flex:0 0 24px;height:unset;min-height:0;padding-top:14.5px;text-align:center}.v-calendar-weekly__weeknumber>small{width:100%!important}.v-calendar-weekly__day{flex:1;width:0;overflow:hidden;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;position:relative;padding:0;min-width:0}.v-calendar-weekly__day.v-present .v-calendar-weekly__day-month{color:currentColor}.v-calendar-weekly__day-label{text-decoration:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:pointer;box-shadow:none;text-align:center;margin:4px 0 0}.v-calendar-weekly__day-label .v-btn{font-size:12px;text-transform:none}.v-calendar-weekly__day-month{position:absolute;text-decoration:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;box-shadow:none;top:0;left:36px;height:32px;line-height:32px}", ""]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
@@ -7480,11 +7452,39 @@ var content = __webpack_require__(788);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
-__webpack_require__(8).default("2b825c72", content, true)
+__webpack_require__(8).default("1ffbeeca", content, true)
 
 /***/ }),
 
 /***/ 788:
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(7);
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".theme--light.v-calendar-daily{background-color:#fff;border-left:1px solid #e0e0e0;border-top:1px solid #e0e0e0}.theme--light.v-calendar-daily .v-calendar-daily__intervals-head{border-right:1px solid #e0e0e0}.theme--light.v-calendar-daily .v-calendar-daily__intervals-head:after{background:#e0e0e0;background:linear-gradient(90deg,transparent,#e0e0e0)}.theme--light.v-calendar-daily .v-calendar-daily_head-day{border-right:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;color:#000}.theme--light.v-calendar-daily .v-calendar-daily_head-day.v-past .v-calendar-daily_head-day-label,.theme--light.v-calendar-daily .v-calendar-daily_head-day.v-past .v-calendar-daily_head-weekday{color:rgba(0,0,0,.38)}.theme--light.v-calendar-daily .v-calendar-daily__intervals-body{border-right:1px solid #e0e0e0}.theme--light.v-calendar-daily .v-calendar-daily__intervals-body .v-calendar-daily__interval-text{color:#424242}.theme--light.v-calendar-daily .v-calendar-daily__day{border-right:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0}.theme--light.v-calendar-daily .v-calendar-daily__day-interval{border-top:1px solid #e0e0e0}.theme--light.v-calendar-daily .v-calendar-daily__day-interval:first-child{border-top:none!important}.theme--light.v-calendar-daily .v-calendar-daily__interval:after{border-top:1px solid #e0e0e0}.theme--dark.v-calendar-daily{background-color:#303030;border-left:1px solid #9e9e9e;border-top:1px solid #9e9e9e}.theme--dark.v-calendar-daily .v-calendar-daily__intervals-head{border-right:1px solid #9e9e9e}.theme--dark.v-calendar-daily .v-calendar-daily__intervals-head:after{background:#9e9e9e;background:linear-gradient(90deg,transparent,#9e9e9e)}.theme--dark.v-calendar-daily .v-calendar-daily_head-day{border-right:1px solid #9e9e9e;border-bottom:1px solid #9e9e9e;color:#fff}.theme--dark.v-calendar-daily .v-calendar-daily_head-day.v-past .v-calendar-daily_head-day-label,.theme--dark.v-calendar-daily .v-calendar-daily_head-day.v-past .v-calendar-daily_head-weekday{color:hsla(0,0%,100%,.5)}.theme--dark.v-calendar-daily .v-calendar-daily__intervals-body{border-right:1px solid #9e9e9e}.theme--dark.v-calendar-daily .v-calendar-daily__intervals-body .v-calendar-daily__interval-text{color:#eee}.theme--dark.v-calendar-daily .v-calendar-daily__day{border-right:1px solid #9e9e9e;border-bottom:1px solid #9e9e9e}.theme--dark.v-calendar-daily .v-calendar-daily__day-interval{border-top:1px solid #9e9e9e}.theme--dark.v-calendar-daily .v-calendar-daily__day-interval:first-child{border-top:none!important}.theme--dark.v-calendar-daily .v-calendar-daily__interval:after{border-top:1px solid #9e9e9e}.v-calendar-daily{display:flex;flex-direction:column;overflow:hidden;height:100%}.v-calendar-daily__head{flex:none;display:flex}.v-calendar-daily__intervals-head{flex:none;position:relative}.v-calendar-daily__intervals-head:after{position:absolute;bottom:0;height:1px;left:0;right:0;content:\"\"}.v-calendar-daily_head-day{flex:1 1 auto;width:0;position:relative}.v-calendar-daily_head-weekday{padding:3px 0 0;font-size:11px;text-transform:uppercase}.v-calendar-daily_head-day-label,.v-calendar-daily_head-weekday{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;text-align:center}.v-calendar-daily_head-day-label{padding:0 0 3px;cursor:pointer}.v-calendar-daily__body{flex:1 1 60%;overflow:hidden;display:flex;position:relative;flex-direction:column}.v-calendar-daily__scroll-area{overflow-y:scroll;flex:1 1 auto;display:flex;align-items:flex-start}.v-calendar-daily__pane{width:100%;overflow-y:hidden;flex:none;display:flex;align-items:flex-start}.v-calendar-daily__day-container{display:flex;flex:1;width:100%;height:100%}.v-calendar-daily__intervals-body{flex:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.v-calendar-daily__interval{text-align:right;padding-right:8px;border-bottom:none;position:relative}.v-calendar-daily__interval:after{width:8px;position:absolute;height:1px;display:block;content:\"\";right:0;bottom:-1px}.v-calendar-daily__interval-text{display:block;position:relative;top:-6px;font-size:10px;padding-right:4px}.v-calendar-daily__day{flex:1;width:0;position:relative}", ""]);
+// Exports
+module.exports = ___CSS_LOADER_EXPORT___;
+
+
+/***/ }),
+
+/***/ 789:
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(790);
+if(content.__esModule) content = content.default;
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+__webpack_require__(8).default("2b825c72", content, true)
+
+/***/ }),
+
+/***/ 790:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -7943,7 +7943,7 @@ var installComponents_default = /*#__PURE__*/__webpack_require__.n(installCompon
 var VBtn = __webpack_require__(134);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/src/components/VCalendar/mixins/calendar-with-events.sass
-var calendar_with_events = __webpack_require__(782);
+var calendar_with_events = __webpack_require__(784);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/directives/ripple/index.js
 var ripple = __webpack_require__(42);
@@ -9934,7 +9934,7 @@ const calendar_with_events_MINUTES_IN_DAY = 1440;
   }
 }));
 // EXTERNAL MODULE: ./node_modules/vuetify/src/components/VCalendar/VCalendarWeekly.sass
-var VCalendarWeekly = __webpack_require__(734);
+var VCalendarWeekly = __webpack_require__(735);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VBtn/index.js
 var components_VBtn = __webpack_require__(520);
@@ -10172,7 +10172,7 @@ var components_VBtn = __webpack_require__(520);
   }
 }));
 // EXTERNAL MODULE: ./node_modules/vuetify/src/components/VCalendar/VCalendarDaily.sass
-var VCalendarDaily = __webpack_require__(785);
+var VCalendarDaily = __webpack_require__(787);
 
 // CONCATENATED MODULE: ./node_modules/vuetify/lib/components/VCalendar/mixins/calendar-with-intervals.js
 // Mixins
@@ -10602,7 +10602,7 @@ var VCalendarDaily = __webpack_require__(785);
 
 }));
 // EXTERNAL MODULE: ./node_modules/vuetify/src/components/VCalendar/VCalendarCategory.sass
-var VCalendarCategory = __webpack_require__(787);
+var VCalendarCategory = __webpack_require__(789);
 
 // CONCATENATED MODULE: ./node_modules/vuetify/lib/components/VCalendar/util/parser.js
 function parsedCategoryText(category, categoryText) {
@@ -11217,7 +11217,7 @@ var dashboard_component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var dashboard = __webpack_exports__["default"] = (dashboard_component.exports);
 
 /* nuxt-component-imports */
-installComponents_default()(dashboard_component, {ConferencesAdd: __webpack_require__(700).default})
+installComponents_default()(dashboard_component, {ConferencesAdd: __webpack_require__(702).default})
 
 
 /* vuetify-loader */

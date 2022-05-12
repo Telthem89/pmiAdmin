@@ -43,7 +43,7 @@
                         <td>{{ i+1 }}</td>
                         <td>{{ item.name }}</td>
                         <td><v-icon v-text="item.icon"/></td>
-                        <td class="d-flex justify-end pt-2 pb-2">
+                        <td class="d-flex justify-end">
                           <SystemmodulesEdit :module="item"/>
                            <SystemmodulesDelete :module="item"/>
                            <SubmodulesView :itm="item"/>

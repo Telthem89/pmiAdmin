@@ -2,15 +2,6 @@
   "SideBar": {
     "description": "Auto imported from components/SideBar.vue"
   },
-  "AdministratorAdd": {
-    "description": "Auto imported from components/administrator/add.vue"
-  },
-  "AdministratorEdit": {
-    "description": "Auto imported from components/administrator/edit.vue"
-  },
-  "AdministratorReset": {
-    "description": "Auto imported from components/administrator/reset.vue"
-  },
   "ConferencesAdd": {
     "description": "Auto imported from components/conferences/add.vue"
   },
@@ -23,6 +14,33 @@
   "ConferencesView": {
     "description": "Auto imported from components/conferences/view.vue"
   },
+  "CurrencyAdd": {
+    "description": "Auto imported from components/currency/add.vue"
+  },
+  "CurrencyDelete": {
+    "description": "Auto imported from components/currency/delete.vue"
+  },
+  "CurrencyEdit": {
+    "description": "Auto imported from components/currency/edit.vue"
+  },
+  "CustomersAdd": {
+    "description": "Auto imported from components/customers/add.vue"
+  },
+  "CustomersDelete": {
+    "description": "Auto imported from components/customers/delete.vue"
+  },
+  "CustomersEdit": {
+    "description": "Auto imported from components/customers/edit.vue"
+  },
+  "FeesAdd": {
+    "description": "Auto imported from components/fees/add.vue"
+  },
+  "FeesDelete": {
+    "description": "Auto imported from components/fees/delete.vue"
+  },
+  "FeesEdit": {
+    "description": "Auto imported from components/fees/edit.vue"
+  },
   "GamemanagementAdd": {
     "description": "Auto imported from components/gamemanagement/add.vue"
   },
@@ -31,6 +49,15 @@
   },
   "GamemanagementEdit": {
     "description": "Auto imported from components/gamemanagement/edit.vue"
+  },
+  "GroupsAdd": {
+    "description": "Auto imported from components/groups/add.vue"
+  },
+  "GroupsDelete": {
+    "description": "Auto imported from components/groups/delete.vue"
+  },
+  "GroupsEdit": {
+    "description": "Auto imported from components/groups/edit.vue"
   },
   "HotelreservationAdd": {
     "description": "Auto imported from components/hotelreservation/add.vue"
@@ -52,6 +79,18 @@
   },
   "ImportsView": {
     "description": "Auto imported from components/imports/view.vue"
+  },
+  "PaymentIntegrationsPaynow": {
+    "description": "Auto imported from components/payment_integrations/paynow.vue"
+  },
+  "PaymentIntegrationsPaypal": {
+    "description": "Auto imported from components/payment_integrations/paypal.vue"
+  },
+  "PaymentIntegrationsPesepay": {
+    "description": "Auto imported from components/payment_integrations/pesepay.vue"
+  },
+  "PaymentIntegrationsStripe": {
+    "description": "Auto imported from components/payment_integrations/stripe.vue"
   },
   "PermissionsAdd": {
     "description": "Auto imported from components/permissions/add.vue"
@@ -80,14 +119,23 @@
   "RateEdit": {
     "description": "Auto imported from components/rate/edit.vue"
   },
-  "GroupsAdd": {
-    "description": "Auto imported from components/groups/add.vue"
+  "AdministratorAdd": {
+    "description": "Auto imported from components/administrator/add.vue"
   },
-  "GroupsDelete": {
-    "description": "Auto imported from components/groups/delete.vue"
+  "AdministratorEdit": {
+    "description": "Auto imported from components/administrator/edit.vue"
   },
-  "GroupsEdit": {
-    "description": "Auto imported from components/groups/edit.vue"
+  "AdministratorReset": {
+    "description": "Auto imported from components/administrator/reset.vue"
+  },
+  "ReservationsAdd": {
+    "description": "Auto imported from components/reservations/add.vue"
+  },
+  "ReservationsDelete": {
+    "description": "Auto imported from components/reservations/delete.vue"
+  },
+  "ReservationsEdit": {
+    "description": "Auto imported from components/reservations/edit.vue"
   },
   "ResourcesAdd": {
     "description": "Auto imported from components/resources/add.vue"
@@ -98,14 +146,14 @@
   "ResourcesEdit": {
     "description": "Auto imported from components/resources/edit.vue"
   },
-  "CustomersAdd": {
-    "description": "Auto imported from components/customers/add.vue"
+  "RoleAdd": {
+    "description": "Auto imported from components/role/add.vue"
   },
-  "CustomersDelete": {
-    "description": "Auto imported from components/customers/delete.vue"
+  "RoleDelete": {
+    "description": "Auto imported from components/role/delete.vue"
   },
-  "CustomersEdit": {
-    "description": "Auto imported from components/customers/edit.vue"
+  "RoleEdit": {
+    "description": "Auto imported from components/role/edit.vue"
   },
   "RolemodulesAssign": {
     "description": "Auto imported from components/rolemodules/assign.vue"
@@ -134,23 +182,29 @@
   "RolesubmodulesView": {
     "description": "Auto imported from components/rolesubmodules/view.vue"
   },
-  "CurrencyAdd": {
-    "description": "Auto imported from components/currency/add.vue"
+  "SessionsAdd": {
+    "description": "Auto imported from components/sessions/add.vue"
   },
-  "CurrencyDelete": {
-    "description": "Auto imported from components/currency/delete.vue"
+  "SessionsEdit": {
+    "description": "Auto imported from components/sessions/edit.vue"
   },
-  "CurrencyEdit": {
-    "description": "Auto imported from components/currency/edit.vue"
+  "SpeakersAdd": {
+    "description": "Auto imported from components/speakers/add.vue"
   },
-  "RoleAdd": {
-    "description": "Auto imported from components/role/add.vue"
+  "SpeakersDelete": {
+    "description": "Auto imported from components/speakers/delete.vue"
   },
-  "RoleDelete": {
-    "description": "Auto imported from components/role/delete.vue"
+  "SpeakersEdit": {
+    "description": "Auto imported from components/speakers/edit.vue"
   },
-  "RoleEdit": {
-    "description": "Auto imported from components/role/edit.vue"
+  "SponsorsAdd": {
+    "description": "Auto imported from components/sponsors/add.vue"
+  },
+  "SponsorsDelete": {
+    "description": "Auto imported from components/sponsors/delete.vue"
+  },
+  "SponsorsEdit": {
+    "description": "Auto imported from components/sponsors/edit.vue"
   },
   "SubmodulesAdd": {
     "description": "Auto imported from components/submodules/add.vue"
@@ -164,14 +218,14 @@
   "SubmodulesView": {
     "description": "Auto imported from components/submodules/view.vue"
   },
-  "SpeakersAdd": {
-    "description": "Auto imported from components/speakers/add.vue"
+  "SystemmodulesAdd": {
+    "description": "Auto imported from components/systemmodules/add.vue"
   },
-  "SpeakersDelete": {
-    "description": "Auto imported from components/speakers/delete.vue"
+  "SystemmodulesDelete": {
+    "description": "Auto imported from components/systemmodules/delete.vue"
   },
-  "SpeakersEdit": {
-    "description": "Auto imported from components/speakers/edit.vue"
+  "SystemmodulesEdit": {
+    "description": "Auto imported from components/systemmodules/edit.vue"
   },
   "VideosAdd": {
     "description": "Auto imported from components/videos/add.vue"
@@ -181,32 +235,5 @@
   },
   "VideosEdit": {
     "description": "Auto imported from components/videos/edit.vue"
-  },
-  "SponsorsAdd": {
-    "description": "Auto imported from components/sponsors/add.vue"
-  },
-  "SponsorsDelete": {
-    "description": "Auto imported from components/sponsors/delete.vue"
-  },
-  "SponsorsEdit": {
-    "description": "Auto imported from components/sponsors/edit.vue"
-  },
-  "ReservationsAdd": {
-    "description": "Auto imported from components/reservations/add.vue"
-  },
-  "ReservationsDelete": {
-    "description": "Auto imported from components/reservations/delete.vue"
-  },
-  "ReservationsEdit": {
-    "description": "Auto imported from components/reservations/edit.vue"
-  },
-  "SystemmodulesAdd": {
-    "description": "Auto imported from components/systemmodules/add.vue"
-  },
-  "SystemmodulesDelete": {
-    "description": "Auto imported from components/systemmodules/delete.vue"
-  },
-  "SystemmodulesEdit": {
-    "description": "Auto imported from components/systemmodules/edit.vue"
   }
 }

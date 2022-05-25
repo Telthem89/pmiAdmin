@@ -22,6 +22,7 @@ const _a869eb02 = () => interopDefault(import('..\\pages\\login.vue' /* webpackC
 const _454d26dc = () => interopDefault(import('..\\pages\\payment_integrations.vue' /* webpackChunkName: "pages/payment_integrations" */))
 const _6ebbd4f2 = () => interopDefault(import('..\\pages\\payments.vue' /* webpackChunkName: "pages/payments" */))
 const _43c8e51f = () => interopDefault(import('..\\pages\\Profile.vue' /* webpackChunkName: "pages/Profile" */))
+const _68762fc3 = () => interopDefault(import('..\\pages\\registrationfee.vue' /* webpackChunkName: "pages/registrationfee" */))
 const _33c43e81 = () => interopDefault(import('..\\pages\\reservations.vue' /* webpackChunkName: "pages/reservations" */))
 const _0225278a = () => interopDefault(import('..\\pages\\resources.vue' /* webpackChunkName: "pages/resources" */))
 const _c26c009a = () => interopDefault(import('..\\pages\\Roles.vue' /* webpackChunkName: "pages/Roles" */))
@@ -114,6 +115,10 @@ export const routerOptions = {
     path: "/Profile",
     component: _43c8e51f,
     name: "Profile"
+  }, {
+    path: "/registrationfee",
+    component: _68762fc3,
+    name: "registrationfee"
   }, {
     path: "/reservations",
     component: _33c43e81,

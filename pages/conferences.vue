@@ -33,28 +33,17 @@
                         <th class="text-left">
                           Conference Name 
                         </th>
-                        <th class="text-left">
-                          Location
-                        </th>
 
-                        <th class="text-left">
-                          Conference Fee
-                        </th>
+                        
 
                         <th class="text-left">
                           Starting Date 
                         </th>
-                        <th class="text-left">
-                          Conference Time 
-                        </th>
-
-                        <th class="text-left">
-                          Closing Date 
-                        </th>
                        
-                        <th class="text-left">
-                          Conference closing Time 
-                        </th>
+
+                        
+                       
+                        
                          <th class="text-right">
                        
                         </th>
@@ -68,16 +57,17 @@
                         >
                         <td>{{i+1 }}</td>
                         <td>{{ per.eventname }}</td>
-                        <td>{{ per.location  }}</td>
-                        <td>ZWL${{ per.individual_Price}}</td>
-                         <td>{{ per.opendate }}</td>
-                         <td>{{ per.opentime }}</td>
-                         <td>{{ per.closedate }}</td>
-                          <td>{{ per.closetime }}</td>
+                         <td>{{ per.opendate | formatDate}}</td>
 
-                          <td class="d-flex justify-end">
+                          <td>
                             <ConferencesEdit :event="per"/>
+                            </td>
+                             <td>
                             <ConferencesDelete :event="per"/>
+                        </td>
+                        <td>
+                           <ConferencesView :event="per"/>
+                            
                         </td>
 
                         </tr>
@@ -116,6 +106,7 @@ data(){
         overlay:false,
         isPaid:true,
         search:""
+
     }
 },
 

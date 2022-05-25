@@ -126,6 +126,13 @@
     "_name": "_43c8e51f"
   },
   {
+    "name": "registrationfee",
+    "path": "/registrationfee",
+    "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\registrationfee.vue",
+    "chunkName": "pages/registrationfee",
+    "_name": "_68762fc3"
+  },
+  {
     "name": "reservations",
     "path": "/reservations",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\reservations.vue",

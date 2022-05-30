@@ -2,6 +2,15 @@
   "SideBar": {
     "description": "Auto imported from components/SideBar.vue"
   },
+  "AdministratorAdd": {
+    "description": "Auto imported from components/administrator/add.vue"
+  },
+  "AdministratorEdit": {
+    "description": "Auto imported from components/administrator/edit.vue"
+  },
+  "AdministratorReset": {
+    "description": "Auto imported from components/administrator/reset.vue"
+  },
   "ConferencesAdd": {
     "description": "Auto imported from components/conferences/add.vue"
   },
@@ -23,15 +32,6 @@
   "CurrencyEdit": {
     "description": "Auto imported from components/currency/edit.vue"
   },
-  "CustomersAdd": {
-    "description": "Auto imported from components/customers/add.vue"
-  },
-  "CustomersDelete": {
-    "description": "Auto imported from components/customers/delete.vue"
-  },
-  "CustomersEdit": {
-    "description": "Auto imported from components/customers/edit.vue"
-  },
   "FeesAdd": {
     "description": "Auto imported from components/fees/add.vue"
   },
@@ -40,6 +40,15 @@
   },
   "FeesEdit": {
     "description": "Auto imported from components/fees/edit.vue"
+  },
+  "CustomersAdd": {
+    "description": "Auto imported from components/customers/add.vue"
+  },
+  "CustomersDelete": {
+    "description": "Auto imported from components/customers/delete.vue"
+  },
+  "CustomersEdit": {
+    "description": "Auto imported from components/customers/edit.vue"
   },
   "GamemanagementAdd": {
     "description": "Auto imported from components/gamemanagement/add.vue"
@@ -71,15 +80,6 @@
   "HotelreservationView": {
     "description": "Auto imported from components/hotelreservation/view.vue"
   },
-  "ImportsDelete": {
-    "description": "Auto imported from components/imports/delete.vue"
-  },
-  "ImportsInadd": {
-    "description": "Auto imported from components/imports/inadd.vue"
-  },
-  "ImportsView": {
-    "description": "Auto imported from components/imports/view.vue"
-  },
   "PaymentIntegrationsPaynow": {
     "description": "Auto imported from components/payment_integrations/paynow.vue"
   },
@@ -91,6 +91,15 @@
   },
   "PaymentIntegrationsStripe": {
     "description": "Auto imported from components/payment_integrations/stripe.vue"
+  },
+  "ImportsDelete": {
+    "description": "Auto imported from components/imports/delete.vue"
+  },
+  "ImportsInadd": {
+    "description": "Auto imported from components/imports/inadd.vue"
+  },
+  "ImportsView": {
+    "description": "Auto imported from components/imports/view.vue"
   },
   "PermissionsAdd": {
     "description": "Auto imported from components/permissions/add.vue"
@@ -118,15 +127,6 @@
   },
   "RateEdit": {
     "description": "Auto imported from components/rate/edit.vue"
-  },
-  "AdministratorAdd": {
-    "description": "Auto imported from components/administrator/add.vue"
-  },
-  "AdministratorEdit": {
-    "description": "Auto imported from components/administrator/edit.vue"
-  },
-  "AdministratorReset": {
-    "description": "Auto imported from components/administrator/reset.vue"
   },
   "ReservationsAdd": {
     "description": "Auto imported from components/reservations/add.vue"

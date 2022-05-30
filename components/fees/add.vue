@@ -6,18 +6,30 @@
            <v-form v-model="valid" ref="form" lazy-validation>
        <v-card>
            <v-card-title>
-               Add Fees Tier
+               Add Fees Tiers
                <v-spacer/>
                <v-btn icon @click="addPermModel=false"><v-icon>mdi-close</v-icon></v-btn>
            </v-card-title>
            <v-card-text>
-                  <v-text-field
+              
+                         <v-select
                             label="Tier Name"
                             outlined
+                            :items="tiers"
+                            item-text="name"
+                            item-value="id"
                             v-model="form.tier_title"
                             :rules="tier_titleRule"
                         />
-
+                        <v-select
+                            label="Member Type"
+                            outlined
+                            :items="tierscategorys"
+                            item-text="name"
+                            item-value="id"
+                            v-model="form.tierscategory"
+                            :rules="tierscategoryRule"
+                        />
                     <v-text-field
                             label="Start From"
                             outlined
@@ -33,7 +45,7 @@
                             :rules="todateRule"
                         />
                     <v-text-field
-                            label="Name"
+                            label="Tier Amount"
                             outlined
                             v-model="form.amount"
                             :rules="amountRule"
@@ -66,8 +78,11 @@ export default {
      return{
          addPermModel:false,
          valid:false,
+         tiers:["Early Registration","Normal Registration","Late Registration"],
+         tierscategorys:["Member","Non-member"],
          form:{
               tier_title:'',
+              tierscategory:'',
               fromdate:'',
               todate:'',
               amount:'',
@@ -76,6 +91,7 @@ export default {
          fromdateRule:[v=>!!v || 'Date is required'],
          todateRule:[v=>!!v || 'To date is required'],
          amountRule:[v=>!!v || 'Amount is required'],
+         tierscategoryRule:[v=>!!v || 'Tier Category is required'],
          snackbar:false,
          color:'',
          text:'',

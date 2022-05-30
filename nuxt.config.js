@@ -82,7 +82,7 @@ export default {
     timezone: true
   },
   axios: {
-    baseURL: 'https://pmizimbabwe.herokuapp.com'
+   baseURL: 'https://pmizimbabwe.herokuapp.com'
     // baseURL: 'http://localhost:5000'
   },
 

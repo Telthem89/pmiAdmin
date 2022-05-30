@@ -16,7 +16,7 @@
 
 
                   <v-text-field
-                            label="Session Name"
+                            label="Session"
                             outlined
                             v-model="form.session_name"
                             :rules="session_nameRule"

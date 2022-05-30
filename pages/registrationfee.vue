@@ -23,15 +23,15 @@
                     <template v-slot:default>
                     <thead>
                         <tr>
-                            <th>Tier Name</th>
-                        <th class="text-left">
-                            From
+                        <th class="text-left">Tier Name</th>
+                        <th class="text-left">Member Type</th>
+                        <th class="text-left">From
                         </th>
                         <th class="text-left">
                             To
                         </th>
                         <th class="text-left">
-                            Amount
+                            Amount(USD)
                         </th>
                         <th class="text-right">
                            
@@ -46,6 +46,7 @@
                         >
                         
                         <td >{{ per.tier_title }}</td>
+                        <td>{{ per.tierscategory}}</td>
                         <td>{{ per.fromdate | formatDate }}</td>
                         <td>{{ per.todate | formatDate }}</td>
                         <td>{{ per.amount }}</td>
@@ -53,7 +54,7 @@
                             <FeesEdit :fees="per"/>
                      
                         </td>
-                        <tdclass=" pt-2 pb-2">
+                        <td class=" pt-2 pb-2">
                             <FeesDelete :fees="per"/>
                      
                         </td>

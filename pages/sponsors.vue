@@ -33,9 +33,7 @@
                         <th class="text-left">
                           Company Number 
                         </th>
-                        <th class="text-left">
-                          Company logo 
-                        </th>
+                      
                         <th class="text-left">
                           Comapany
                         </th>
@@ -63,7 +61,6 @@
                         >
                         <td>{{ i+1 }}</td>
                         <td>{{ per.cnmy_number }}</td>
-                        <td><img :src="baseurl+per.cnmy_logo" width="90px"/> </td>
                         <td>{{ per.cnmy_name  }}</td>
                         <td>{{ per.cnmy_address  }}</td>
                         <td>{{ per.cnmy_website}}</td>

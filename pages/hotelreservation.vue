@@ -34,9 +34,7 @@
                           Hotel Number
                         </th>
 
-                        <th class="text-left">
-                          Hotel Photo
-                        </th>
+                        
                         
                         <th class="text-left">
                           Hotel Name
@@ -55,7 +53,6 @@
                         >
                         <td>{{ i+1 }}</td>
                         <td>{{ per.htx_number }}</td>
-                        <td><img :src="baseurl+per.htx_hotelimg_url" class="mt-3" width="90px"/> </td>
                         <td>{{ per.htx_name  }}</td>
                          <td>{{ per.htx_hotelcity }}</td>
                          <td class="d-flex justify-end pb-8 mt-9">

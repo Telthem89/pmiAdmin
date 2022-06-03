@@ -1,7 +1,7 @@
 <template>
   <div>
         <v-btn depressed color="purple" class="white--text" dark @click="fetch()">Sessions <v-icon>mdi-vector-polyline</v-icon></v-btn>
-        <v-dialog v-model="showModel" width="800">
+        <v-dialog v-model="showModel" width="1000">
             <v-card>
                 <v-card-title>
                     Conference Sessions
@@ -17,14 +17,24 @@
                     <thead>
                         <tr>
                         <th class="text-left">
-                            Session Name
-                        </th>
-                        <th class="text-left">
-                            Speaker
+                            Activity
                         </th>
                         <th class="text-left">
                             Date
                         </th>
+
+                        <th class="text-left">
+                            Start
+                        </th>
+
+                         <th class="text-left">
+                            Start
+                        </th>
+                        
+                        <th class="text-left">
+                            Speaker
+                        </th>
+                        
                           <th class="text-right">
                            
                         </th>
@@ -37,8 +47,10 @@
                         :key="per.id"
                         >
                         <td>{{ per.session_name }}</td>
-                        <td>{{ per.speaker ? per.speaker.name : " " }}  {{ per.speaker ? per.speaker.surname : " " }}</td>
                         <td>{{ per.eventsession_date | formatDate}}</td>
+                        <td>{{ per.fromTime }}</td>
+                        <td>{{ per.toTime }}</td>
+                        <td>{{ per.speaker ? per.speaker.name : " " }}  {{ per.speaker ? per.speaker.surname : " " }}</td>
                         <td>
                         <SessionsEdit :eventdata="per" /> </td>
                       </td>
@@ -68,8 +80,10 @@ export default {
  },
  methods:{
  async fetch(){
-    await this.$store.dispatch('conferences/getConferencesessions',this.event.id)    
     this.showModel = true
+    await this.$store.dispatch('conferences/getConferencesessions',this.event.id)    
+    // this.showModel = false
+    
  }},
  computed:{
      conferencesessions(){

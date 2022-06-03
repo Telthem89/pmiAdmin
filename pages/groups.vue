@@ -33,9 +33,7 @@
                         <th class="text-left">
                           Channel Number 
                         </th>
-                        <th class="text-left">
-                          Channel logo
-                        </th>
+                        
 
                         <th class="text-left">
                           Channel Name
@@ -56,7 +54,6 @@
                         >
                         <td>{{ i+1 }}</td>
                         <td>{{ per.cfgr_number }}</td>
-                         <td><img :src="baseurl+per.cfgr_featureimg" width="60px" class="mt-3"/> </td>
                         <td>{{ per.cfgr_name  }}</td>
                         <td class="d-flex justify-end pb-8 mt-7">
                             <GroupsEdit :group="per"/>

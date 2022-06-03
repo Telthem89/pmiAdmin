@@ -16,7 +16,7 @@
         <v-divider></v-divider>
 
         <v-card-text class="white--text">
-          <strong> PMIZIMCHAPTERS</strong> |
+          <strong> PMIZIMBABWE CHAPTER</strong> |
           <a
             class="white--text telthemweb"
             href="https://www.sagehilltechnologies.com"

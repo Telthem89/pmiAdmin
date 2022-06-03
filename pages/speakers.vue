@@ -33,13 +33,13 @@
                         #
                         </th>
 
-                         <th class="text-left">
+                       <!--   <th class="text-left">
                             Picture
                          </th>
 
                         <th class="text-left">
                         Member ID
-                        </th>
+                        </th> -->
 
                         <th class="text-left">
                         Name
@@ -58,8 +58,11 @@
                         Date Created
                         </th>
 
-                         <th class="text-right">
-                       
+                         <th class="text-left">
+                            Edit
+                        </th>
+                        <th class="text-left">
+                            Delete
                         </th>
                         </tr>
                     </thead>
@@ -70,13 +73,6 @@
                         :key="i"
                         >
                         <td>{{ i+1 }}</td>
-                        <template v-if="per.profile_pic==null">
-                            <td><img src="/avatar.jpg" class="mt-3" width="40px"/> </td>
-                        </template>
-                        <template v-else>
-                            <td><img :src="baseurl+per.profile_pic" class="mt-3" width="40px"/> </td>
-                        </template>   
-                        <td>{{ per.membershipNumber }}</td>
                         <td>{{ per.name }}</td>
                         <td> {{ per.surname }}</td>
                         <td>{{ per.gender}}</td>

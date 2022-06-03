@@ -26164,7 +26164,7 @@ if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(8).default
 module.exports.__inject__ = function (context) {
-  add("bdac2dba", content, true, context)
+  add("38b7188e", content, true, context)
 };
 
 /***/ }),
@@ -36787,9 +36787,9 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_default_vue_vue_type_style_index_0_id_fa249bc0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(144);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_default_vue_vue_type_style_index_0_id_fa249bc0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_default_vue_vue_type_style_index_0_id_fa249bc0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_default_vue_vue_type_style_index_0_id_fa249bc0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_default_vue_vue_type_style_index_0_id_fa249bc0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_default_vue_vue_type_style_index_0_id_2a4d8326_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(144);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_default_vue_vue_type_style_index_0_id_2a4d8326_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_default_vue_vue_type_style_index_0_id_2a4d8326_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_default_vue_vue_type_style_index_0_id_2a4d8326_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_default_vue_vue_type_style_index_0_id_2a4d8326_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
@@ -36800,7 +36800,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(7);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".telthemweb a[data-v-fa249bc0]{text-decoration:none!important}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".telthemweb a[data-v-2a4d8326]{text-decoration:none!important}", ""]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
@@ -65317,19 +65317,19 @@ __webpack_require__.d(components_namespaceObject, "SideBar", function() { return
 __webpack_require__.d(components_namespaceObject, "AdministratorAdd", function() { return AdministratorAdd; });
 __webpack_require__.d(components_namespaceObject, "AdministratorEdit", function() { return AdministratorEdit; });
 __webpack_require__.d(components_namespaceObject, "AdministratorReset", function() { return AdministratorReset; });
+__webpack_require__.d(components_namespaceObject, "CurrencyAdd", function() { return CurrencyAdd; });
+__webpack_require__.d(components_namespaceObject, "CurrencyDelete", function() { return CurrencyDelete; });
+__webpack_require__.d(components_namespaceObject, "CurrencyEdit", function() { return CurrencyEdit; });
 __webpack_require__.d(components_namespaceObject, "ConferencesAdd", function() { return ConferencesAdd; });
 __webpack_require__.d(components_namespaceObject, "ConferencesDelete", function() { return ConferencesDelete; });
 __webpack_require__.d(components_namespaceObject, "ConferencesEdit", function() { return ConferencesEdit; });
 __webpack_require__.d(components_namespaceObject, "ConferencesView", function() { return ConferencesView; });
-__webpack_require__.d(components_namespaceObject, "CurrencyAdd", function() { return CurrencyAdd; });
-__webpack_require__.d(components_namespaceObject, "CurrencyDelete", function() { return CurrencyDelete; });
-__webpack_require__.d(components_namespaceObject, "CurrencyEdit", function() { return CurrencyEdit; });
-__webpack_require__.d(components_namespaceObject, "FeesAdd", function() { return FeesAdd; });
-__webpack_require__.d(components_namespaceObject, "FeesDelete", function() { return FeesDelete; });
-__webpack_require__.d(components_namespaceObject, "FeesEdit", function() { return FeesEdit; });
 __webpack_require__.d(components_namespaceObject, "CustomersAdd", function() { return CustomersAdd; });
 __webpack_require__.d(components_namespaceObject, "CustomersDelete", function() { return CustomersDelete; });
 __webpack_require__.d(components_namespaceObject, "CustomersEdit", function() { return CustomersEdit; });
+__webpack_require__.d(components_namespaceObject, "FeesAdd", function() { return FeesAdd; });
+__webpack_require__.d(components_namespaceObject, "FeesDelete", function() { return FeesDelete; });
+__webpack_require__.d(components_namespaceObject, "FeesEdit", function() { return FeesEdit; });
 __webpack_require__.d(components_namespaceObject, "GamemanagementAdd", function() { return GamemanagementAdd; });
 __webpack_require__.d(components_namespaceObject, "GamemanagementDelete", function() { return GamemanagementDelete; });
 __webpack_require__.d(components_namespaceObject, "GamemanagementEdit", function() { return GamemanagementEdit; });
@@ -65340,13 +65340,13 @@ __webpack_require__.d(components_namespaceObject, "HotelreservationAdd", functio
 __webpack_require__.d(components_namespaceObject, "HotelreservationDelete", function() { return HotelreservationDelete; });
 __webpack_require__.d(components_namespaceObject, "HotelreservationEdit", function() { return HotelreservationEdit; });
 __webpack_require__.d(components_namespaceObject, "HotelreservationView", function() { return HotelreservationView; });
+__webpack_require__.d(components_namespaceObject, "ImportsDelete", function() { return ImportsDelete; });
+__webpack_require__.d(components_namespaceObject, "ImportsInadd", function() { return ImportsInadd; });
+__webpack_require__.d(components_namespaceObject, "ImportsView", function() { return ImportsView; });
 __webpack_require__.d(components_namespaceObject, "PaymentIntegrationsPaynow", function() { return PaymentIntegrationsPaynow; });
 __webpack_require__.d(components_namespaceObject, "PaymentIntegrationsPaypal", function() { return PaymentIntegrationsPaypal; });
 __webpack_require__.d(components_namespaceObject, "PaymentIntegrationsPesepay", function() { return PaymentIntegrationsPesepay; });
 __webpack_require__.d(components_namespaceObject, "PaymentIntegrationsStripe", function() { return PaymentIntegrationsStripe; });
-__webpack_require__.d(components_namespaceObject, "ImportsDelete", function() { return ImportsDelete; });
-__webpack_require__.d(components_namespaceObject, "ImportsInadd", function() { return ImportsInadd; });
-__webpack_require__.d(components_namespaceObject, "ImportsView", function() { return ImportsView; });
 __webpack_require__.d(components_namespaceObject, "PermissionsAdd", function() { return PermissionsAdd; });
 __webpack_require__.d(components_namespaceObject, "PermissionsDelete", function() { return PermissionsDelete; });
 __webpack_require__.d(components_namespaceObject, "PermissionsEdit", function() { return PermissionsEdit; });
@@ -66920,12 +66920,12 @@ var nuxt_loading_component = Object(componentNormalizer["a" /* default */])(
 )
 
 /* harmony default export */ var nuxt_loading = (nuxt_loading_component.exports);
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./layouts/default.vue?vue&type=template&id=fa249bc0&scoped=true&
-var defaultvue_type_template_id_fa249bc0_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-app',{attrs:{"dark":""}},[_c('v-main',[_c('v-container',[_c('Nuxt')],1)],1),_vm._v(" "),_c('v-footer',{attrs:{"dark":"","padless":""}},[_c('v-card',{staticClass:"indigo lighten-1 white--text text-center",attrs:{"flat":"","tile":"","width":"100%"}},[_c('v-divider'),_vm._v(" "),_c('v-card-text',{staticClass:"white--text"},[_c('strong',[_vm._v(" PMIZIMCHAPTERS")]),_vm._v(" |\n        "),_c('a',{staticClass:"white--text telthemweb",attrs:{"href":"https://www.sagehilltechnologies.com"}},[_vm._v("Developed by Sagehill Business Solutions")]),_c('br'),_vm._v(" "),_c('b',{staticClass:"white--text text-center"},[_vm._v(_vm._s(new Date().getFullYear())+" | All Copyrights reserved\n        ")])])],1)],1)],1)}
-var defaultvue_type_template_id_fa249bc0_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./layouts/default.vue?vue&type=template&id=2a4d8326&scoped=true&
+var defaultvue_type_template_id_2a4d8326_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-app',{attrs:{"dark":""}},[_c('v-main',[_c('v-container',[_c('Nuxt')],1)],1),_vm._v(" "),_c('v-footer',{attrs:{"dark":"","padless":""}},[_c('v-card',{staticClass:"indigo lighten-1 white--text text-center",attrs:{"flat":"","tile":"","width":"100%"}},[_c('v-divider'),_vm._v(" "),_c('v-card-text',{staticClass:"white--text"},[_c('strong',[_vm._v(" PMIZIMBABWE CHAPTER")]),_vm._v(" |\n        "),_c('a',{staticClass:"white--text telthemweb",attrs:{"href":"https://www.sagehilltechnologies.com"}},[_vm._v("Developed by Sagehill Business Solutions")]),_c('br'),_vm._v(" "),_c('b',{staticClass:"white--text text-center"},[_vm._v(_vm._s(new Date().getFullYear())+" | All Copyrights reserved\n        ")])])],1)],1)],1)}
+var defaultvue_type_template_id_2a4d8326_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./layouts/default.vue?vue&type=template&id=fa249bc0&scoped=true&
+// CONCATENATED MODULE: ./layouts/default.vue?vue&type=template&id=2a4d8326&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./layouts/default.vue?vue&type=script&lang=js&
 //
@@ -67245,11 +67245,11 @@ if (style0.__inject__) style0.__inject__(context)
 
 var default_component = Object(componentNormalizer["a" /* default */])(
   layouts_defaultvue_type_script_lang_js_,
-  defaultvue_type_template_id_fa249bc0_scoped_true_render,
-  defaultvue_type_template_id_fa249bc0_scoped_true_staticRenderFns,
+  defaultvue_type_template_id_2a4d8326_scoped_true_render,
+  defaultvue_type_template_id_2a4d8326_scoped_true_staticRenderFns,
   false,
   default_injectStyles,
-  "fa249bc0",
+  "2a4d8326",
   "022ff816"
   
 )
@@ -67267,15 +67267,15 @@ var default_component = Object(componentNormalizer["a" /* default */])(
 
 installComponents_default()(default_component, {VApp: VApp_VApp,VCard: VCard["a" /* default */],VCardText: components_VCard["b" /* VCardText */],VContainer: VContainer["a" /* default */],VDivider: VDivider["a" /* default */],VFooter: VFooter_VFooter,VMain: VMain_VMain})
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./layouts/user.vue?vue&type=template&id=2fb1468c&
-var uservue_type_template_id_2fb1468c_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-app',{attrs:{"dark":""}},[_c('v-navigation-drawer',{attrs:{"fixed":"","app":"","light":""},scopedSlots:_vm._u([{key:"append",fn:function(){return [_c('div',{staticClass:"pa-2"},[_c('v-btn',{attrs:{"block":"","color":"error"},on:{"click":_vm.logout}},[_vm._v("\n          Logout\n        ")])],1)]},proxy:true}]),model:{value:(_vm.drawer),callback:function ($$v) {_vm.drawer=$$v},expression:"drawer"}},[_c('div',{staticClass:"d-flex justify-center pa-3 white"},[_c('img',{attrs:{"src":"/logo.png","width":"120px"}})]),_vm._v(" "),_c('SideBar',{attrs:{"menus":_vm.getMenus}})],1),_vm._v(" "),_c('v-app-bar',{attrs:{"dark":"","fixed":"","app":"","flat":"","color":"purple"}},[_c('v-app-bar-nav-icon',{on:{"click":function($event){$event.stopPropagation();_vm.drawer = !_vm.drawer}}}),_vm._v(" "),_c('v-toolbar-title',{domProps:{"textContent":_vm._s(_vm.title)}}),_vm._v(" "),_c('v-spacer'),_vm._v(" "),_c('v-menu',{attrs:{"offset-y":""},scopedSlots:_vm._u([{key:"activator",fn:function(ref){
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./layouts/user.vue?vue&type=template&id=414027b0&
+var uservue_type_template_id_414027b0_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-app',{attrs:{"dark":""}},[_c('v-navigation-drawer',{attrs:{"fixed":"","app":"","light":""},scopedSlots:_vm._u([{key:"append",fn:function(){return [_c('div',{staticClass:"pa-2"},[_c('v-btn',{attrs:{"block":"","color":"error"},on:{"click":_vm.logout}},[_vm._v("\n          Logout\n        ")])],1)]},proxy:true}]),model:{value:(_vm.drawer),callback:function ($$v) {_vm.drawer=$$v},expression:"drawer"}},[_c('div',{staticClass:"d-flex justify-center pa-3 white"},[_c('img',{attrs:{"src":"/logo.png","width":"120px"}})]),_vm._v(" "),_c('SideBar',{attrs:{"menus":_vm.getMenus}})],1),_vm._v(" "),_c('v-app-bar',{attrs:{"dark":"","fixed":"","app":"","flat":"","color":"purple"}},[_c('v-app-bar-nav-icon',{on:{"click":function($event){$event.stopPropagation();_vm.drawer = !_vm.drawer}}}),_vm._v(" "),_c('v-toolbar-title',{domProps:{"textContent":_vm._s(_vm.title)}}),_vm._v(" "),_c('v-spacer'),_vm._v(" "),_c('v-menu',{attrs:{"offset-y":""},scopedSlots:_vm._u([{key:"activator",fn:function(ref){
 var on = ref.on;
 var attrs = ref.attrs;
 return [_c('v-btn',_vm._g(_vm._b({attrs:{"text":"","dark":""}},'v-btn',attrs,false),on),[_vm._v("\n       Welcome: "+_vm._s(_vm.loggedInUser.profile.name)+" "+_vm._s(_vm.loggedInUser.profile.surname)+"\n      ")])]}}])},[_vm._v(" "),_c('v-list',[_c('v-list-item',{attrs:{"router":"","to":"Profile"}},[_c('v-list-item-action',[_c('v-icon',[_vm._v("mdi-account-cog")])],1),_vm._v(" "),_c('v-list-item-content',[_c('v-list-item-title',[_vm._v("User Profile")])],1)],1),_vm._v(" "),_c('v-list-item',{attrs:{"router":"","to":"ChangePassword"}},[_c('v-list-item-action',[_c('v-icon',[_vm._v("mdi-account-convert")])],1),_vm._v(" "),_c('v-list-item-content',[_c('v-list-item-title',[_vm._v("Change Password")])],1)],1),_vm._v(" "),_c('v-list-item',{attrs:{"router":""},on:{"click":_vm.logout}},[_c('v-list-item-action',[_c('v-icon',[_vm._v("mdi-power")])],1),_vm._v(" "),_c('v-list-item-content',[_c('v-list-item-title',[_vm._v("Logout")])],1)],1)],1)],1)],1),_vm._v(" "),_c('v-main',{staticClass:"grey lighten-4"},[_c('v-container',{attrs:{"fluid":""}},[_c('Nuxt')],1)],1),_vm._v(" "),_c('v-footer',{attrs:{"dark":"","padless":""}},[_c('v-card',{staticClass:"grey lighten-1 white--text text-right",attrs:{"flat":"","tile":"","width":"100%"}},[_c('v-divider'),_vm._v(" "),_c('v-card-text',{staticClass:"grey--text"},[_c('strong',[_c('a',{staticClass:"white--text telthemweb",attrs:{"href":"https://www.sagehilltechnologies.com"}},[_vm._v("Developed by Sagehill Business Solutions")]),_c('br'),_vm._v(" "),_c('b',{staticClass:"white--text text-center"},[_vm._v(_vm._s(new Date().getFullYear())+" | All Copyrights reserved\n        ")])]),_vm._v(" |\n      ")])],1)],1),_vm._v(" "),_c('v-overlay',{attrs:{"value":_vm.overlay}},[_c('v-progress-circular',{attrs:{"indeterminate":"","size":"64"}})],1)],1)}
-var uservue_type_template_id_2fb1468c_staticRenderFns = []
+var uservue_type_template_id_414027b0_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./layouts/user.vue?vue&type=template&id=2fb1468c&
+// CONCATENATED MODULE: ./layouts/user.vue?vue&type=template&id=414027b0&
 
 // EXTERNAL MODULE: ./node_modules/pusher-js/dist/node/pusher.js
 var pusher = __webpack_require__(255);
@@ -67402,7 +67402,7 @@ var pusher = __webpack_require__(255);
       offset: true,
       fixed: true,
       items: [],
-      title: 'PMI Zimbabwe Chapter',
+      title: 'PMIZimbabwe Chapter',
       overlay: false
     };
   },
@@ -68481,8 +68481,8 @@ var components_VToolbar = __webpack_require__(138);
 
 var user_component = Object(componentNormalizer["a" /* default */])(
   layouts_uservue_type_script_lang_js_,
-  uservue_type_template_id_2fb1468c_render,
-  uservue_type_template_id_2fb1468c_staticRenderFns,
+  uservue_type_template_id_414027b0_render,
+  uservue_type_template_id_414027b0_staticRenderFns,
   false,
   null,
   null,
@@ -68927,19 +68927,19 @@ const SideBar = () => Promise.resolve(/* import() */).then(__webpack_require__.b
 const AdministratorAdd = () => __webpack_require__.e(/* import() | components/administrator-add */ 1).then(__webpack_require__.bind(null, 741)).then(c => wrapFunctional(c.default || c));
 const AdministratorEdit = () => __webpack_require__.e(/* import() | components/administrator-edit */ 2).then(__webpack_require__.bind(null, 742)).then(c => wrapFunctional(c.default || c));
 const AdministratorReset = () => __webpack_require__.e(/* import() | components/administrator-reset */ 3).then(__webpack_require__.bind(null, 743)).then(c => wrapFunctional(c.default || c));
+const CurrencyAdd = () => __webpack_require__.e(/* import() | components/currency-add */ 8).then(__webpack_require__.bind(null, 747)).then(c => wrapFunctional(c.default || c));
+const CurrencyDelete = () => __webpack_require__.e(/* import() | components/currency-delete */ 9).then(__webpack_require__.bind(null, 749)).then(c => wrapFunctional(c.default || c));
+const CurrencyEdit = () => __webpack_require__.e(/* import() | components/currency-edit */ 10).then(__webpack_require__.bind(null, 748)).then(c => wrapFunctional(c.default || c));
 const ConferencesAdd = () => __webpack_require__.e(/* import() | components/conferences-add */ 4).then(__webpack_require__.bind(null, 704)).then(c => wrapFunctional(c.default || c));
 const ConferencesDelete = () => __webpack_require__.e(/* import() | components/conferences-delete */ 5).then(__webpack_require__.bind(null, 745)).then(c => wrapFunctional(c.default || c));
 const ConferencesEdit = () => __webpack_require__.e(/* import() | components/conferences-edit */ 6).then(__webpack_require__.bind(null, 744)).then(c => wrapFunctional(c.default || c));
 const ConferencesView = () => __webpack_require__.e(/* import() | components/conferences-view */ 7).then(__webpack_require__.bind(null, 746)).then(c => wrapFunctional(c.default || c));
-const CurrencyAdd = () => __webpack_require__.e(/* import() | components/currency-add */ 8).then(__webpack_require__.bind(null, 747)).then(c => wrapFunctional(c.default || c));
-const CurrencyDelete = () => __webpack_require__.e(/* import() | components/currency-delete */ 9).then(__webpack_require__.bind(null, 749)).then(c => wrapFunctional(c.default || c));
-const CurrencyEdit = () => __webpack_require__.e(/* import() | components/currency-edit */ 10).then(__webpack_require__.bind(null, 748)).then(c => wrapFunctional(c.default || c));
-const FeesAdd = () => __webpack_require__.e(/* import() | components/fees-add */ 14).then(__webpack_require__.bind(null, 772)).then(c => wrapFunctional(c.default || c));
-const FeesDelete = () => __webpack_require__.e(/* import() | components/fees-delete */ 15).then(__webpack_require__.bind(null, 774)).then(c => wrapFunctional(c.default || c));
-const FeesEdit = () => __webpack_require__.e(/* import() | components/fees-edit */ 16).then(__webpack_require__.bind(null, 773)).then(c => wrapFunctional(c.default || c));
 const CustomersAdd = () => __webpack_require__.e(/* import() | components/customers-add */ 11).then(__webpack_require__.bind(null, 835)).then(c => wrapFunctional(c.default || c));
 const CustomersDelete = () => __webpack_require__.e(/* import() | components/customers-delete */ 12).then(__webpack_require__.bind(null, 751)).then(c => wrapFunctional(c.default || c));
 const CustomersEdit = () => __webpack_require__.e(/* import() | components/customers-edit */ 13).then(__webpack_require__.bind(null, 750)).then(c => wrapFunctional(c.default || c));
+const FeesAdd = () => __webpack_require__.e(/* import() | components/fees-add */ 14).then(__webpack_require__.bind(null, 772)).then(c => wrapFunctional(c.default || c));
+const FeesDelete = () => __webpack_require__.e(/* import() | components/fees-delete */ 15).then(__webpack_require__.bind(null, 774)).then(c => wrapFunctional(c.default || c));
+const FeesEdit = () => __webpack_require__.e(/* import() | components/fees-edit */ 16).then(__webpack_require__.bind(null, 773)).then(c => wrapFunctional(c.default || c));
 const GamemanagementAdd = () => __webpack_require__.e(/* import() | components/gamemanagement-add */ 17).then(__webpack_require__.bind(null, 755)).then(c => wrapFunctional(c.default || c));
 const GamemanagementDelete = () => __webpack_require__.e(/* import() | components/gamemanagement-delete */ 18).then(__webpack_require__.bind(null, 757)).then(c => wrapFunctional(c.default || c));
 const GamemanagementEdit = () => __webpack_require__.e(/* import() | components/gamemanagement-edit */ 19).then(__webpack_require__.bind(null, 756)).then(c => wrapFunctional(c.default || c));
@@ -68950,13 +68950,13 @@ const HotelreservationAdd = () => __webpack_require__.e(/* import() | components
 const HotelreservationDelete = () => __webpack_require__.e(/* import() | components/hotelreservation-delete */ 24).then(__webpack_require__.bind(null, 763)).then(c => wrapFunctional(c.default || c));
 const HotelreservationEdit = () => __webpack_require__.e(/* import() | components/hotelreservation-edit */ 25).then(__webpack_require__.bind(null, 762)).then(c => wrapFunctional(c.default || c));
 const HotelreservationView = () => __webpack_require__.e(/* import() | components/hotelreservation-view */ 26).then(__webpack_require__.bind(null, 806)).then(c => wrapFunctional(c.default || c));
+const ImportsDelete = () => __webpack_require__.e(/* import() | components/imports-delete */ 27).then(__webpack_require__.bind(null, 765)).then(c => wrapFunctional(c.default || c));
+const ImportsInadd = () => __webpack_require__.e(/* import() | components/imports-inadd */ 28).then(__webpack_require__.bind(null, 764)).then(c => wrapFunctional(c.default || c));
+const ImportsView = () => __webpack_require__.e(/* import() | components/imports-view */ 29).then(__webpack_require__.bind(null, 740)).then(c => wrapFunctional(c.default || c));
 const PaymentIntegrationsPaynow = () => __webpack_require__.e(/* import() | components/payment-integrations-paynow */ 30).then(__webpack_require__.bind(null, 766)).then(c => wrapFunctional(c.default || c));
 const PaymentIntegrationsPaypal = () => __webpack_require__.e(/* import() | components/payment-integrations-paypal */ 31).then(__webpack_require__.bind(null, 768)).then(c => wrapFunctional(c.default || c));
 const PaymentIntegrationsPesepay = () => __webpack_require__.e(/* import() | components/payment-integrations-pesepay */ 32).then(__webpack_require__.bind(null, 767)).then(c => wrapFunctional(c.default || c));
 const PaymentIntegrationsStripe = () => __webpack_require__.e(/* import() | components/payment-integrations-stripe */ 33).then(__webpack_require__.bind(null, 769)).then(c => wrapFunctional(c.default || c));
-const ImportsDelete = () => __webpack_require__.e(/* import() | components/imports-delete */ 27).then(__webpack_require__.bind(null, 765)).then(c => wrapFunctional(c.default || c));
-const ImportsInadd = () => __webpack_require__.e(/* import() | components/imports-inadd */ 28).then(__webpack_require__.bind(null, 764)).then(c => wrapFunctional(c.default || c));
-const ImportsView = () => __webpack_require__.e(/* import() | components/imports-view */ 29).then(__webpack_require__.bind(null, 740)).then(c => wrapFunctional(c.default || c));
 const PermissionsAdd = () => __webpack_require__.e(/* import() | components/permissions-add */ 34).then(__webpack_require__.bind(null, 696)).then(c => wrapFunctional(c.default || c));
 const PermissionsDelete = () => __webpack_require__.e(/* import() | components/permissions-delete */ 35).then(__webpack_require__.bind(null, 698)).then(c => wrapFunctional(c.default || c));
 const PermissionsEdit = () => __webpack_require__.e(/* import() | components/permissions-edit */ 36).then(__webpack_require__.bind(null, 697)).then(c => wrapFunctional(c.default || c));
@@ -69474,7 +69474,11 @@ vue_runtime_common_default.a.filter('formatDate', value => {
     day: '2-digit',
     year: 'numeric'
   });
-});
+}); // Vue.filter('telthemwebDate', (value) => {
+//   const date = new Date(value)
+//   return moment(date).format()
+// })
+
 vue_runtime_common_default.a.filter('formateHumanDiff', value => {
   const date = new Date(value);
   return moment_default()(date).fromNow();
@@ -71569,7 +71573,7 @@ async function createApp(ssrContext, config = {}) {
   const app = {
     head: {
       "titleTemplate": "%s - ",
-      "title": "PMI Zimbabwe Chapter",
+      "title": "PMIZimbabwe Chapter",
       "htmlAttrs": {
         "lang": "en"
       },

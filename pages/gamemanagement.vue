@@ -34,9 +34,6 @@
                           Game Number 
                         </th>
                         <th class="text-left">
-                          Feature Image
-                        </th>
-                        <th class="text-left">
                           Game Name
                         </th>
 
@@ -58,7 +55,6 @@
                         >
                         <td>{{ i+1 }}</td>
                         <td>{{ per.gfx_number }}</td>
-                        <td><img :src="baseurl+per.gfx_gameurl" width="60px" class="mt-3"/> </td>
                         <td>{{ per.gfx_name  }}</td>
                          <td class="d-flex justify-end pb-6 mt-4">
                             <GamemanagementEdit :game="per" />

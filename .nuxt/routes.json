@@ -3,162 +3,189 @@
     "name": "administrators",
     "path": "/administrators",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\administrators.vue",
-    "chunkName": "pages/administrators"
+    "chunkName": "pages/administrators",
+    "_name": "_f80aa0c0"
   },
   {
     "name": "bookings",
     "path": "/bookings",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\bookings.vue",
-    "chunkName": "pages/bookings"
+    "chunkName": "pages/bookings",
+    "_name": "_575b3b14"
   },
   {
     "name": "ChangePassword",
     "path": "/ChangePassword",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\ChangePassword.vue",
-    "chunkName": "pages/ChangePassword"
+    "chunkName": "pages/ChangePassword",
+    "_name": "_faf38736"
   },
   {
     "name": "companies",
     "path": "/companies",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\companies.vue",
-    "chunkName": "pages/companies"
+    "chunkName": "pages/companies",
+    "_name": "_5cb4761e"
   },
   {
     "name": "conferences",
     "path": "/conferences",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\conferences.vue",
-    "chunkName": "pages/conferences"
+    "chunkName": "pages/conferences",
+    "_name": "_2a98dc6d"
   },
   {
     "name": "currency",
     "path": "/currency",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\currency.vue",
-    "chunkName": "pages/currency"
+    "chunkName": "pages/currency",
+    "_name": "_2120e46b"
   },
   {
     "name": "customers",
     "path": "/customers",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\customers.vue",
-    "chunkName": "pages/customers"
+    "chunkName": "pages/customers",
+    "_name": "_44c4926b"
   },
   {
     "name": "dashboard",
     "path": "/dashboard",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\dashboard.vue",
-    "chunkName": "pages/dashboard"
+    "chunkName": "pages/dashboard",
+    "_name": "_cc5c6dac"
   },
   {
     "name": "exchangerates",
     "path": "/exchangerates",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\exchangerates.vue",
-    "chunkName": "pages/exchangerates"
+    "chunkName": "pages/exchangerates",
+    "_name": "_8827de34"
   },
   {
     "name": "gamemanagement",
     "path": "/gamemanagement",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\gamemanagement.vue",
-    "chunkName": "pages/gamemanagement"
+    "chunkName": "pages/gamemanagement",
+    "_name": "_1f91468f"
   },
   {
     "name": "groups",
     "path": "/groups",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\groups.vue",
-    "chunkName": "pages/groups"
+    "chunkName": "pages/groups",
+    "_name": "_f44445a4"
   },
   {
     "name": "hotelreservation",
     "path": "/hotelreservation",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\hotelreservation.vue",
-    "chunkName": "pages/hotelreservation"
+    "chunkName": "pages/hotelreservation",
+    "_name": "_4f2ea072"
   },
   {
     "name": "importcustomers",
     "path": "/importcustomers",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\importcustomers.vue",
-    "chunkName": "pages/importcustomers"
+    "chunkName": "pages/importcustomers",
+    "_name": "_1c33fc66"
   },
   {
     "name": "leaderboards",
     "path": "/leaderboards",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\leaderboards.vue",
-    "chunkName": "pages/leaderboards"
+    "chunkName": "pages/leaderboards",
+    "_name": "_7f9c7d20"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\login.vue",
-    "chunkName": "pages/login"
+    "chunkName": "pages/login",
+    "_name": "_a869eb02"
   },
   {
     "name": "payment_integrations",
     "path": "/payment_integrations",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\payment_integrations.vue",
-    "chunkName": "pages/payment_integrations"
+    "chunkName": "pages/payment_integrations",
+    "_name": "_454d26dc"
   },
   {
     "name": "payments",
     "path": "/payments",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\payments.vue",
-    "chunkName": "pages/payments"
+    "chunkName": "pages/payments",
+    "_name": "_6ebbd4f2"
   },
   {
     "name": "Profile",
     "path": "/Profile",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\Profile.vue",
-    "chunkName": "pages/Profile"
+    "chunkName": "pages/Profile",
+    "_name": "_43c8e51f"
   },
   {
     "name": "registrationfee",
     "path": "/registrationfee",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\registrationfee.vue",
-    "chunkName": "pages/registrationfee"
+    "chunkName": "pages/registrationfee",
+    "_name": "_68762fc3"
   },
   {
     "name": "reservations",
     "path": "/reservations",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\reservations.vue",
-    "chunkName": "pages/reservations"
+    "chunkName": "pages/reservations",
+    "_name": "_33c43e81"
   },
   {
     "name": "resources",
     "path": "/resources",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\resources.vue",
-    "chunkName": "pages/resources"
+    "chunkName": "pages/resources",
+    "_name": "_0225278a"
   },
   {
     "name": "Roles",
     "path": "/Roles",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\Roles.vue",
-    "chunkName": "pages/Roles"
+    "chunkName": "pages/Roles",
+    "_name": "_c26c009a"
   },
   {
     "name": "speakers",
     "path": "/speakers",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\speakers.vue",
-    "chunkName": "pages/speakers"
+    "chunkName": "pages/speakers",
+    "_name": "_1ff0bb2e"
   },
   {
     "name": "sponsors",
     "path": "/sponsors",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\sponsors.vue",
-    "chunkName": "pages/sponsors"
+    "chunkName": "pages/sponsors",
+    "_name": "_fb5efe1a"
   },
   {
     "name": "systemmodules",
     "path": "/systemmodules",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\systemmodules.vue",
-    "chunkName": "pages/systemmodules"
+    "chunkName": "pages/systemmodules",
+    "_name": "_5020d00e"
   },
   {
     "name": "videos",
     "path": "/videos",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\videos.vue",
-    "chunkName": "pages/videos"
+    "chunkName": "pages/videos",
+    "_name": "_4e03c69c"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\Sagehill\\\\Desktop\\\\Sagehill\\\\pmizim\\\\pmiadminportal\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_3bb93130"
   }
 ]

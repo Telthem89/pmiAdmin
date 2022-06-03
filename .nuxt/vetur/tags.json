@@ -11,6 +11,15 @@
   "AdministratorReset": {
     "description": "Auto imported from components/administrator/reset.vue"
   },
+  "CurrencyAdd": {
+    "description": "Auto imported from components/currency/add.vue"
+  },
+  "CurrencyDelete": {
+    "description": "Auto imported from components/currency/delete.vue"
+  },
+  "CurrencyEdit": {
+    "description": "Auto imported from components/currency/edit.vue"
+  },
   "ConferencesAdd": {
     "description": "Auto imported from components/conferences/add.vue"
   },
@@ -23,14 +32,14 @@
   "ConferencesView": {
     "description": "Auto imported from components/conferences/view.vue"
   },
-  "CurrencyAdd": {
-    "description": "Auto imported from components/currency/add.vue"
+  "CustomersAdd": {
+    "description": "Auto imported from components/customers/add.vue"
   },
-  "CurrencyDelete": {
-    "description": "Auto imported from components/currency/delete.vue"
+  "CustomersDelete": {
+    "description": "Auto imported from components/customers/delete.vue"
   },
-  "CurrencyEdit": {
-    "description": "Auto imported from components/currency/edit.vue"
+  "CustomersEdit": {
+    "description": "Auto imported from components/customers/edit.vue"
   },
   "FeesAdd": {
     "description": "Auto imported from components/fees/add.vue"
@@ -40,15 +49,6 @@
   },
   "FeesEdit": {
     "description": "Auto imported from components/fees/edit.vue"
-  },
-  "CustomersAdd": {
-    "description": "Auto imported from components/customers/add.vue"
-  },
-  "CustomersDelete": {
-    "description": "Auto imported from components/customers/delete.vue"
-  },
-  "CustomersEdit": {
-    "description": "Auto imported from components/customers/edit.vue"
   },
   "GamemanagementAdd": {
     "description": "Auto imported from components/gamemanagement/add.vue"
@@ -80,6 +80,15 @@
   "HotelreservationView": {
     "description": "Auto imported from components/hotelreservation/view.vue"
   },
+  "ImportsDelete": {
+    "description": "Auto imported from components/imports/delete.vue"
+  },
+  "ImportsInadd": {
+    "description": "Auto imported from components/imports/inadd.vue"
+  },
+  "ImportsView": {
+    "description": "Auto imported from components/imports/view.vue"
+  },
   "PaymentIntegrationsPaynow": {
     "description": "Auto imported from components/payment_integrations/paynow.vue"
   },
@@ -91,15 +100,6 @@
   },
   "PaymentIntegrationsStripe": {
     "description": "Auto imported from components/payment_integrations/stripe.vue"
-  },
-  "ImportsDelete": {
-    "description": "Auto imported from components/imports/delete.vue"
-  },
-  "ImportsInadd": {
-    "description": "Auto imported from components/imports/inadd.vue"
-  },
-  "ImportsView": {
-    "description": "Auto imported from components/imports/view.vue"
   },
   "PermissionsAdd": {
     "description": "Auto imported from components/permissions/add.vue"

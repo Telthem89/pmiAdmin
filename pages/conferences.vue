@@ -96,6 +96,8 @@
 <script>
 import JsonExcel from "vue-json-excel";
 import { mapGetters } from 'vuex'
+import {  format,formatDistanceToNow  } from 'date-fns/'
+import moment from 'moment'
 export default {
 layout:'user',
 components:{
@@ -117,7 +119,6 @@ async fetch(){
 },computed:{
    conferences(){
      const data =  this.$store.state.conferences.list
-       console.log(data)
         if(this.search){
             return data.filter(dt=>(!dt.eventname.toUpperCase().indexOf(this.search.toUpperCase())))
         }

@@ -29,6 +29,21 @@
                             v-model="form.eventsession_date"
                             :rules="eventsession_dateRule"
                         />
+
+                        <v-text-field
+                            label="Start Time"
+                            outlined
+                            type="Time"
+                            v-model="form.fromTime"
+                            :rules="fromTimeRule"
+                        />
+                        <v-text-field
+                            label="End Time"
+                            outlined
+                            type="Time"
+                            v-model="form.toTime"
+                            :rules="toTimeRule"
+                        />
                      <v-select
                             label="Assign Speaker"
                             outlined
@@ -69,11 +84,15 @@ export default {
          form:{
               session_name:'',
               eventsession_date:'',
+              fromTime:'',
+              toTime:'',
               speakerId:'',
               conferenceeventId:this.eventdata.id,
          },
          session_nameRule:[v=>!!v || 'Session name is required'],
          eventsession_dateRule:[v=>!!v || 'Session Date is required'],
+         fromTimeRule:[v=>!!v || 'Start Time is required'],
+         toTimeRule:[v=>!!v || 'End Time is required'],
          speakerIdRule:[v=>!!v || 'Please Assign Speaker'],
          snackbar:false,
          color:'',

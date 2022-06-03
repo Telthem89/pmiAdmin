@@ -6335,14 +6335,29 @@ const baseMixins = Object(mixins["a" /* default */])(VTextField_VTextField["a" /
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/sessions/add.vue?vue&type=template&id=35005cec&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('v-btn',{staticClass:"white--text",attrs:{"depressed":"","color":"purple"},on:{"click":function($event){_vm.addPermModel=true}}},[_vm._v("Add Session")]),_vm._ssrNode(" "),_c('v-dialog',{attrs:{"width":"500"},model:{value:(_vm.addPermModel),callback:function ($$v) {_vm.addPermModel=$$v},expression:"addPermModel"}},[_c('v-form',{ref:"form",attrs:{"lazy-validation":""},model:{value:(_vm.valid),callback:function ($$v) {_vm.valid=$$v},expression:"valid"}},[_c('v-card',[_c('v-card-title',[_vm._v("\n             Add Session\n             "),_c('v-spacer'),_vm._v(" "),_c('v-btn',{attrs:{"icon":""},on:{"click":function($event){_vm.addPermModel=false}}},[_c('v-icon',[_vm._v("mdi-close")])],1)],1),_vm._v(" "),_c('v-card-text',[_c('v-text-field',{attrs:{"label":"Session","outlined":"","rules":_vm.session_nameRule},model:{value:(_vm.form.session_name),callback:function ($$v) {_vm.$set(_vm.form, "session_name", $$v)},expression:"form.session_name"}}),_vm._v(" "),_c('v-text-field',{attrs:{"label":"Date","outlined":"","type":"Date","rules":_vm.eventsession_dateRule},model:{value:(_vm.form.eventsession_date),callback:function ($$v) {_vm.$set(_vm.form, "eventsession_date", $$v)},expression:"form.eventsession_date"}}),_vm._v(" "),_c('v-select',{attrs:{"label":"Assign Speaker","outlined":"","items":_vm.speakers,"item-text":"name","item-value":"id","rules":_vm.speakerIdRule},model:{value:(_vm.form.speakerId),callback:function ($$v) {_vm.$set(_vm.form, "speakerId", $$v)},expression:"form.speakerId"}}),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.form.conferenceeventId),expression:"form.conferenceeventId"}],attrs:{"type":"hidden"},domProps:{"value":(_vm.form.conferenceeventId)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.form, "conferenceeventId", $event.target.value)}}})],1),_vm._v(" "),_c('v-card-actions',[_c('v-btn',{staticClass:"error",on:{"click":function($event){_vm.addPermModel=false}}},[_vm._v("Cancel")]),_vm._v(" "),_c('v-spacer'),_vm._v(" "),_c('v-btn',{staticClass:"success",attrs:{"loading":_vm.loading,"disabled":_vm.loading},on:{"click":_vm.submit}},[_vm._v("Submit")])],1)],1)],1)],1),_vm._ssrNode(" "),_c('v-snackbar',{attrs:{"color":_vm.color,"right":"","top":""},model:{value:(_vm.snackbar),callback:function ($$v) {_vm.snackbar=$$v},expression:"snackbar"}},[_vm._v(_vm._s(_vm.text))])],2)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/sessions/add.vue?vue&type=template&id=262af7d8&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('v-btn',{staticClass:"white--text",attrs:{"depressed":"","color":"purple"},on:{"click":function($event){_vm.addPermModel=true}}},[_vm._v("Add Session")]),_vm._ssrNode(" "),_c('v-dialog',{attrs:{"width":"500"},model:{value:(_vm.addPermModel),callback:function ($$v) {_vm.addPermModel=$$v},expression:"addPermModel"}},[_c('v-form',{ref:"form",attrs:{"lazy-validation":""},model:{value:(_vm.valid),callback:function ($$v) {_vm.valid=$$v},expression:"valid"}},[_c('v-card',[_c('v-card-title',[_vm._v("\n             Add Session\n             "),_c('v-spacer'),_vm._v(" "),_c('v-btn',{attrs:{"icon":""},on:{"click":function($event){_vm.addPermModel=false}}},[_c('v-icon',[_vm._v("mdi-close")])],1)],1),_vm._v(" "),_c('v-card-text',[_c('v-text-field',{attrs:{"label":"Session","outlined":"","rules":_vm.session_nameRule},model:{value:(_vm.form.session_name),callback:function ($$v) {_vm.$set(_vm.form, "session_name", $$v)},expression:"form.session_name"}}),_vm._v(" "),_c('v-text-field',{attrs:{"label":"Date","outlined":"","type":"Date","rules":_vm.eventsession_dateRule},model:{value:(_vm.form.eventsession_date),callback:function ($$v) {_vm.$set(_vm.form, "eventsession_date", $$v)},expression:"form.eventsession_date"}}),_vm._v(" "),_c('v-text-field',{attrs:{"label":"Start Time","outlined":"","type":"Time","rules":_vm.fromTimeRule},model:{value:(_vm.form.fromTime),callback:function ($$v) {_vm.$set(_vm.form, "fromTime", $$v)},expression:"form.fromTime"}}),_vm._v(" "),_c('v-text-field',{attrs:{"label":"End Time","outlined":"","type":"Time","rules":_vm.toTimeRule},model:{value:(_vm.form.toTime),callback:function ($$v) {_vm.$set(_vm.form, "toTime", $$v)},expression:"form.toTime"}}),_vm._v(" "),_c('v-select',{attrs:{"label":"Assign Speaker","outlined":"","items":_vm.speakers,"item-text":"name","item-value":"id","rules":_vm.speakerIdRule},model:{value:(_vm.form.speakerId),callback:function ($$v) {_vm.$set(_vm.form, "speakerId", $$v)},expression:"form.speakerId"}}),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.form.conferenceeventId),expression:"form.conferenceeventId"}],attrs:{"type":"hidden"},domProps:{"value":(_vm.form.conferenceeventId)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.form, "conferenceeventId", $event.target.value)}}})],1),_vm._v(" "),_c('v-card-actions',[_c('v-btn',{staticClass:"error",on:{"click":function($event){_vm.addPermModel=false}}},[_vm._v("Cancel")]),_vm._v(" "),_c('v-spacer'),_vm._v(" "),_c('v-btn',{staticClass:"success",attrs:{"loading":_vm.loading,"disabled":_vm.loading},on:{"click":_vm.submit}},[_vm._v("Submit")])],1)],1)],1)],1),_vm._ssrNode(" "),_c('v-snackbar',{attrs:{"color":_vm.color,"right":"","top":""},model:{value:(_vm.snackbar),callback:function ($$v) {_vm.snackbar=$$v},expression:"snackbar"}},[_vm._v(_vm._s(_vm.text))])],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/sessions/add.vue?vue&type=template&id=35005cec&
+// CONCATENATED MODULE: ./components/sessions/add.vue?vue&type=template&id=262af7d8&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/sessions/add.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -6414,11 +6429,15 @@ var staticRenderFns = []
       form: {
         session_name: '',
         eventsession_date: '',
+        fromTime: '',
+        toTime: '',
         speakerId: '',
         conferenceeventId: this.eventdata.id
       },
       session_nameRule: [v => !!v || 'Session name is required'],
       eventsession_dateRule: [v => !!v || 'Session Date is required'],
+      fromTimeRule: [v => !!v || 'Start Time is required'],
+      toTimeRule: [v => !!v || 'End Time is required'],
       speakerIdRule: [v => !!v || 'Please Assign Speaker'],
       snackbar: false,
       color: '',
@@ -6777,14 +6796,26 @@ installComponents_default()(component, {VBtn: VBtn["a" /* default */],VCard: VCa
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/conferences/view.vue?vue&type=template&id=6bc401e9&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('v-btn',{staticClass:"white--text",attrs:{"depressed":"","color":"purple","dark":""},on:{"click":function($event){return _vm.fetch()}}},[_vm._v("Sessions "),_c('v-icon',[_vm._v("mdi-vector-polyline")])],1),_vm._ssrNode(" "),_c('v-dialog',{attrs:{"width":"800"},model:{value:(_vm.showModel),callback:function ($$v) {_vm.showModel=$$v},expression:"showModel"}},[_c('v-card',[_c('v-card-title',[_vm._v("\n                  Conference Sessions\n                  "),_c('v-spacer'),_vm._v(" "),_c('div',{staticClass:"d-flex"},[_c('SessionsAdd',{attrs:{"eventdata":_vm.event}}),_vm._v(" "),_c('v-btn',{attrs:{"icon":"","depressed":"","color":"error"},on:{"click":function($event){_vm.showModel=false}}},[_c('v-icon',[_vm._v("mdi-close")])],1)],1)],1),_vm._v(" "),_c('v-card-text',[_c('v-simple-table',{scopedSlots:_vm._u([{key:"default",fn:function(){return [_c('thead',[_c('tr',[_c('th',{staticClass:"text-left"},[_vm._v("\n                          Session Name\n                      ")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("\n                          Speaker\n                      ")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("\n                          Date\n                      ")]),_vm._v(" "),_c('th',{staticClass:"text-right"})])]),_vm._v(" "),_c('tbody',[(_vm.conferencesessions.length>0)?_vm._l((_vm.conferencesessions),function(per){return _c('tr',{key:per.id},[_c('td',[_vm._v(_vm._s(per.session_name))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(per.speaker ? per.speaker.name : " ")+"  "+_vm._s(per.speaker ? per.speaker.surname : " "))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(_vm._f("formatDate")(per.eventsession_date)))]),_vm._v(" "),_c('td',[_c('SessionsEdit',{attrs:{"eventdata":per}})],1)])}):[_c('tr',[_c('td',{staticClass:"text-center red--text",attrs:{"colspan":"5"}},[_vm._v("No Sessions yet")])])]],2)]},proxy:true}])})],1)],1)],1)],2)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/conferences/view.vue?vue&type=template&id=070c50b2&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('v-btn',{staticClass:"white--text",attrs:{"depressed":"","color":"purple","dark":""},on:{"click":function($event){return _vm.fetch()}}},[_vm._v("Sessions "),_c('v-icon',[_vm._v("mdi-vector-polyline")])],1),_vm._ssrNode(" "),_c('v-dialog',{attrs:{"width":"1000"},model:{value:(_vm.showModel),callback:function ($$v) {_vm.showModel=$$v},expression:"showModel"}},[_c('v-card',[_c('v-card-title',[_vm._v("\n                  Conference Sessions\n                  "),_c('v-spacer'),_vm._v(" "),_c('div',{staticClass:"d-flex"},[_c('SessionsAdd',{attrs:{"eventdata":_vm.event}}),_vm._v(" "),_c('v-btn',{attrs:{"icon":"","depressed":"","color":"error"},on:{"click":function($event){_vm.showModel=false}}},[_c('v-icon',[_vm._v("mdi-close")])],1)],1)],1),_vm._v(" "),_c('v-card-text',[_c('v-simple-table',{scopedSlots:_vm._u([{key:"default",fn:function(){return [_c('thead',[_c('tr',[_c('th',{staticClass:"text-left"},[_vm._v("\n                          Activity\n                      ")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("\n                          Date\n                      ")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("\n                          Start\n                      ")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("\n                          Start\n                      ")]),_vm._v(" "),_c('th',{staticClass:"text-left"},[_vm._v("\n                          Speaker\n                      ")]),_vm._v(" "),_c('th',{staticClass:"text-right"})])]),_vm._v(" "),_c('tbody',[(_vm.conferencesessions.length>0)?_vm._l((_vm.conferencesessions),function(per){return _c('tr',{key:per.id},[_c('td',[_vm._v(_vm._s(per.session_name))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(_vm._f("formatDate")(per.eventsession_date)))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(per.fromTime))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(per.toTime))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(per.speaker ? per.speaker.name : " ")+"  "+_vm._s(per.speaker ? per.speaker.surname : " "))]),_vm._v(" "),_c('td',[_c('SessionsEdit',{attrs:{"eventdata":per}})],1)])}):[_c('tr',[_c('td',{staticClass:"text-center red--text",attrs:{"colspan":"5"}},[_vm._v("No Sessions yet")])])]],2)]},proxy:true}])})],1)],1)],1)],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/conferences/view.vue?vue&type=template&id=6bc401e9&
+// CONCATENATED MODULE: ./components/conferences/view.vue?vue&type=template&id=070c50b2&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/conferences/view.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -6856,8 +6887,8 @@ var staticRenderFns = []
 
   methods: {
     async fetch() {
-      await this.$store.dispatch('conferences/getConferencesessions', this.event.id);
       this.showModel = true;
+      await this.$store.dispatch('conferences/getConferencesessions', this.event.id); // this.showModel = false
     }
 
   },

@@ -8,7 +8,7 @@ export default {
   },
   head: {
     titleTemplate: '%s - ',
-    title: 'PMI Zimbabwe Chapter',
+    title: 'PMIZimbabwe Chapter',
     htmlAttrs: {
       lang: 'en'
     },

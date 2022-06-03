@@ -9,6 +9,11 @@ Vue.filter('formatDate', (value) => {
   })
 })
 
+// Vue.filter('telthemwebDate', (value) => {
+//   const date = new Date(value)
+//   return moment(date).format()
+// })
+
 Vue.filter('formateHumanDiff',(value)=>{
   const date = new Date(value)
   return moment(date).fromNow()
